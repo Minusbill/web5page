@@ -22,8 +22,8 @@ const projects = [
 	},
 	{
 		id: 4,
-		title: 'zero-knowledge proof',
-		category: 'zk starks/zk narks',
+		title: 'mev',
+		category: 'mev/flashbots',
 		img: require('@/assets/images/mev.jpg'),
 	},
 	{
