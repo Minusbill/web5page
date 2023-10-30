@@ -60,6 +60,18 @@ const routes = [
 			title: 'Web5 - Contact',
 		},
 	},
+	{
+		path: '/dawanqu',
+		name: 'dawanqu',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(/* webpackChunkName: "projects" */ '../views/DaWanQu.vue'),
+		meta: {
+			title: 'Web5 - DaWanQu',
+		},
+	},
 ];
 
 const router = createRouter({
