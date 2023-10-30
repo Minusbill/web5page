@@ -1,26 +1,23 @@
-<script>
+<script setup>
+import { ref, onMounted, onUpdated } from 'vue';
 import feather from 'feather-icons';
 import AppHeader from './components/shared/AppHeader';
 import AppFooter from './components/shared/AppFooter';
 
-export default {
-	components: {
-		AppHeader,
-		AppFooter,
-	},
-	data: () => {
-		return {
-			appTheme: localStorage.getItem('theme'),
-		};
-	},
-	mounted() {
-		feather.replace();
-	},
-	updated() {
-		feather.replace();
-	},
-};
+
+// Data properties
+const appTheme = ref(localStorage.getItem('theme'));
+
+// Lifecycle hooks
+onMounted(() => {
+  feather.replace();
+});
+
+onUpdated(() => {
+  feather.replace();
+});
 </script>
+
 
 <template>
 	<div :class="appTheme" class="pt-0.5">
