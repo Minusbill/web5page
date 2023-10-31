@@ -63,6 +63,34 @@ const routes = [
 		},
 	},
 	{
+		path: '/projects/ton',
+		name: 'Telegram/Ton',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/lesson/Ton.vue'
+				),
+		meta: {
+			title: 'Web5 - Single Project',
+		},
+	},
+	{
+		path: '/projects/sol',
+		name: 'eth/sol',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/lesson/Solidity.vue'
+				),
+		meta: {
+			title: 'Web5 - Single Project',
+		},
+	},
+	{
 		path: '/contact',
 		name: 'Contact',
 		// route level code-splitting

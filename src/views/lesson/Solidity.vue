@@ -2,13 +2,14 @@
 import { onMounted, onUpdated } from 'vue';
 import feather from 'feather-icons';
 import ProjectHeader from '../../components/projects/ProjectHeader.vue';
+import ProjectGallery from '../../components/projects/ProjectGallery.vue';
 import ProjectInfo from '../../components/projects/Web5ProjectInfo.vue';
 import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProjects.vue';
 
 const singleProjectHeader = {
-  singleProjectTitle: 'Starknet 开发语言 Cairo 讲解',
+  singleProjectTitle: 'ETH 开发语言 Slidity 讲解',
   singleProjectDate: 'Nov 1, 2023',
-  singleProjectTag: 'starknet / cairo',
+  singleProjectTag: 'ETH / Solidity',
 };
 const projectImages = [
   {
@@ -29,9 +30,9 @@ const projectImages = [
 ];
 
 const projectInfo = {
-  clientHeading: 'Starknet Cairo 基本介绍',
+  clientHeading: 'ETH Solidity 基本介绍',
   companyInfos: [
-    { id: 1, title: '安装', details: 'Scarb' },
+    { id: 1, title: '安装', details: 'Solidity' },
     { id: 2, title: '初体验', details: ' Hello World ' },
     { id: 3, title: '基础概念', details: '变量、数据' },
     { id: 4, title: '函数', details: '函数的定义、注释' },
@@ -42,7 +43,7 @@ const projectInfo = {
   objectivesDetails: '了解控制流、循环 更好的编写逻辑.',
   technologies: [
     {
-      title: 'Starknet 智能合约 & 深入理解',
+      title: 'Sol 智能合约 & 深入理解',
       techs: ['存储变量', '合约函数', '事件', '减少冗余', '优化存储'],
     },
   ],

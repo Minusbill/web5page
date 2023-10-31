@@ -14,7 +14,7 @@ const projects = [
 		title: 'Telegram/Ton',
 		category: 'tg bot/ton/func/tact',
 		img: require('@/assets/images/ton.jpg'),
-		link:'/projects/single-project',
+		link:'/projects/ton',
 	},
 	{
 		id: 3,

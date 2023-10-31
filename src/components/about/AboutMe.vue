@@ -6,13 +6,9 @@ export default {
 				{
 					id: 1,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						'欢迎来到 Web5 星球，在这里 希望你能学到你想要的课程，了解到 Web3 的神奇魅力.',
 				},
-				{
-					id: 2,
-					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-				},
+
 			],
 		};
 	},
@@ -24,7 +20,7 @@ export default {
 		<!-- About profile image -->
 		<div class="w-full sm:w-1/4 mb-7 sm:mb-0">
 			<img
-				src="@/assets/images/profile.jpeg"
+				src="@/assets/images/web55.png"
 				class="rounded-xl w-96"
 				alt=""
 			/>

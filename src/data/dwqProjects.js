@@ -5,21 +5,17 @@ const dwqProjects = [
 	{
 		id: 1,
 		title: 'Starknet',
-		category: '粤语屎大粒',
+		category: '屎大粒',
 		img: require('@/assets/images/starknet.jpg'),
+		link:'/projects/starknet',
 	},
 	{
 		id: 2,
-		title: 'Telegram/Ton',
-		category: 'TG',
-		img: require('@/assets/images/ton.jpg'),
+		title: 'Soldity',
+		category: '粤语 sol',
+		img: require('@/assets/images/sol.png'),
+		link:'/projects/sol',
 	},
-	{
-		id: 3,
-		title: 'Solana',
-		category: 'Sol',
-		img: require('@/assets/images/raas.jpg'),
-	}
 ];
 
 export default dwqProjects;
