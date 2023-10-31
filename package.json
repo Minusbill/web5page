@@ -10,7 +10,6 @@
   "dependencies": {
     "@tailwindcss/forms": "^0.5.3",
     "@vue/cli-plugin-babel": "^5.0.8",
-    "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-plugin-router": "^5.0.8",
     "core-js": "^3.27.2",
     "feather-icons": "^4.29.0",
@@ -26,26 +25,9 @@
     "@vue/cli-service": "~5.0.8",
     "@vue/compiler-sfc": "^3.2.45",
     "autoprefixer": "^10.4.13",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.5.0",
-    "eslint-plugin-vue": "^7.0.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4",
     "vue-cli-plugin-tailwind": "3.0.0"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
   },
   "browserslist": [
     "> 1%",
