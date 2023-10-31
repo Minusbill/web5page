@@ -3,7 +3,7 @@ import { onMounted, onUpdated } from 'vue';
 import feather from 'feather-icons';
 import ProjectHeader from '../../components/projects/ProjectHeader.vue';
 import ProjectGallery from '../../components/projects/ProjectGallery.vue';
-import ProjectInfo from '../../components/projects/Web5ProjectInfo.vue';
+import ProjectInfo from '../../components/projects/SolProjectInfo.vue';
 import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProjects.vue';
 
 const singleProjectHeader = {
@@ -66,7 +66,7 @@ const projectInfo = {
 };
 
 const relatedProject = {
-  relatedProjectsHeading: 'Related Projects',
+  relatedProjectsHeading: '最近的项目',
   relatedProjects: [
     {
       id: 1,

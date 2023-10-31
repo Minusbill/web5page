@@ -64,7 +64,7 @@ onMounted(() => {
 					mb-4
 				"
 			>
-				let's learn with web5s
+				大湾区专属、粤语讲 Web3 板块
 			</h3>
 			<div
 				class="

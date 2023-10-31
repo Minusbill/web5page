@@ -102,7 +102,9 @@ export default {
       <p
           class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7"
       >
-        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTwroX4BgEKacPpVbFvCSciXKTFbxjgPSeLoKYFBQOXjooDAU4JgCD7qXY5yBOYAamTaDmAugO-RKJD/embed?start=false&loop=false&delayms=3000" frameborder="0" width="880" height="530" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQr0MqvraKy0ZeG_p0g3ICAAvfP5-DzZxq1ptS6adeQ7hXWXplK8fcjYIUaQRLrJBGOKat2Cf7gGAkV/embed?start=false&loop=false&delayms=3000" frameborder="0" width="880" height="530" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
       </p>
       <!--			<p-->
       <!--				v-for="projectDetail in projectInfo.projectDetails"-->

@@ -66,7 +66,7 @@ const projectInfo = {
 };
 
 const relatedProject = {
-  relatedProjectsHeading: 'Related Projects',
+  relatedProjectsHeading: '最近的项目',
   relatedProjects: [
     {
       id: 1,
