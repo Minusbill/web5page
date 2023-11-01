@@ -11,13 +11,13 @@ const routes = [
 		},
 	},
 	{
-		path: '/about',
-		name: 'About',
+		path: '/hotPoint',
+		name: 'hotPoint',
 		// route level code-splitting
 		// this generates a separate chunk (about.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
 		component: () =>
-			import(/* webpackChunkName: "about" */ '../views/About.vue'),
+			import(/* webpackChunkName: "about" */ '../views/HotPoint.vue'),
 		meta: {
 			title: 'Web5 - About',
 		},
@@ -56,7 +56,7 @@ const routes = [
 		// which is lazy-loaded when the route is visited.
 		component: () =>
 			import(
-				/* webpackChunkName: "projects" */ '../views/lesson/Starknet.vue'
+				/* webpackChunkName: "projects" */ '../views/project/StarknetProjects.vue'
 				),
 		meta: {
 			title: 'Web5 - Single Project',
@@ -91,13 +91,27 @@ const routes = [
 		},
 	},
 	{
-		path: '/contact',
-		name: 'Contact',
+		path: '/projects/starknet/cairo',
+		name: 'eth/sol',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
 		component: () =>
-			import(/* webpackChunkName: "projects" */ '../views/Contact.vue'),
+			import(
+				/* webpackChunkName: "projects" */ '../views/lesson/Starknet.vue'
+				),
+		meta: {
+			title: 'Web5 - Single Project',
+		},
+	},
+	{
+		path: '/newComer',
+		name: 'newComer',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(/* webpackChunkName: "projects" */ '../views/NewComer.vue'),
 		meta: {
 			title: 'Web5 - Contact',
 		},
