@@ -70,7 +70,7 @@ const routes = [
 		// which is lazy-loaded when the route is visited.
 		component: () =>
 			import(
-				/* webpackChunkName: "projects" */ '../views/lesson/Ton.vue'
+				/* webpackChunkName: "projects" */ '../views/project/TonProjects.vue'
 				),
 		meta: {
 			title: 'Web5 - Single Project',
