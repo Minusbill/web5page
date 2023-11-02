@@ -2,13 +2,13 @@
 import { onMounted, onUpdated } from 'vue';
 import feather from 'feather-icons';
 import ProjectHeader from '../../components/projects/ProjectHeader.vue';
-import ProjectInfo from '../../components/projects/Web5ProjectInfo.vue';
+import ProjectInfo from '../../components/projects/DojoProjectInfo.vue';
 import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProjects.vue';
 
 const singleProjectHeader = {
-  singleProjectTitle: 'Ton 开发语言 Tact 讲解',
-  singleProjectDate: 'Nov 1, 2023',
-  singleProjectTag: 'ton / tact',
+  singleProjectTitle: 'Dojo 全链引擎',
+  singleProjectDate: 'Nov 1,  2023',
+  singleProjectTag: 'Starknet / full chain on game',
 };
 const projectImages = [
   {
@@ -16,34 +16,32 @@ const projectImages = [
     title: 'Kabul Project Management UI',
     img: require('@/assets/images/ui-project-1.jpg'),
   },
-  // {
-  //   id: 2,
-  //   title: 'Kabul Project Management UI',
-  //   img: require('@/assets/images/web-project-2.jpg'),
-  // },
-  // {
-  //   id: 3,
-  //   title: 'Kabul Project Management UI',
-  //   img: require('@/assets/images/mobile-project-2.jpg'),
-  // },
+  {
+    id: 2,
+    title: 'Kabul Project Management UI',
+    img: require('@/assets/images/web-project-2.jpg'),
+  },
+  {
+    id: 3,
+    title: 'Kabul Project Management UI',
+    img: require('@/assets/images/mobile-project-2.jpg'),
+  },
 ];
 
 const projectInfo = {
-  clientHeading: 'Ton Tact 基本介绍',
+  clientHeading: '关于全链游戏',
   companyInfos: [
-    { id: 1, title: '安装', details: 'Scarb' },
-    { id: 2, title: '初体验', details: ' Hello World ' },
-    { id: 3, title: '基础概念', details: '变量、数据' },
-    { id: 4, title: '函数', details: '函数的定义、注释' },
-    { id: 5, title: '数组', details: '数组与字典' },
-
+    { id: 1, title: 'latticexyz', details: 'AW提出者、MUD 开发团队' },
+    { id: 2, title: 'autonomous worlds', details: '自主世界——全链游戏的核心概念' },
+    { id: 3, title: 'MUD', details: 'Lattice 开发的首个全链游戏引擎' },
+    { id: 4, title: 'darkforest_eth', details: '第一个全链游戏' },
   ],
-  objectivesHeading: '控制流',
-  objectivesDetails: '了解控制流、循环 更好的编写逻辑.',
+  objectivesHeading: '关于 Dojo',
+  objectivesDetails: 'Dojo 是一个可证明游戏引擎。它是一个开源的、可扩展的、可证明的、全链的游戏引擎，它的目标是让开发者能够轻松地构建和部署全链游戏。',
   technologies: [
     {
-      title: 'Ton 智能合约 & 深入理解',
-      techs: ['存储变量', '合约函数', '事件', '减少冗余', '优化存储'],
+      title: 'Dojo 的组成',
+      techs: ['实体组件系统（ECS）', 'Torii - Starknet索引器', 'Katana - 如闪电般快速的开发网', 'Sozo CLI - CLI 管理工具'],
     },
   ],
   projectDetailsHeading: 'Challenge',
@@ -54,7 +52,7 @@ const projectInfo = {
     },
     // ... (Continue with the other details)
   ],
-  socialSharingsHeading: '分享学习课程',
+  socialSharingsHeading: 'Share This',
   socialSharings: [
     { id: 1, name: 'Twitter', icon: 'twitter', url: 'https://twitter.com/realstoman' },
     { id: 2, name: 'Instagram', icon: 'instagram', url: 'https://instagram.com/realstoman' },
@@ -65,7 +63,7 @@ const projectInfo = {
 };
 
 const relatedProject = {
-  relatedProjectsHeading: '最近的项目',
+  relatedProjectsHeading: 'Related Projects',
   relatedProjects: [
     {
       id: 1,

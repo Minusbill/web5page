@@ -2,7 +2,7 @@
 import { onMounted, onUpdated } from 'vue';
 import feather from 'feather-icons';
 import ProjectHeader from '../../components/projects/ProjectHeader.vue';
-import ProjectInfo from '../../components/projects/Web5ProjectInfo.vue';
+import ProjectInfo from '../../components/projects/TactProjectInfo.vue';
 import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProjects.vue';
 
 const singleProjectHeader = {
@@ -29,7 +29,7 @@ const projectImages = [
 ];
 
 const projectInfo = {
-  clientHeading: 'Ton Tact 基本介绍',
+  clientHeading: 'Ton 开发语言 Tact 介绍',
   companyInfos: [
     { id: 1, title: '安装', details: 'Scarb' },
     { id: 2, title: '初体验', details: ' Hello World ' },
@@ -42,7 +42,7 @@ const projectInfo = {
   objectivesDetails: '了解控制流、循环 更好的编写逻辑.',
   technologies: [
     {
-      title: 'Ton 智能合约 & 深入理解',
+      title: 'Starknet 智能合约 & 深入理解',
       techs: ['存储变量', '合约函数', '事件', '减少冗余', '优化存储'],
     },
   ],

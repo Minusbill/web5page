@@ -28,7 +28,7 @@ const projects = [
 		title: ' Dojo ',
 		category: '全链引擎',
 		img: require('@/assets/images/dojo.png'),
-		link:'/projects/single-project',
+		link:'/projects/starknet/dojo',
 	},
 	{
 		id: 5,

@@ -116,6 +116,22 @@ const routes = [
 			title: 'Web5 ｜ 开发一个 TG 机器人',
 		}
 	},
+	{
+		path: '/projects/ton/tact',
+		component: () =>
+			import( '../views/lesson/Tact.vue'),
+		meta: {
+			title: 'Web5 ｜ Tact 入门教程',
+		}
+	},
+	{
+		path: '/projects/starknet/dojo',
+		component: () =>
+			import( '../views/lesson/DojoIntro.vue'),
+		meta: {
+			title: 'Web5 ｜ Dojo 教程',
+		}
+	}
 ];
 
 const router = createRouter({

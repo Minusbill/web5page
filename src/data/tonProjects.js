@@ -28,7 +28,7 @@ const projects = [
 		title: ' Tact ',
 		category: 'Tact教程',
 		img: require('@/assets/ton/tact.png'),
-		link:'/projects/single-project',
+		link:'/projects/ton/tact',
 	},
 	// {
 	// 	id: 5,
