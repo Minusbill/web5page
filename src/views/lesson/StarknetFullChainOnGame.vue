@@ -30,7 +30,7 @@ const projectInfo = {
 
   ],
   objectivesHeading: 'Realms的两款游戏',
-  objectivesDetails: 'Loot Survivor 和 Realms: Eternum',
+  objectivesDetails: 'Loot Survivor 和 Realms:Eternum',
   technologies: [
     {
       title: '为什么看好 Starknet 全链游戏',
