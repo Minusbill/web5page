@@ -11,17 +11,17 @@ const projects = [
 	},
 	{
 		id: 2,
+		title: 'Starknet 底层原理',
+		category: 'L1 <> L2 / zk-rollup',
+		img: require('@/assets/images/stkerc.png'),
+		link:'/projects/single-project',
+	},
+	{
+		id: 3,
 		title: 'Cairo',
 		category: 'Cairo入门教程、视频',
 		img: require('@/assets/images/cairo.png'),
 		link:'/projects/starknet/cairo',
-	},
-	{
-		id: 3,
-		title: 'Cairo 实战',
-		category: ' ERC20/721 等',
-		img: require('@/assets/images/stkerc.png'),
-		link:'/projects/single-project',
 	},
 	{
 		id: 4,
