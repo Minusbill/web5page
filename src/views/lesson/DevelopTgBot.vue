@@ -2,14 +2,13 @@
 import { onMounted, onUpdated } from 'vue';
 import feather from 'feather-icons';
 import ProjectHeader from '../../components/projects/ProjectHeader.vue';
-import ProjectGallery from '../../components/projects/ProjectGallery.vue';
-import ProjectInfo from '../../components/projects/SolProjectInfo.vue';
+import ProjectInfo from '../../components/projects/DevTgBotProjectInfo.vue';
 import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProjects.vue';
 
 const singleProjectHeader = {
-  singleProjectTitle: 'ETH 开发语言 Solidity 讲解',
+  singleProjectTitle: ' 如何开发一个 TG Bot',
   singleProjectDate: 'Nov 1, 2023',
-  singleProjectTag: 'ETH / Solidity',
+  singleProjectTag: 'TG / Bot',
 };
 const projectImages = [
   {
@@ -30,21 +29,21 @@ const projectImages = [
 ];
 
 const projectInfo = {
-  clientHeading: 'ETH Solidity 基本介绍',
+  clientHeading: '开发 TG Bot 的步骤',
   companyInfos: [
-    { id: 1, title: '安装', details: 'Solidity' },
-    { id: 2, title: '初体验', details: ' Hello World ' },
-    { id: 3, title: '基础概念', details: '变量、数据' },
-    { id: 4, title: '函数', details: '函数的定义、注释' },
-    { id: 5, title: '数组', details: '数组与字典' },
+    { id: 1, title: '注册', details: '获取 bot token' },
+    { id: 2, title: 'API', details: ' 学习、熟悉 ' },
+    { id: 3, title: '配置', details: '基本配置、轮询、token、监听' },
+    { id: 4, title: '开发', details: '逻辑处理' },
+    { id: 5, title: '返回', details: '根据需求组织返回消息 + 是否需要键盘' },
 
   ],
-  objectivesHeading: '控制流',
-  objectivesDetails: '了解控制流、循环 更好的编写逻辑.',
+  objectivesHeading: '',
+  objectivesDetails: '',
   technologies: [
     {
-      title: 'Sol 智能合约 & 深入理解',
-      techs: ['存储变量', '合约函数', '事件', '减少冗余', '优化存储'],
+      title: '注意要点',
+      techs: ['按需求过滤消息', '设置私钥妥善保管'],
     },
   ],
   projectDetailsHeading: 'Challenge',

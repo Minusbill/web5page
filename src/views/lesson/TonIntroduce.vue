@@ -7,57 +7,57 @@ import ProjectInfo from '../../components/projects/ProjectInfo.vue';
 import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProjects.vue';
 
 const singleProjectHeader = {
-  singleProjectTitle: 'Starknet  介绍与入门',
+  singleProjectTitle: 'Ton  介绍与入门',
   singleProjectDate: 'Nov 1, 2023',
-  singleProjectTag: 'Starknet / L2',
+  singleProjectTag: 'Ton / telegram',
 };
 const projectImages = [
   {
     id: 1,
     title: 'What is Starknet',
-    img: require('@/assets/images/stkeco.png'),
+    img: require('@/assets/ton/telegram.png'),
   },
   {
     id: 2,
     title: 'Why is Starknet',
-    img: require('@/assets/images/starkzks.png'),
+    img: require('@/assets/ton/tgbot.png'),
   },
   {
     id: 3,
     title: 'How is Starknet',
-    img: require('@/assets/images/cairo.png'),
+    img: require('@/assets/ton/miniapp.png'),
   },
 ];
 
 const projectInfo = {
   clientHeading: '关键字',
   companyInfos: [
-    { id: 1, title: 'StarkWare', details: 'Starknet 母公司' },
-    { id: 2, title: 'Cairo', details: 'Starknet 的合约开发语言' },
-    { id: 3, title: 'ETH L2', details: 'Straknet 是 ETH rollup L2中的一种' },
-    { id: 4, title: 'ZK Starks', details: '更好的ZK' },
+    { id: 1, title: 'TON', details: '全名 The Open Network' },
+    { id: 2, title: ' TG 用户数', details: ' 8 亿' },
+    { id: 3, title: 'Ton 目标用户数', details: '2028年 5 亿' },
+    { id: 4, title: '特色程序', details: ' TG Bot 、小程序' },
   ],
-  objectivesHeading: 'Starknet vs Zksync',
-  objectivesDetails: '抗量子攻击、不需要信用设置',
+  objectivesHeading: '开发语言',
+  objectivesDetails: ' fift、 Func、 Tact',
   technologies: [
     {
-      title: '为什么选择 Cairo',
-      techs: ['更好的性能', '机器配置要求低', '更好的生成证明'],
+      title: 'Ton 优势',
+      techs: ['无限分片', '高 TPS', 'AA 钱包'],
     },
   ],
-  projectDetailsHeading: 'Starknet 是什么',
+  projectDetailsHeading: 'Ton 是什么',
   projectDetails: [
     {
       id: 1,
-      details: 'StarkNet 是一个无需许可的去中心化Validity-Rollup（也被称为「ZK-Rollup」）。 它作为Ethereum 上的Layer2 能够使任何Dapp 在计算方面实现无限的扩展并且无需牺牲Ethereum 的可组合性和安全性。.',
+      details: 'TON是 Telegram messenger 团队于 2018 年开发的 layer 1 区块链解决方案，TON token 是该链的原生 token，主要用于支付交易费用，并作为验证器的保证金确保网络安全。TON 是独一无二的，因为它是为数不多的混合使用 PoW 和 PoS 共识机制的加密 token 之一， 2020 年 5 月，该团队同意与 SEC 监管机构达成和解，并支付 1850 万美元的罚款，该项目停止开发，险些覆灭。',
     },
     {
       id: 2,
-      details: 'StarekNet 的母公司 StarkWare 成立于 2018 年，总部位于以色列，旗下所研发的主要产品有 Starknet 以及 StarkEx。其公司估值已经达到 80 亿美金。截至目前为止，StarkNet 已经经历五轮融资，共融资 2.73 亿美金。.',
+      details: '为了让该项目在 Telegram 上存活下去，Telegram 团队将该网络中所有可用的 token 放入智能合约中，任何人都可以在同等条件下挖矿，TON 的 IDO 是机缘巧合之下促成的，现被标记为 IPoW-Initial Proof of Work，目前该链已经完全转变为 PoS，且非常活跃，是 2022 年熊市期间表现最好的 token 之一。',
     },
     {
       id: 3,
-      details: 'Starknet 生态项目繁多，目前包含 100 多种 dapps 和服务。其中钱包类别有 Braavos 以及 Argent 两类钱包，但是这两者之间的助记词不互通。Defi 类协议现已部署了 60 多个，包括 10kswap，Jediswap，Myswap 等 DEX 以及 Zklend 等借贷协议；截至目前位置，由 Defilama 数据显示，StarkNet 总 TVL 仅有(17.36M, 虽然整体 TVL 呈现上升状态，但对比同类型的 zkSync Era 的)189.21M，仍存在近十倍的差距，由此可见，StarkNet 生态仍处于早期。',
+      details: 'TON 的进步几经波折，在2023年，TON 推出了 DeFi 流动性勉励计划，举办了Hack-a-TON 黑客松，旨在吸引全球顶尖开发者为 TON 生态注入新鲜血液，一同探索 DeFi、NFT 等前沿技术范围。而今，其正在成为一个迅速进步、充满活力的生态系统。',
     },
     // ... (Continue with the other details)
   ],

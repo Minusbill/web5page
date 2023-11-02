@@ -7,126 +7,114 @@ const routes = [
 		name: 'Home',
 		component: Home,
 		meta: {
-			title: 'Web5 - Home',
-		},
+			title: 'Home',
+		}
 	},
 	{
 		path: '/aboutUs',
-		name: 'aboutUs',
-		// route level code-splitting
-		// this generates a separate chunk (about.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
 		component: () =>
-			import(/* webpackChunkName: "about" */ '../views/AbotUs.vue'),
+			import('../views/AbotUs.vue'),
 		meta: {
-			title: 'Web5 - About',
-		},
+			title: 'Web5 ｜ 关于我们',
+		}
 	},
 	{
 		path: '/projects',
-		name: 'Projects',
-		// route level code-splitting
-		// this generates a separate chunk (projects.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
 		component: () =>
-			import(/* webpackChunkName: "projects" */ '../views/Projects.vue'),
+			import( '../views/Projects.vue'),
 		meta: {
-			title: 'Web5 - Projects',
-		},
+			title: 'Web5 ｜ 课程',
+		}
 	},
 	{
 		path: '/projects/single-project',
-		name: 'Single Project',
-		// route level code-splitting
-		// this generates a separate chunk (projects.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
 		component: () =>
 			import(
-				/* webpackChunkName: "projects" */ '../views/SingleProject.vue'
+				 '../views/SingleProject.vue'
 			),
-		meta: {
-			title: 'Web5 - Single Project',
-		},
 	},
 	{
 		path: '/projects/starknet',
-		name: 'Single Project',
-		// route level code-splitting
-		// this generates a separate chunk (projects.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
 		component: () =>
 			import(
-				/* webpackChunkName: "projects" */ '../views/project/StarknetProjects.vue'
+				 '../views/project/StarknetProjects.vue'
 				),
 		meta: {
-			title: 'Web5 - Single Project',
-		},
+			title: 'Web5 ｜ Starknet 生态学习',
+		}
+	},
+	{
+		path: '/projects/starknet/stkIntroduce',
+		component: () =>
+			import(
+				 '../views/lesson/Starknet.vue'
+				),
+	},
+	{
+		path: '/projects/ton/tonIntroduce',
+		component: () =>
+			import(
+				'../views/lesson/TonIntroduce.vue'
+				),
+		meta: {
+			title: 'Web5 ｜ Ton 介绍与入门',
+		}
 	},
 	{
 		path: '/projects/ton',
-		name: 'Telegram/Ton',
-		// route level code-splitting
-		// this generates a separate chunk (projects.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
 		component: () =>
 			import(
-				/* webpackChunkName: "projects" */ '../views/project/TonProjects.vue'
+				 '../views/project/TonProjects.vue'
 				),
 		meta: {
-			title: 'Web5 - Single Project',
-		},
+			title: 'Web5 ｜ Ton 生态学习',
+		}
 	},
 	{
 		path: '/projects/sol',
-		name: 'eth/sol',
-		// route level code-splitting
-		// this generates a separate chunk (projects.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
 		component: () =>
 			import(
-				/* webpackChunkName: "projects" */ '../views/lesson/Solidity.vue'
+				 '../views/lesson/Solidity.vue'
 				),
-		meta: {
-			title: 'Web5 - Single Project',
-		},
 	},
 	{
 		path: '/projects/starknet/cairo',
-		name: 'eth/sol',
-		// route level code-splitting
-		// this generates a separate chunk (projects.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
 		component: () =>
 			import(
-				/* webpackChunkName: "projects" */ '../views/lesson/Starknet.vue'
+				 '../views/lesson/Cairo.vue'
 				),
-		meta: {
-			title: 'Web5 - Single Project',
-		},
 	},
 	{
 		path: '/newComer',
-		name: 'newComer',
-		// route level code-splitting
-		// this generates a separate chunk (projects.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
 		component: () =>
-			import(/* webpackChunkName: "projects" */ '../views/NewComer.vue'),
+			import( '../views/NewComer.vue'),
 		meta: {
-			title: 'Web5 - Contact',
-		},
+			title: 'Web5 ｜ 新人学院',
+		}
 	},
 	{
 		path: '/dawanqu',
-		name: 'dawanqu',
-		// route level code-splitting
-		// this generates a separate chunk (projects.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
 		component: () =>
-			import(/* webpackChunkName: "projects" */ '../views/DaWanQu.vue'),
+			import( '../views/DaWanQu.vue'),
 		meta: {
-			title: 'Web5 - DaWanQu',
-		},
+			title: 'Web5 ｜ 大湾区专区',
+		}
+	},
+	{
+		path: '/research',
+		component: () =>
+			import( '../views/Research.vue'),
+		meta: {
+			title: 'Web5 ｜ 项目调研',
+		}
+	},
+	{
+		path: '/projects/ton/developTgBot',
+		component: () =>
+			import( '../views/lesson/DevelopTgBot.vue'),
+		meta: {
+			title: 'Web5 ｜ 开发一个 TG 机器人',
+		}
 	},
 ];
 

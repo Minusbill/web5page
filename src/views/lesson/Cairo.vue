@@ -1,15 +1,14 @@
 <script setup>
 import { onMounted, onUpdated } from 'vue';
 import feather from 'feather-icons';
-import ProjectHeader from '../components/projects/ProjectHeader.vue';
-import ProjectGallery from '../components/projects/ProjectGallery.vue';
-import ProjectInfo from '../components/projects/ProjectInfo.vue';
-import ProjectRelatedProjects from '../components/projects/ProjectRelatedProjects.vue';
+import ProjectHeader from '../../components/projects/ProjectHeader.vue';
+import ProjectInfo from '../../components/projects/Web5ProjectInfo.vue';
+import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProjects.vue';
 
 const singleProjectHeader = {
-  singleProjectTitle: 'Project Management UI',
-  singleProjectDate: 'Jul 26, 2021',
-  singleProjectTag: 'UI / Frontend',
+  singleProjectTitle: 'Starknet 开发语言 Cairo 讲解',
+  singleProjectDate: 'Nov 1, 2023',
+  singleProjectTag: 'starknet / cairo',
 };
 const projectImages = [
   {
@@ -17,32 +16,34 @@ const projectImages = [
     title: 'Kabul Project Management UI',
     img: require('@/assets/images/ui-project-1.jpg'),
   },
-  {
-    id: 2,
-    title: 'Kabul Project Management UI',
-    img: require('@/assets/images/web-project-2.jpg'),
-  },
-  {
-    id: 3,
-    title: 'Kabul Project Management UI',
-    img: require('@/assets/images/mobile-project-2.jpg'),
-  },
+  // {
+  //   id: 2,
+  //   title: 'Kabul Project Management UI',
+  //   img: require('@/assets/images/web-project-2.jpg'),
+  // },
+  // {
+  //   id: 3,
+  //   title: 'Kabul Project Management UI',
+  //   img: require('@/assets/images/mobile-project-2.jpg'),
+  // },
 ];
 
 const projectInfo = {
-  clientHeading: 'About Client',
+  clientHeading: 'Starknet Cairo 基本介绍',
   companyInfos: [
-    { id: 1, title: 'Name', details: 'Company Ltd' },
-    { id: 2, title: 'Services', details: 'UI Design & Frontend Development' },
-    { id: 3, title: 'Website', details: 'https://company.com' },
-    { id: 4, title: 'Phone', details: '555 8888 888' },
+    { id: 1, title: '安装', details: 'Scarb' },
+    { id: 2, title: '初体验', details: ' Hello World ' },
+    { id: 3, title: '基础概念', details: '变量、数据' },
+    { id: 4, title: '函数', details: '函数的定义、注释' },
+    { id: 5, title: '数组', details: '数组与字典' },
+
   ],
-  objectivesHeading: 'Objective',
-  objectivesDetails: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+  objectivesHeading: '控制流',
+  objectivesDetails: '了解控制流、循环 更好的编写逻辑.',
   technologies: [
     {
-      title: 'Tools & Technologies',
-      techs: ['HTML', 'CSS', 'JavaScript', 'Vue.js', 'TailwindCSS', 'AdobeXD'],
+      title: 'Starknet 智能合约 & 深入理解',
+      techs: ['存储变量', '合约函数', '事件', '减少冗余', '优化存储'],
     },
   ],
   projectDetailsHeading: 'Challenge',
@@ -53,7 +54,7 @@ const projectInfo = {
     },
     // ... (Continue with the other details)
   ],
-  socialSharingsHeading: 'Share This',
+  socialSharingsHeading: '分享学习课程',
   socialSharings: [
     { id: 1, name: 'Twitter', icon: 'twitter', url: 'https://twitter.com/realstoman' },
     { id: 2, name: 'Instagram', icon: 'instagram', url: 'https://instagram.com/realstoman' },
@@ -105,7 +106,7 @@ onUpdated(() => {
     <ProjectHeader :singleProjectHeader="singleProjectHeader" />
 
     <!-- Project gallery -->
-    <ProjectGallery :projectImages="projectImages" />
+<!--    <ProjectGallery :projectImages="projectImages" />-->
 
     <!-- Project information -->
     <ProjectInfo :projectInfo="projectInfo" />

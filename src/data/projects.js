@@ -5,7 +5,7 @@ const projects = [
 	{
 		id: 1,
 		title: 'Starknet',
-		category: 'Cairo/Dojo/Rust',
+		category: 'Cairo/zk/Rust',
 		img: require('@/assets/images/starknet.jpg'),
 		link:'/projects/starknet',
 	},

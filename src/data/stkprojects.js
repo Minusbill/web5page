@@ -7,7 +7,7 @@ const projects = [
 		title: 'Starknet',
 		category: '介绍 Starknet/l2/cairo',
 		img: require('@/assets/images/starknet.jpg'),
-		link:'/projects/starknet/cairo',
+		link:'/projects/starknet/stkIntroduce',
 	},
 	{
 		id: 2,

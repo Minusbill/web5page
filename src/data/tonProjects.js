@@ -7,14 +7,14 @@ const projects = [
 		title: 'Ton 与 Telgram',
 		category: '介绍 Ton 生态',
 		img: require('@/assets/ton/telegram.png'),
-		link:'/projects/starknet/cairo',
+		link:'/projects/ton/tonIntroduce',
 	},
 	{
 		id: 2,
 		title: ' TG bot',
 		category: '开发 TG Bot教程',
 		img: require('@/assets/ton/tgbot.png'),
-		link:'/projects/starknet/cairo',
+		link:'/projects/ton/developTgBot',
 	},
 	{
 		id: 3,
