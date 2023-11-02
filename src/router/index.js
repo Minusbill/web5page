@@ -147,6 +147,14 @@ const routes = [
 		meta: {
 			title: 'Web5 ｜ Dojo 教程',
 		}
+	},
+	{
+		path: '/projects/starknet/fullChainOnGame',
+		component: () =>
+			import( '../views/lesson/StarknetFullChainOnGame.vue'),
+		meta: {
+			title: 'Web5 ｜ Dojo 教程',
+		}
 	}
 ];
 

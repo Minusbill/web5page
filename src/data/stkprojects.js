@@ -32,10 +32,10 @@ const projects = [
 	},
 	{
 		id: 5,
-		title: ' 全链游戏',
-		category: ' realms-world、 StarkLand',
+		title: ' Starknet 全链游戏',
+		category: ' Realms-world、 StarkLand',
 		img: require('@/assets/images/focg.png'),
-		link:'/projects/single-project',
+		link:'/projects/starknet/fullChainOnGame',
 	},
 	{
 		id: 6,

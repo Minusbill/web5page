@@ -97,13 +97,13 @@ export default {
       </div>
     </div>
 
+
     <!-- Single project right section details -->
     <div class="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
       <p
           class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7"
       >
-        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTwroX4BgEKacPpVbFvCSciXKTFbxjgPSeLoKYFBQOXjooDAU4JgCD7qXY5yBOYAamTaDmAugO-RKJD/embed?start=false&loop=false&delayms=3000" frameborder="0" width="880" height="530" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-      </p>
+        <iframe :src="projectInfo.pptUrl" frameborder="0" width="880" height="535" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>      </p>
     </div>
   </div>
 </template>
