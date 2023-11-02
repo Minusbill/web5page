@@ -73,13 +73,9 @@ const projectInfo = {
       details: 'FRI 协议的基本思想是通过一系列的抽样和插值步骤，逐步降低多项式的度。在每一步，证明者都会提供一个新的多项式，并声称它是原始多项式的一个压缩版本。验证者可以通过检查这些多项式在随机点上的值，来验证这个声称是否正确。',
     },
   ],
-  socialSharingsHeading: 'Share This',
+  socialSharingsHeading: '',
   socialSharings: [
-    { id: 1, name: 'Twitter', icon: 'twitter', url: 'https://twitter.com/realstoman' },
-    { id: 2, name: 'Instagram', icon: 'instagram', url: 'https://instagram.com/realstoman' },
-    { id: 3, name: 'Facebook', icon: 'facebook', url: 'https://facebook.com/' },
-    { id: 4, name: 'LinkedIn', icon: 'linkedin', url: 'https://linkedin.com/' },
-    { id: 5, name: 'Youtube', icon: 'youtube', url: 'https://www.youtube.com/c/StomanStudio' },
+
   ],
 };
 

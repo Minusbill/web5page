@@ -63,11 +63,11 @@ const projectInfo = {
   ],
   socialSharingsHeading: 'Share This',
   socialSharings: [
-    { id: 1, name: 'Twitter', icon: 'twitter', url: 'https://twitter.com/realstoman' },
-    { id: 2, name: 'Instagram', icon: 'instagram', url: 'https://instagram.com/realstoman' },
+    { id: 1, name: 'Twitter', icon: 'twitter', url: 'https://twitter.com/billjian24' },
+    { id: 2, name: 'Instagram', icon: 'instagram', url: 'https://instagram.com/billjian24' },
     { id: 3, name: 'Facebook', icon: 'facebook', url: 'https://facebook.com/' },
     { id: 4, name: 'LinkedIn', icon: 'linkedin', url: 'https://linkedin.com/' },
-    { id: 5, name: 'Youtube', icon: 'youtube', url: 'https://www.youtube.com/c/StomanStudio' },
+    { id: 5, name: 'Youtube', icon: 'youtube', url: 'https://www.youtube.com/c/billjian24' },
   ],
 };
 

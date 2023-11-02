@@ -139,6 +139,14 @@ const routes = [
 		meta: {
 			title: 'Web5 ｜ Dojo 教程',
 		}
+	},
+	{
+		path: '/projects/starknet/sharp',
+		component: () =>
+			import( '../views/lesson/Sharp.vue'),
+		meta: {
+			title: 'Web5 ｜ Dojo 教程',
+		}
 	}
 ];
 

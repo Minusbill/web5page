@@ -49,7 +49,7 @@ const projects = [
 		title: ' Starknet  证明器 ',
 		category: 'prove/sharp',
 		img: require('@/assets/images/sharp3.png'),
-		link:'/projects/single-project',
+		link:'/projects/starknet/sharp',
 	},
 	{
 		id: 8,
