@@ -27,6 +27,6 @@ export const socialLinks = [
 		id: 5,
 		name: 'YouTube',
 		icon: 'youtube',
-		url: 'https://www.youtube.com/channel/UCs8VQOK3ZL_t--w89umor8w',
+		url: 'https://www.youtube.com/channel/web5s',
 	},
 ];
