@@ -14,7 +14,7 @@ const projects = [
 		title: 'Starknet 底层原理',
 		category: 'L1 <> L2 / zk-rollup',
 		img: require('@/assets/images/stkerc.png'),
-		link:'/projects/single-project',
+		link:'/projects/starknet/principle',
 	},
 	{
 		id: 3,
@@ -33,7 +33,7 @@ const projects = [
 	{
 		id: 5,
 		title: ' 全链游戏',
-		category: ' Dark Forest、 StarkLand',
+		category: ' realms-world、 StarkLand',
 		img: require('@/assets/images/focg.png'),
 		link:'/projects/single-project',
 	},

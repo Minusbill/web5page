@@ -30,20 +30,6 @@ const projects = [
 		img: require('@/assets/ton/tact.png'),
 		link:'/projects/ton/tact',
 	},
-	// {
-	// 	id: 5,
-	// 	title: '  Tact 实战',
-	// 	category: ' 代币与 NFT',
-	// 	img: require('@/assets/images/focg.png'),
-	// 	link:'/projects/single-project',
-	// },
-	// {
-	// 	id: 6,
-	// 	title: ' Func ',
-	// 	category: 'Func教程',
-	// 	img: require('@/assets/images/stkeco.png'),
-	// 	link:'/projects/single-project',
-	// },
 ];
 
 export default projects;

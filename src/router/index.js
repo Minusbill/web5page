@@ -131,6 +131,14 @@ const routes = [
 		meta: {
 			title: 'Web5 ｜ Dojo 教程',
 		}
+	},
+	{
+		path: '/projects/starknet/principle',
+		component: () =>
+			import( '../views/lesson/StarknetPrinciple.vue'),
+		meta: {
+			title: 'Web5 ｜ Dojo 教程',
+		}
 	}
 ];
 
