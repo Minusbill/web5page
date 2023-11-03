@@ -44,6 +44,16 @@ const routes = [
 		}
 	},
 	{
+		path: '/projects/raas',
+		component: () =>
+			import(
+				'../views/project/RollupAsAService.vue'
+				),
+		meta: {
+			title: 'Web5 ｜ Raas 生态学习',
+		}
+	},
+	{
 		path: '/projects/starknet/stkIntroduce',
 		component: () =>
 			import(

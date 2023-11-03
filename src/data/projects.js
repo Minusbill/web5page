@@ -21,7 +21,7 @@ const projects = [
 		title: 'Rollup as a service',
 		category: 'SDK/DA',
 		img: require('@/assets/images/raas.jpg'),
-		link:'/projects/single-project',
+		link:'/projects/raas',
 	},
 	{
 		id: 4,
