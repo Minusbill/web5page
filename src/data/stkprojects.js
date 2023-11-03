@@ -56,7 +56,7 @@ const projects = [
 		title: ' Starknet 排序器 ',
 		category: 'madara',
 		img: require('@/assets/images/madara.png'),
-		link:'/projects/single-project',
+		link:'/projects/starknet/madara',
 	},
 ];
 

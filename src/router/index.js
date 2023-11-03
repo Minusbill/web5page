@@ -153,7 +153,15 @@ const routes = [
 		component: () =>
 			import( '../views/lesson/StarknetFullChainOnGame.vue'),
 		meta: {
-			title: 'Web5 ｜ Dojo 教程',
+			title: 'Web5 ｜ starknet 全链游戏',
+		}
+	},
+	{
+		path: '/projects/starknet/madara',
+		component: () =>
+			import( '../views/lesson/Madara.vue'),
+		meta: {
+			title: 'Web5 ｜ Madara 排序器',
 		}
 	}
 ];
