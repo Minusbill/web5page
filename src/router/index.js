@@ -189,6 +189,14 @@ const routes = [
 		meta: {
 			title: 'Web5 ｜ Madara 排序器',
 		}
+	},
+	{
+		path: '/insc/brc20',
+		component: () =>
+			import( '../views/lesson/Brc20.vue'),
+		meta: {
+			title: 'Web5 ｜ Madara 排序器',
+		}
 	}
 ];
 

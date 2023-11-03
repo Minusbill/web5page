@@ -21,7 +21,7 @@ const projects = [
 		title: '比特币铭文',
 		category: 'brc20快速铸造和赚钱',
 		img: require('@/assets/insc/brc20.png'),
-		link:'/projects/starknet/cairo',
+		link:'/insc/brc20',
 	},
 	{
 		id: 4,
