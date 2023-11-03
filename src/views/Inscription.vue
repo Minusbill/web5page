@@ -1,5 +1,8 @@
 <script setup>
 import DwqProjectsGrid from '../components/projects/InscriptionProjectsGrid.vue';
+import { inject } from '@vercel/analytics';
+
+inject();
 
 </script>
 

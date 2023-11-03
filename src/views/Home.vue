@@ -2,6 +2,9 @@
 import AppBanner from '@/components/shared/AppBanner';
 import ProjectsGrid from '../components/projects/ProjectsGrid.vue';
 import Button from '../components/reusable/Button.vue';
+import { inject } from '@vercel/analytics';
+
+inject();
 </script>
 
 <template>

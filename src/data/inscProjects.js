@@ -35,28 +35,28 @@ const projects = [
 		title: ' ATOM 铭文 ',
 		category: 'Atom 入门到入坑',
 		img: require('@/assets/insc/atom.png'),
-		link:'/projects/starknet/dojo',
+		link:'/insc/atom',
 	},
 	{
 		id: 6,
 		title: ' Pipe 生态 ',
 		category: 'pipe 铸造教导',
 		img: require('@/assets/insc/pipe.png'),
-		link:'/projects/single-project',
+		link:'/insc/pipe',
 	},
 	{
 		id: 7,
 		title: ' ETH 铭文 ',
 		category: '铭文批量、人人都是科学家',
 		img: require('@/assets/insc/eths.png'),
-		link:'/projects/starknet/sharp',
+		link:'/insc/eths',
 	},
 	{
 		id: 8,
 		title: ' BSCS 铭文 ',
 		category: '教程和交易',
 		img: require('@/assets/insc/bscs.png'),
-		link:'/projects/starknet/madara',
+		link:'/insc/bscs',
 	},
 ];
 

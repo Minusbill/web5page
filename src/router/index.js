@@ -197,14 +197,21 @@ const routes = [
 		meta: {
 			title: 'Web5 ｜ Brc20 铭文',
 		}
-	}
-	,
+	},
 	{
 		path: '/insc/nostr',
 		component: () =>
 			import( '../views/lesson/Nostr.vue'),
 		meta: {
 			title: 'Web5 ｜ nostr 闪电',
+		}
+	},
+	{
+		path: '/insc/eths',
+		component: () =>
+			import( '../views/lesson/Eths.vue'),
+		meta: {
+			title: 'Web5 ｜ eths 铭文',
 		}
 	}
 ];
