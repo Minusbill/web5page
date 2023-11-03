@@ -213,6 +213,14 @@ const routes = [
 		meta: {
 			title: 'Web5 ｜ eths 铭文',
 		}
+	},
+	{
+		path: '/insc/pipe',
+		component: () =>
+			import( '../views/lesson/Pipe.vue'),
+		meta: {
+			title: 'Web5 ｜ pipe 铭文',
+		}
 	}
 ];
 

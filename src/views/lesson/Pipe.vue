@@ -6,9 +6,9 @@ import ProjectInfo from '../../components/web5Component/Web5ProjectInfoNormal.vu
 import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProjects.vue';
 
 const singleProjectHeader = {
-  singleProjectTitle: 'BTC 铭文详解',
-  singleProjectDate: 'Nov 1, 2023',
-  singleProjectTag: ' Ordi / BRC20',
+  singleProjectTitle: 'Pipe 铸造教程',
+  singleProjectDate: 'Nov 3, 2023',
+  singleProjectTag: 'Tarc / Pipe',
 };
 const projectImages = [
   {
@@ -19,22 +19,21 @@ const projectImages = [
 ];
 
 const projectInfo = {
-  clientHeading: '比特币铭文铸造过程',
-  pptUrl:"https://docs.google.com/presentation/d/e/2PACX-1vTnwvmurecuaJ2PEfQsgBftI9G0wMZOx4r_6iKHxHZ4KAMaWfIMz0XDLyBk7O9SJj7Lda-TxeG8NJn4/embed?start=false&loop=false&delayms=3000",
+  clientHeading: 'Pipe 铸造的方式',
+  pptUrl:"https://docs.google.com/presentation/d/e/2PACX-1vQ-WbZzeb-5SvMhmvEYvwEt76GQ9dSfm24CadWGMTgXqV_83DL46nXAgoEmRH81sZ_a9o5Xv-uWLwA9/embed?start=false&loop=false&delayms=3000",
   companyInfos: [
-    { id: 1, title: '安装钱包', details: '谷歌插件搜索 UniSat Wallet' },
-    { id: 2, title: '铸造', details: ' Unisat 选择 BRC-20 板块' },
-    { id: 3, title: '搜索可铸代币', details: '点击 in-progress' },
-    { id: 4, title: 'gas 选择', details: '确认合适的gas（决定排序，关键）' },
-    { id: 5, title: '付款', details: '钱包点击确定' },
+    { id: 1, title: '本地', details: '跑 Vscode 工程' },
+    { id: 2, title: 'inspip', details: '代打' },
+    { id: 3, title: 'ppline', details: '代打' },
+    { id: 4, title: 'satsx', details: '代打' },
 
   ],
-  objectivesHeading: '购买与出售',
-  objectivesDetails: ' Unisat 上可以，OKX 钱包也可以',
+  objectivesHeading: '背景故事',
+  objectivesDetails: ' Casey 提出 Runes 协议后，Trac 的创始人 benny 将其升级为了名为 pipe 的另一个协议',
   technologies: [
     {
-      title: '关于 BTC NFT',
-      techs: [' 使用 MagicEden 即可'],
+      title: '怎么看 Runes 的暂缓开发',
+      techs: ['目前是利好 Pipe 的','Runes 是 Ordi 创始人发明的，当前 Pipe 可视为 Runes 的龙头'],
     },
   ],
   projectDetailsHeading: 'Challenge',
