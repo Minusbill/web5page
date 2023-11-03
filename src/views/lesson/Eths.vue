@@ -19,22 +19,22 @@ const projectImages = [
 ];
 
 const projectInfo = {
-  clientHeading: '比特币铭文铸造过程',
-  pptUrl:"https://docs.google.com/presentation/d/e/2PACX-1vTnwvmurecuaJ2PEfQsgBftI9G0wMZOx4r_6iKHxHZ4KAMaWfIMz0XDLyBk7O9SJj7Lda-TxeG8NJn4/embed?start=false&loop=false&delayms=3000",
+  clientHeading: 'ETHS ABOT 批量打',
+  pptUrl:"https://docs.google.com/presentation/d/e/2PACX-1vQCSruxPx0KabygLjuZozOwC3eizaGXBoX40B4B2FvjTGdMST3c4NaPBEjLqeM9KNSAzlMVmYq1OHnx/embed?start=false&loop=false&delayms=3000",
   companyInfos: [
-    { id: 1, title: '安装钱包', details: '谷歌插件搜索 UniSat Wallet' },
-    { id: 2, title: '铸造', details: ' Unisat 选择 BRC-20 板块' },
-    { id: 3, title: '搜索可铸代币', details: '点击 in-progress' },
-    { id: 4, title: 'gas 选择', details: '确认合适的gas（决定排序，关键）' },
-    { id: 5, title: '付款', details: '钱包点击确定' },
+    { id: 1, title: '进入 ABOT ', details: 'https://www.nftsniper.club/' },
+    { id: 2, title: '选中铭文', details: '点击 in-progress' },
+    { id: 3, title: '输入', details: '输入 目标区间 数量 模式' },
+    { id: 4, title: '发射', details: '发射发射发射发射发射发射发射' },
+    { id: 5, title: '成功', details: '赚钱赚钱赚钱赚钱赚钱赚钱赚钱' },
 
   ],
-  objectivesHeading: '购买与出售',
-  objectivesDetails: ' Unisat 上可以，OKX 钱包也可以',
+  objectivesHeading: '如何使用 ABOT',
+  objectivesDetails: '  联系阿历克斯',
   technologies: [
     {
-      title: '关于 BTC NFT',
-      techs: [' 使用 MagicEden 即可'],
+      title: '关于交易',
+      techs: [' 主要是用 ETCH 等市场'],
     },
   ],
   projectDetailsHeading: 'Challenge',
