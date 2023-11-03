@@ -65,7 +65,7 @@ const projectInfo = {
     },
     {
       id: 9,
-      header: "监控",
+      header: "BTC 监控",
       details: '推荐使用 MCT BTC 监控（免费）：https://mct.xyz/inscribe/monitor',
     },
     {
@@ -96,7 +96,7 @@ const projectInfo = {
     {
       id: 15,
       header: "PIPE 钱包",
-      details: 'xverse : https://www.xverse.app/',
+      details: 'Xverse : https://www.xverse.app/',
     },
     {
       id: 16,
@@ -126,7 +126,7 @@ const projectInfo = {
     {
       id: 21,
       header: "Nostr 钱包",
-      details: 'https://getalby.com/ ',
+      details: 'Alby - Bitcoin Lightning Wallet ：https://getalby.com/ ',
     },
   ],
   socialSharingsHeading: '',
@@ -135,48 +135,6 @@ const projectInfo = {
   ],
 };
 
-
-const projectInfo2 = {
-  clientHeading: 'About Client',
-  companyInfos: [
-
-  ],
-  objectivesHeading: 'Objective',
-  objectivesDetails: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
-  technologies: [
-    {
-      title: 'Tools & Technologies',
-      techs: ['HTML', 'CSS', 'JavaScript', 'Vue.js', 'TailwindCSS', 'AdobeXD'],
-    },
-  ],
-  projectDetailsHeading: 'Starknet 工作原理',
-  projectDetails: [
-    {
-      id: 1,
-      details: '1. 用户发起交易，并将交易发送给 Squencer 进行验证、排序和执行，并打包批次。目前 StarkNet 系统中只有一个 StarkWare 官方掌握的 Sequencer，但 StarkWare 团队计划后续将 Squencer 去中心化；Squencer 通过 Cairo OS 来执行交易，扮演了 EVM 的角色。',
-    },
-    {
-      id: 2,
-      details: '2. Squencer 将执行交易的踪迹递交给 Prover，由 Prover 对计算完整性生成一个有效性证明。执行踪迹是生成 zkp 的核心，记录执行踪迹是 Cairo 语言的 zk 友好特性；这里的 Prover 也为 StarkEx 生成有效性证明，且可以聚合来自不同 StarkEx 应用和 StarkNet 的交易，实现共享。',
-    },
-    {
-      id: 3,
-      details: '3. Squencer 和 Prover 将有效性证明和全局状态变化发送给全节点进行记录。全节点基于 P2P 网络构建，负责记录整个 Layer2 网络的交易历史和以太坊主网上与 Layer2 相关的交易。',
-    },
-    {
-      id: 4,
-      details: '4. Prover 将有效性证明递交给主网上的 Verifier。Verifier 是部署在以太坊主网上的智能合约，负责收取并验证 Prover 提供的有效性证明。',
-    },
-    {
-      id: 5,
-      details: '5. Verifier 将验证过的结果发送至主网上的 StarkNet Core 合约进行记录和保存。StarkNet Core 合约部署在以太坊主网上，用于接收 Layer2 全局状态变化信息，包括状态哈希以及数据可用性；经过 Verifier 验证过的结果是一串状态哈希，由 Verifier 写入一笔新的 Layer1 交易，并传递给 Core 合约进行保存。',
-    },
-    {
-      id: 6,
-      details: '6. StarkNet Core 合约接收到验证结果（状态哈希）后，从 Layer2 接收「Call data」形式的数据可用性并保存。该数据会同步给 Layer2 的全节点进行解码，以保证全节点能够记录和重建 Layer2 的历史交易；在 Validium 方案中，StarkNet Core 合约不保存数据可用性，仅保存状态哈希。',
-    },
-  ],
-}
 const relatedProject = {
   relatedProjectsHeading: 'Related Projects',
   relatedProjects: [
