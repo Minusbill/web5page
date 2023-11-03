@@ -9,10 +9,10 @@ export default {
 		selectOptions: {
 			type: Array,
 			default: () => [
-				'Web Application',
-				'Mobile Application',
-				'UI/UX Design',
-				'Branding & Anim',
+				'Starknet & Cairo',
+				'Sui',
+				'Monad',
+				'ETH',
 			],
 		},
 	},
