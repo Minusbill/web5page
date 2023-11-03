@@ -111,9 +111,9 @@ const routes = [
 		}
 	},
 	{
-		path: '/research',
+		path: '/inscription',
 		component: () =>
-			import( '../views/Research.vue'),
+			import( '../views/Inscription.vue'),
 		meta: {
 			title: 'Web5 ｜ 项目调研',
 		}
