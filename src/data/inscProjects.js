@@ -14,7 +14,7 @@ const projects = [
 		title: '铭文工具介绍',
 		category: '监控、批量打、交易',
 		img: require('@/assets/insc/bot.png'),
-		link:'/projects/starknet/principle',
+		link:'/insc/tools',
 	},
 	{
 		id: 3,

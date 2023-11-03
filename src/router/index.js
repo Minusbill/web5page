@@ -159,6 +159,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/insc/tools',
+		component: () =>
+			import( '../views/lesson/InscTools.vue'),
+		meta: {
+			title: 'Web5 ｜ 铭文 网站和工具',
+		}
+	},
+	{
 		path: '/projects/starknet/sharp',
 		component: () =>
 			import( '../views/lesson/Sharp.vue'),
