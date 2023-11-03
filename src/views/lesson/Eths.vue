@@ -8,7 +8,7 @@ import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProj
 const singleProjectHeader = {
   singleProjectTitle: 'ETHS 铭文详解/批量打',
   singleProjectDate: 'Nov 1, 2023',
-  singleProjectTag: 'starknet / cairo',
+  singleProjectTag: 'eths / abot',
 };
 const projectImages = [
   {
