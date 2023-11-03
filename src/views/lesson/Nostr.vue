@@ -19,22 +19,21 @@ const projectImages = [
 ];
 
 const projectInfo = {
-  clientHeading: '比特币铭文铸造过程',
-  pptUrl:"https://docs.google.com/presentation/d/e/2PACX-1vTnwvmurecuaJ2PEfQsgBftI9G0wMZOx4r_6iKHxHZ4KAMaWfIMz0XDLyBk7O9SJj7Lda-TxeG8NJn4/embed?start=false&loop=false&delayms=3000",
+  clientHeading: 'Nostr',
+  pptUrl:"https://docs.google.com/presentation/d/e/2PACX-1vSaICpubQBUrHGjv7pX33T5YIrtg0C7D3XmJEUQvV_7dUXe2YnKgwsQ4gFr00WtEqLJqUjzVHoR1Ggl/embed?start=false&loop=false&delayms=3000",
   companyInfos: [
-    { id: 1, title: '安装钱包', details: '谷歌插件搜索 UniSat Wallet' },
-    { id: 2, title: '铸造', details: ' Unisat 选择 BRC-20 板块' },
-    { id: 3, title: '搜索可铸代币', details: '点击 in-progress' },
-    { id: 4, title: 'gas 选择', details: '确认合适的gas（决定排序，关键）' },
-    { id: 5, title: '付款', details: '钱包点击确定' },
-
+    { id: 1, title: '网站', details: 'https://mainnet.nostrassets.com/' },
+    { id: 2, title: '钱包', details: 'https://getalby.com/' },
+    { id: 3, title: 'Nostr 背景', details: 'Twitter联合创始人 Jack Dorsey ' },
+    { id: 4, title: '获得方式', details: '空投' },
+    { id: 5, title: 'Nostr 用途', details: '闪电网络资产' },
   ],
   objectivesHeading: '购买与出售',
-  objectivesDetails: ' Unisat 上可以，OKX 钱包也可以',
+  objectivesDetails: ' mainnet.nostrassets.com 或者 场外',
   technologies: [
     {
-      title: '关于 BTC NFT',
-      techs: [' 使用 MagicEden 即可'],
+      title: '未来获取闪电资产的方式',
+      techs: [' 任务空投', ' Fair mint', '其他'],
     },
   ],
   projectDetailsHeading: 'Challenge',

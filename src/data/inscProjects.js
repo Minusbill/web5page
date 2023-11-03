@@ -28,7 +28,7 @@ const projects = [
 		title: ' nostr 闪电 ',
 		category: '如何获得闪电网络空投',
 		img: require('@/assets/insc/Nostr.png'),
-		link:'/projects/starknet/dojo',
+		link:'/insc/nostr',
 	},
 	{
 		id: 5,

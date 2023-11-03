@@ -195,7 +195,16 @@ const routes = [
 		component: () =>
 			import( '../views/lesson/Brc20.vue'),
 		meta: {
-			title: 'Web5 ｜ Madara 排序器',
+			title: 'Web5 ｜ Brc20 铭文',
+		}
+	}
+	,
+	{
+		path: '/insc/nostr',
+		component: () =>
+			import( '../views/lesson/Nostr.vue'),
+		meta: {
+			title: 'Web5 ｜ nostr 闪电',
 		}
 	}
 ];
