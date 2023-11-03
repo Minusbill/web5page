@@ -28,8 +28,8 @@ const projectInfo = {
     { id: 4, title: '获得方式', details: '空投' },
     { id: 5, title: 'Nostr 用途', details: '闪电网络资产' },
   ],
-  objectivesHeading: '购买与出售',
-  objectivesDetails: ' mainnet.nostrassets.com 或者 场外',
+  objectivesHeading: '建议和意见',
+  objectivesDetails: '多关注闪电网络、配置下 LND 等',
   technologies: [
     {
       title: '未来获取闪电资产的方式',
