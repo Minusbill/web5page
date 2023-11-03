@@ -111,9 +111,17 @@ const routes = [
 		}
 	},
 	{
-		path: '/inscription',
+		path: '/insc',
 		component: () =>
 			import( '../views/Inscription.vue'),
+		meta: {
+			title: 'Web5 ｜ 项目调研',
+		}
+	},
+	{
+		path: '/insc/whatisinsc',
+		component: () =>
+			import( '../views/insc/WhatIsInsc.vue'),
 		meta: {
 			title: 'Web5 ｜ 项目调研',
 		}

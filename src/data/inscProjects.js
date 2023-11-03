@@ -7,7 +7,7 @@ const projects = [
 		title: '什么是铭文',
 		category: '怎么玩、怎么赚',
 		img: require('@/assets/insc/ordiInsc.png'),
-		link:'/projects/starknet/stkIntroduce',
+		link:'/insc/whatisinsc',
 	},
 	{
 		id: 2,
