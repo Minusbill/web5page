@@ -58,6 +58,13 @@ const projects = [
 		img: require('@/assets/insc/bscs.png'),
 		link:'/insc/bscs',
 	},
+	{
+		id: 9,
+		title: ' Tap-Assets 轻节点安装',
+		category: '安装指导',
+		img: require('@/assets/insc/lnd.png'),
+		link:'/insc/mac_lnd',
+	},
 ];
 
 export default projects;

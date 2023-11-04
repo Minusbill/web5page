@@ -221,6 +221,14 @@ const routes = [
 		meta: {
 			title: 'Web5 ｜ pipe 铭文',
 		}
+	},
+	{
+		path: '/insc/mac_lnd',
+		component: () =>
+			import( '../views/lesson/LndLightSetupMac.vue'),
+		meta: {
+			title: 'Web5 ｜ LND 安装',
+		}
 	}
 ];
 
