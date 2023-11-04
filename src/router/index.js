@@ -230,6 +230,15 @@ const routes = [
 			title: 'Web5 ｜ LND 安装',
 		}
 	}
+	,
+	{
+		path: '/insc/win_lnd',
+		component: () =>
+			import( '../views/lesson/LndLightSetupWindows.vue'),
+		meta: {
+			title: 'Web5 ｜ LND 安装',
+		}
+	}
 ];
 
 const router = createRouter({

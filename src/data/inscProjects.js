@@ -60,10 +60,17 @@ const projects = [
 	},
 	{
 		id: 9,
-		title: ' Tap-Assets 轻节点安装',
+		title: ' Tap-Assets轻节点Mac',
 		category: '安装指导',
 		img: require('@/assets/insc/lnd.png'),
 		link:'/insc/mac_lnd',
+	},
+	{
+		id: 1,
+		title: ' Tap-Assets轻节点Windows',
+		category: '安装指导',
+		img: require('@/assets/insc/lnd2.png'),
+		link:'/insc/win_lnd',
 	},
 ];
 
