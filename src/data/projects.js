@@ -56,7 +56,7 @@ const projects = [
 		title: 'ETH DEV',
 		category: 'DeepLearn ETH',
 		img: require('@/assets/images/eth.png'),
-		link:'/projects/single-project',
+		link:'/eth',
 	},
 	{
 		id: 9,

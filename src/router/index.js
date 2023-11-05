@@ -207,6 +207,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/eth',
+		component: () =>
+			import( '../views/project/ETH.vue'),
+		meta: {
+			title: 'Web5 ｜ ETH 生态',
+		}
+	},
+	{
 		path: '/l2',
 		component: () =>
 			import( '../views/project/L2.vue'),
