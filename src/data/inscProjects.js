@@ -32,8 +32,8 @@ const projects = [
 	},
 	{
 		id: 5,
-		title: ' ATOM 铭文 ',
-		category: 'Atom 入门到入坑',
+		title: ' ATOM 原子 ',
+		category: 'Atom 与 Atommap',
 		img: require('@/assets/insc/atom.png'),
 		link:'/insc/atom',
 	},
