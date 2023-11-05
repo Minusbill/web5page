@@ -48,7 +48,7 @@ const projects = [
 		title: 'BTC',
 		category: 'BTC 生态',
 		img: require('@/assets/insc/btc.png'),
-		link:'/projects/single-project',
+		link:'/insc/btc',
 	},
 	{
 		id: 8,

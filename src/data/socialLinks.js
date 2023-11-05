@@ -15,7 +15,7 @@ export const socialLinks = [
 		id: 3,
 		name: 'Twitter',
 		icon: 'twitter',
-		url: 'https://twitter.com/webfivestar',
+		url: 'https://twitter.com/billjian24',
 	},
 	{
 		id: 4,
