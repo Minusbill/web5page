@@ -199,6 +199,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/insc/btc',
+		component: () =>
+			import( '../views/project/BTC.vue'),
+		meta: {
+			title: 'Web5 ｜ BTC 生态',
+		}
+	},
+	{
 		path: '/insc/nostr',
 		component: () =>
 			import( '../views/lesson/Nostr.vue'),

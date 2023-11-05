@@ -53,25 +53,11 @@ const projects = [
 	},
 	{
 		id: 8,
-		title: ' BSCS 铭文 ',
-		category: '教程和交易',
-		img: require('@/assets/insc/bscs.png'),
-		link:'/insc/bscs',
-	},
-	{
-		id: 9,
-		title: ' Tap-Assets轻节点Mac',
-		category: '安装指导',
-		img: require('@/assets/insc/lnd.png'),
-		link:'/insc/mac_lnd',
-	},
-	{
-		id: 1,
-		title: ' Tap-Assets轻节点Windows',
-		category: '安装指导',
-		img: require('@/assets/insc/lnd2.png'),
-		link:'/insc/win_lnd',
-	},
+		title: '  BTC 生态 ',
+		category: '比特币生态学习',
+		img: require('@/assets/insc/btc.png'),
+		link:'/insc/btc',
+	}
 ];
 
 export default projects;
