@@ -28,7 +28,7 @@ const projects = [
 		title: 'L2 Summer',
 		category: 'l2/rollup',
 		img: require('@/assets/images/l2.png'),
-		link:'/projects/single-project',
+		link:'/l2',
 	},
 	{
 		id: 5,

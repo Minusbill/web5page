@@ -207,6 +207,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/l2',
+		component: () =>
+			import( '../views/project/L2.vue'),
+		meta: {
+			title: 'Web5 ｜ L2 全景',
+		}
+	},
+	{
 		path: '/insc/nostr',
 		component: () =>
 			import( '../views/lesson/Nostr.vue'),
