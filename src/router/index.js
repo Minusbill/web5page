@@ -247,6 +247,15 @@ const routes = [
 			title: 'Web5 ｜ LND 安装',
 		}
 	}
+	,
+	{
+		path: '/insc/atom',
+		component: () =>
+			import( '../views/lesson/AtomMap.vue'),
+		meta: {
+			title: 'Web5 ｜ ATOM 教程',
+		}
+	}
 ];
 
 const router = createRouter({
