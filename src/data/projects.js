@@ -58,6 +58,20 @@ const projects = [
 		img: require('@/assets/images/eth.png'),
 		link:'/projects/single-project',
 	},
+	{
+		id: 9,
+		title: 'MEV',
+		category: 'MEV',
+		img: require('@/assets/images/mev.png'),
+		link:'/projects/single-project',
+	},
+	{
+		id: 10,
+		title: 'ZK',
+		category: 'ZK',
+		img: require('@/assets/images/zk.png'),
+		link:'/projects/single-project',
+	},
 
 ];
 
