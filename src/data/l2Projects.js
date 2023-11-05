@@ -53,8 +53,8 @@ const projects = [
 	},
 	{
 		id: 8,
-		title: ' Poly ZK',
-		category: '节点 网站 工具 钱包',
+		title: ' Polygon zkEVM',
+		category: 'Polygon zkEVM',
 		img: require('@/assets/l2/polyzk.png'),
 		link:'/btc/tools',
 	},
