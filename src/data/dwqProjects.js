@@ -4,16 +4,9 @@
 const dwqProjects = [
 	{
 		id: 1,
-		title: 'Starknet',
-		category: '屎大粒',
-		img: require('@/assets/images/starknet.jpg'),
-		link:'/projects/starknet',
-	},
-	{
-		id: 2,
 		title: 'Soldity',
-		category: '粤语 sol',
-		img: require('@/assets/images/sol.png'),
+		category: '粤语学习 sol',
+		img: require('@/assets/images/learnsolidity.png'),
 		link:'/projects/sol',
 	},
 ];
