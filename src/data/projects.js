@@ -25,9 +25,9 @@ const projects = [
 	},
 	{
 		id: 4,
-		title: 'mev',
-		category: 'mev/flashbots',
-		img: require('@/assets/images/mev.png'),
+		title: 'L2 Summer',
+		category: 'l2/rollup',
+		img: require('@/assets/images/l2.png'),
 		link:'/projects/single-project',
 	},
 	{
