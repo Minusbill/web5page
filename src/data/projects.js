@@ -37,6 +37,7 @@ const projects = [
 		img: require('@/assets/images/monad.png'),
 		link:'/projects/single-project',
 	},
+
 	{
 		id: 6,
 		title: 'Sui',
