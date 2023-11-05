@@ -27,7 +27,7 @@ const projects = [
 		id: 4,
 		title: 'mev',
 		category: 'mev/flashbots',
-		img: require('@/assets/images/mev.jpg'),
+		img: require('@/assets/images/mev.png'),
 		link:'/projects/single-project',
 	},
 	{
@@ -43,7 +43,21 @@ const projects = [
 		category: 'Move/FGOC',
 		img: require('@/assets/images/sui.jpg'),
 		link:'/projects/single-project',
+	},{
+		id: 7,
+		title: 'BTC',
+		category: 'BTC 生态',
+		img: require('@/assets/insc/btc.png'),
+		link:'/projects/single-project',
 	},
+	{
+		id: 8,
+		title: 'ETH DEV',
+		category: 'DeepLearn ETH',
+		img: require('@/assets/images/eth.png'),
+		link:'/projects/single-project',
+	},
+
 ];
 
 export default projects;

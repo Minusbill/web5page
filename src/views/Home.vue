@@ -10,7 +10,7 @@ inject();
 <template>
 	<div class="container mx-auto">
 		<!-- Banner -->
-		<AppBanner class="mb-5 sm:mb-8" />
+<!--		<AppBanner class="mb-5 sm:mb-8" />-->
 
 		<!-- Projects -->
 		<ProjectsGrid />
