@@ -46,8 +46,8 @@ const projects = [
 	},
 	{
 		id: 7,
-		title: ' Scorll ',
-		category: 'Scorll',
+		title: ' Scroll ',
+		category: 'Scroll',
 		img: require('@/assets/l2/scorll.png'),
 		link:'/btc/bitVM',
 	},
