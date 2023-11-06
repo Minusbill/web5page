@@ -255,6 +255,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/btc/stx',
+		component: () =>
+			import( '../views/lesson/Stacks.vue'),
+		meta: {
+			title: 'Web5 ｜ Stacks',
+		}
+	},
+	{
 		path: '/l2',
 		component: () =>
 			import( '../views/project/L2.vue'),

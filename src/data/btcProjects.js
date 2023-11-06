@@ -19,7 +19,7 @@ const projects = [
 	{
 		id: 3,
 		title: '  Stacks ',
-		category: '比特币的 L2',
+		category: 'Stacks/STX',
 		img: require('@/assets/btc/stacks.png'),
 		link:'/btc/stx',
 	},
