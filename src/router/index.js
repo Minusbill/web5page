@@ -207,6 +207,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/projects/starknet/kakarot',
+		component: () =>
+			import( '../views/lesson/Kakarot.vue'),
+		meta: {
+			title: 'Web5 ｜ Kakarot EVN',
+		}
+	},
+	{
 		path: '/insc/brc20',
 		component: () =>
 			import( '../views/lesson/Brc20.vue'),

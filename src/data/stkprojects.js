@@ -63,7 +63,7 @@ const projects = [
 		title: ' Kakarot ',
 		category: 'L3/EVM',
 		img: require('@/assets/starknet/kakarot.png'),
-		link:'/projects/starknet/Kakarot',
+		link:'/projects/starknet/kakarot',
 	},
 	{
 		id: 10,
