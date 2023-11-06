@@ -239,6 +239,22 @@ const routes = [
 		}
 	},
 	{
+		path: '/btc/eco',
+		component: () =>
+			import( '../views/lesson/BtcECO.vue'),
+		meta: {
+			title: 'Web5 ｜ BTC 生态',
+		}
+	},
+	{
+		path: '/btc/lndAndTap',
+		component: () =>
+			import( '../views/lesson/TaprootAssets.vue'),
+		meta: {
+			title: 'Web5 ｜ Taproot Assets协议',
+		}
+	},
+	{
 		path: '/l2',
 		component: () =>
 			import( '../views/project/L2.vue'),
