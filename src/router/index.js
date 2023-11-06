@@ -263,6 +263,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/btc/rsk',
+		component: () =>
+			import( '../views/lesson/RSK.vue'),
+		meta: {
+			title: 'Web5 ｜ RSK',
+		}
+	},
+	{
 		path: '/l2',
 		component: () =>
 			import( '../views/project/L2.vue'),
@@ -309,6 +317,15 @@ const routes = [
 			import( '../views/lesson/LndLightSetupWindows.vue'),
 		meta: {
 			title: 'Web5 ｜ LND 安装',
+		}
+	}
+	,
+	{
+		path: '/btc/fastNode',
+		component: () =>
+			import( '../views/lesson/FastSynNode.vue'),
+		meta: {
+			title: 'Web5 ｜ 快速同步节点',
 		}
 	}
 	,

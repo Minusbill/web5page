@@ -25,8 +25,8 @@ const projects = [
 	},
 	{
 		id: 4,
-		title: '  Rsk ',
-		category: '比特币 L2',
+		title: '  RSK ',
+		category: 'RSK/RIF',
 		img: require('@/assets/btc/rsk.png'),
 		link:'/btc/rsk',
 	},
@@ -35,7 +35,7 @@ const projects = [
 		title: ' Ordianl 与 Runes ',
 		category: '铭文 和 符文',
 		img: require('@/assets/btc/brc20.png'),
-		link:'/btc/ordiAndRunes',
+		link:'/insc/brc20',
 	},
 	{
 		id: 6,
@@ -56,7 +56,7 @@ const projects = [
 		title: ' BTC 工具、钱包大全',
 		category: '节点 网站 工具 钱包',
 		img: require('@/assets/btc/btctools.png'),
-		link:'/btc/tools',
+		link:'/insc/tools',
 	},
 	{
 		id: 9,
@@ -70,14 +70,14 @@ const projects = [
 		title: ' Tap-Assets轻节点Mac',
 		category: '安装指导',
 		img: require('@/assets/insc/lnd.png'),
-		link:'/btc/mac_lnd',
+		link:'/insc/mac_lnd',
 	},
 	{
 		id: 11,
 		title: ' Tap-Assets轻节点Windows',
 		category: '安装指导',
 		img: require('@/assets/insc/lnd2.png'),
-		link:'/btc/win_lnd',
+		link:'/insc/win_lnd',
 	},
 	{
 		id: 11,
