@@ -63,14 +63,14 @@ const projects = [
 		title: ' Kakarot ',
 		category: 'L3/EVM',
 		img: require('@/assets/starknet/kakarot.png'),
-		link:'/projects/starknet/madara',
+		link:'/projects/starknet/Kakarot',
 	},
 	{
 		id: 10,
 		title: ' Giza ',
 		category: 'ZKML',
 		img: require('@/assets/starknet/giza.png'),
-		link:'/projects/starknet/madara',
+		link:'/projects/starknet/Giza',
 	},
 	{
 		id: 11,
