@@ -23,8 +23,8 @@ const projectInfo = {
   pptUrl:"https://docs.google.com/presentation/d/e/2PACX-1vR5Y1kp7JyPmovRB73U04S55MXD1Yj7toSIfAjsX3Rspm0KaTQJfy4z4X-c4E4Jh05lbJ9mGo1dO3cg/embed?start=false&loop=false&delayms=3000",
   companyInfos: [
     { id: 1, title: '1', details: 'Kakarot 是一组 Cairo 程序' },
-    { id: 2, title: '2', details: ' Kakarot 可以：(a) 执行任意 EVM 字节码，(b) 按原样部署 EVM 智能合约，(c) 调用 Kakarot 部署的 EVM 智能合约的函数（视图和写入方法）。' },
-    { id: 3, title: '3', details: ' Kakarot 是一个 EVM 实现。' },
+    { id: 2, title: '2', details: 'Kakarot 可以：(a) 执行任意 EVM 字节码，(b) 按原样部署 EVM 智能合约，(c) 调用 Kakarot 部署的 EVM 智能合约的函数（视图和写入方法）。' },
+    { id: 3, title: '3', details: 'Kakarot 是一个 EVM 实现。' },
     { id: 4, title: '4', details: 'Kakarot 本身并不是区块链。它仍然需要一条运行要部署的 CairoVM 的链。' },
     { id: 5, title: '5', details: 'Kakarot 不是编译器。' },
 
