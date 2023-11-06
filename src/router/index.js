@@ -167,6 +167,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/btc/bitVM',
+		component: () =>
+			import( '../views/lesson/BitVM.vue'),
+		meta: {
+			title: 'Web5 ｜ BitVM',
+		}
+	},
+	{
 		path: '/projects/starknet/sharp',
 		component: () =>
 			import( '../views/lesson/Sharp.vue'),
