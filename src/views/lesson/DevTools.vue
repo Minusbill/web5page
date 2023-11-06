@@ -6,7 +6,7 @@ import ProjectInfo from '../../components/web5Component/Web5ProjectInfoNormal.vu
 import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProjects.vue';
 
 const singleProjectHeader = {
-  singleProjectTitle: 'Starknet 开源的证明器Stone 讲解',
+  singleProjectTitle: 'Starknet 七款受欢迎的工具',
   singleProjectDate: 'Nov 6, 2023',
   singleProjectTag: ' Starknet / Dev Tools',
 };
@@ -19,22 +19,23 @@ const projectImages = [
 ];
 
 const projectInfo = {
-  clientHeading: 'Stone 使用步骤',
-  pptUrl:"https://docs.google.com/presentation/d/e/2PACX-1vTs1OdAtLvXHE35J7zEDPZ3XlCam4ahBYtdfQXhH0ssEiUg-cZdVODeM78Rs37CMepAkqf9qMFFoymq/embed?start=false&loop=false&delayms=3000",
+  clientHeading: '七款受欢迎的热门工具',
+  pptUrl:"https://docs.google.com/presentation/d/e/2PACX-1vTGeSsFuS2nYX8WXlC7PhPjcb-mFmioa1LY0VaMhpmvMsQa0uf2iUEIjJcVg2BXkXorRHUde1og1QLk/embed?start=false&loop=false&delayms=3000",
   companyInfos: [
-    { id: 1, title: '编写', details: '编写 Cairo 程序' },
-    { id: 2, title: '编译', details: ' 编译成 CASM' },
-    { id: 3, title: '运行', details: '使用 cairo_run 运行 CASM' },
-    { id: 4, title: '证明', details: '使用 Stone STARK Prover 证明' },
-    { id: 5, title: '收到证明 ', details: '收到 STARK 证明' },
-    { id: 6, title: '证明', details: '使用 C++ Verifier 确保证明有效' },
+    { id: 1, title: 'Starkli', details: '快速命令行界面' },
+    { id: 2, title: 'Starknet-devnet', details: ' 本地节点' },
+    { id: 3, title: 'Katana', details: '速度极快的开发网络' },
+    { id: 4, title: 'Scarb', details: '包管理器' },
+    { id: 5, title: 'Starknet Foundry', details: '开发 Starknet 智能合约的工具链' },
+    { id: 6, title: 'Hardhat', details: '测试 Cairo 代码的工具' },
+    { id: 7, title: 'Starknet Remix Plugin', details: 'Remix 插件' },
   ],
-  objectivesHeading: '什么是 Stone',
-  objectivesDetails: ' 它负责压缩交易和生成加密证明',
+  objectivesHeading: '插件收费吗',
+  objectivesDetails: ' 都是免费',
   technologies: [
     {
-      title: '开源 Stone 的好处',
-      techs: [' 更多的协作、更好的质量、更高的安全性、创新和独立性'],
+      title: '是否可在 Remix 上开发 Cairo',
+      techs: ['  可以'],
     },
   ],
   projectDetailsHeading: 'Challenge',

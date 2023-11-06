@@ -75,16 +75,16 @@ const projects = [
 	{
 		id: 11,
 		title: ' Stone ',
-		category: 'Prover',
+		category: 'Starknet 开源的证明器',
 		img: require('@/assets/starknet/stone.png'),
 		link:'/projects/starknet/stone',
 	},
 	{
 		id: 12,
 		title: ' Dev Tools ',
-		category: 'Prover',
+		category: '七款受欢迎的开发工具',
 		img: require('@/assets/starknet/tools.png'),
-		link:'/projects/starknet/madara',
+		link:'/projects/starknet/devTools',
 	},
 ];
 

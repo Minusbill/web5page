@@ -191,6 +191,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/projects/starknet/devTools',
+		component: () =>
+			import( '../views/lesson/DevTools.vue'),
+		meta: {
+			title: 'Web5 ｜ Starknet 开发工具',
+		}
+	},
+	{
 		path: '/projects/starknet/stone',
 		component: () =>
 			import( '../views/lesson/Stone.vue'),
