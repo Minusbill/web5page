@@ -19,7 +19,7 @@ const projectImages = [
 ];
 
 const projectInfo = {
-  clientHeading: 'Starknet 上的 EVM Kakarot',
+  clientHeading: 'Starknet 上的 EVM -  Kakarot',
   pptUrl:"https://docs.google.com/presentation/d/e/2PACX-1vR5Y1kp7JyPmovRB73U04S55MXD1Yj7toSIfAjsX3Rspm0KaTQJfy4z4X-c4E4Jh05lbJ9mGo1dO3cg/embed?start=false&loop=false&delayms=3000",
   companyInfos: [
     { id: 1, title: '1', details: 'Kakarot 是一组 Cairo 程序' },
