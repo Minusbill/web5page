@@ -58,6 +58,13 @@ const projects = [
 		img: require('@/assets/newComer/learndefi.png'),
 		link:'/projects/single-project',
 	},
+	{
+		id: 9,
+		title: '  NFT 批量 Mint 教程 ',
+		category: '  NFT Mint',
+		img: require('@/assets/nft/mint.png'),
+		link:'/nft/mint',
+	},
 ];
 
 export default projects;

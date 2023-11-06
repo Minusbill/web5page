@@ -58,6 +58,34 @@ const projects = [
 		img: require('@/assets/images/madara.png'),
 		link:'/projects/starknet/madara',
 	},
+	{
+		id: 9,
+		title: ' Kakarot ',
+		category: 'L3/EVM',
+		img: require('@/assets/starknet/kakarot.png'),
+		link:'/projects/starknet/madara',
+	},
+	{
+		id: 10,
+		title: ' Giza ',
+		category: 'ZKML',
+		img: require('@/assets/starknet/giza.png'),
+		link:'/projects/starknet/madara',
+	},
+	{
+		id: 11,
+		title: ' Stone ',
+		category: 'Prover',
+		img: require('@/assets/starknet/stone.png'),
+		link:'/projects/starknet/stone',
+	},
+	{
+		id: 12,
+		title: ' Dev Tools ',
+		category: 'Prover',
+		img: require('@/assets/starknet/tools.png'),
+		link:'/projects/starknet/madara',
+	},
 ];
 
 export default projects;

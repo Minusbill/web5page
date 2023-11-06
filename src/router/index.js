@@ -191,6 +191,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/projects/starknet/stone',
+		component: () =>
+			import( '../views/lesson/Stone.vue'),
+		meta: {
+			title: 'Web5 ｜ Stone 证明器',
+		}
+	},
+	{
 		path: '/insc/brc20',
 		component: () =>
 			import( '../views/lesson/Brc20.vue'),
@@ -270,6 +278,15 @@ const routes = [
 			import( '../views/lesson/AtomMap.vue'),
 		meta: {
 			title: 'Web5 ｜ ATOM 教程',
+		}
+	}
+	,
+	{
+		path: '/nft/mint',
+		component: () =>
+			import( '../views/lesson/NFTMint.vue'),
+		meta: {
+			title: 'Web5 ｜ NFT Mint 教程',
 		}
 	}
 ];
