@@ -118,7 +118,7 @@ export default {
         </p>
         <div>
           <!-- 绑定点击事件 -->
-          <div  class="flex items-center gap-3 mt-5 copy-text" @click="copyText('要复制的文本')">0x3C91bdf9232D0FDf669b10B9Af51c49c7BC78604</div>
+          <div  class="flex items-center gap-3 mt-5 copy-text" @click="copyText('0x3C91bdf9232D0FDf669b10B9Af51c49c7BC78604')">0x3C91bdf9232D0FDf669b10B9Af51c49c7BC78604</div>
           <!-- 条件渲染提示信息 -->
           <div v-if="showCopied">已复制!</div>
         </div>
