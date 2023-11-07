@@ -7,14 +7,14 @@ const dwqProjects = [
 		title: 'Sui',
 		category: '关于 Sui 生态',
 		img: require('@/assets/sui/sui.png'),
-		link:'/projects/sol',
+		link:'/sui/eco',
 	},
 	{
 		id: 2,
 		title: 'Move',
 		category: ' Move 语言学习',
 		img: require('@/assets/sui/move.png'),
-		link:'/projects/sol',
+		link:'/sui/move',
 	},
 ];
 

@@ -14,20 +14,20 @@ const dwqProjects = [
 		title: 'Animoca Brands',
 		category: '了解 Animoca Brands',
 		img: require('@/assets/dawanqu/animoca.png'),
-		link:'/projects/sol',
+		link:'/Animoca',
 	},{
 		id: 3,
 		title: ' Memeland',
 		category: 'memeland',
 		img: require('@/assets/dawanqu/memeland.png'),
-		link:'/projects/sol',
+		link:'/memeland',
 	},
 	{
 		id: 4,
 		title: ' NFT ',
 		category: '白话 NFT',
 		img: require('@/assets/dawanqu/nft.png'),
-		link:'/projects/sol',
+		link:'/NFT',
 	},
 ];
 
