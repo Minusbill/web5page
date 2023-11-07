@@ -43,7 +43,7 @@ const projects = [
 		title: 'Sui',
 		category: 'Move/FGOC',
 		img: require('@/assets/images/sui.jpg'),
-		link:'/projects/single-project',
+		link:'/sui',
 	},{
 		id: 7,
 		title: 'BTC',

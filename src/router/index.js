@@ -119,6 +119,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/sui',
+		component: () =>
+			import( '../views/project/Sui.vue'),
+		meta: {
+			title: 'Web5 ｜ Sui 生态',
+		}
+	},
+	{
 		path: '/insc/whatisinsc',
 		component: () =>
 			import( '../views/insc/WhatIsInsc.vue'),
