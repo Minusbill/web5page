@@ -354,6 +354,15 @@ const routes = [
 	}
 	,
 	{
+		path: '/btc/nostrFairmint',
+		component: () =>
+			import( '../views/lesson/NostrFairmint.vue'),
+		meta: {
+			title: 'Web5 ｜ Nostr Fairmint',
+		}
+	}
+	,
+	{
 		path: '/insc/atom',
 		component: () =>
 			import( '../views/lesson/AtomMap.vue'),

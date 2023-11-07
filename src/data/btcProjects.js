@@ -80,11 +80,18 @@ const projects = [
 		link:'/insc/win_lnd',
 	},
 	{
-		id: 11,
+		id: 12,
 		title: ' 极速同步Bitcoin 全节点',
 		category: '极速 同步',
 		img: require('@/assets/btc/btcfast.png'),
 		link:'/btc/fastNode',
+	},
+	{
+		id: 13,
+		title: ' NostrAssets Fairmint',
+		category: '怎么玩/细节/注意',
+		img: require('@/assets/btc/nostr.png'),
+		link:'/btc/nostrFairmint',
 	},
 ];
 
