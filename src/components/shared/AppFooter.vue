@@ -21,9 +21,36 @@ export default {
 
 <template>
 	<div class="container mx-auto">
+
+
+    <div
+        class="pt-20 sm:pt-30 pb-8 mt-20 border-t-2 border-primary-light dark:border-secondary-dark"
+    >
+
+      <div
+          class="flex flex-col justify-center items-center"
+      >
+        <p
+            class="font-general-semibold text-3xl sm:text-4xl font-semibold text-primary-dark dark:text-primary-light mb-3"
+        >
+          赞助商
+        </p>
+        <ul class="flex gap-4 sm:gap-8">
+          <a href="https://chainbase.com/" target="_blank">
+          <img
+              src="@/assets/grant/chainbase.png"  width="300" height="200"
+          />
+            </a>
+        </ul>
+      </div>
+
+      <!-- Footer copyright -->
+    </div>
+
 		<div
 			class="pt-20 sm:pt-30 pb-8 mt-20 border-t-2 border-primary-light dark:border-secondary-dark"
 		>
+
 			<!-- Footer social links -->
 			<div
 				class="flex flex-col justify-center items-center mb-12 sm:mb-20"
