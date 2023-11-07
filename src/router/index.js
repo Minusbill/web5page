@@ -175,6 +175,22 @@ const routes = [
 		}
 	},
 	{
+		path: '/btc/rgb',
+		component: () =>
+			import( '../views/lesson/RGB.vue'),
+		meta: {
+			title: 'Web5 ｜ RGB 协议',
+		}
+	},
+	{
+		path: '/btc/rgbSetup',
+		component: () =>
+			import( '../views/lesson/RGBSetup.vue'),
+		meta: {
+			title: 'Web5 ｜ RGB 安装配置',
+		}
+	},
+	{
 		path: '/projects/starknet/sharp',
 		component: () =>
 			import( '../views/lesson/Sharp.vue'),

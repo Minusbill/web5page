@@ -39,24 +39,24 @@ const projects = [
 	},
 	{
 		id: 6,
-		title: ' Color RGB 与 ATOM ',
-		category: ' 染色币的前世今生',
+		title: ' OmniBOLT RGB  ',
+		category: ' RGB的前世今生',
 		img: require('@/assets/btc/rbg.png'),
 		link:'/btc/rgb',
 	},
 	{
 		id: 7,
+		title: ' RGB 环境安装',
+		category: ' RGB 安装',
+		img: require('@/assets/btc/RGBSetup.png'),
+		link:'/btc/rgbSetup',
+	},
+	{
+		id: 8,
 		title: ' BitVm ',
 		category: 'BitVM 的扩展',
 		img: require('@/assets/btc/bitvm.png'),
 		link:'/btc/bitVM',
-	},
-	{
-		id: 8,
-		title: ' BTC 工具、钱包大全',
-		category: '节点 网站 工具 钱包',
-		img: require('@/assets/btc/btctools.png'),
-		link:'/insc/tools',
 	},
 	{
 		id: 9,
