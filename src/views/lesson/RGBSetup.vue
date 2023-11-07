@@ -44,7 +44,7 @@ const projectInfo = {
     },
     // ... (Continue with the other details)
   ],
-  socialSharingsHeading: '分享学习课程',
+  socialSharingsHeading: '接受捐赠的地址（为了平台更好的发展）：',
   socialSharings: [
     { id: 1, name: 'Twitter', icon: 'twitter', url: 'https://twitter.com/billjian24' },
     { id: 2, name: 'Instagram', icon: 'instagram', url: 'https://instagram.com/billjian24' },
