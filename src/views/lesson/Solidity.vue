@@ -2,7 +2,6 @@
 import { onMounted, onUpdated } from 'vue';
 import feather from 'feather-icons';
 import ProjectHeader from '../../components/projects/ProjectHeader.vue';
-import ProjectGallery from '../../components/projects/ProjectGallery.vue';
 import ProjectInfo from '../../components/projects/SolProjectInfo.vue';
 import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProjects.vue';
 
@@ -102,7 +101,9 @@ onUpdated(() => {
 </script>
 
 <template>
+
   <div class="container mx-auto mt-10 sm:mt-20">
+
     <!-- Project header -->
     <ProjectHeader :singleProjectHeader="singleProjectHeader" />
 
