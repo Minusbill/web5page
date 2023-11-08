@@ -93,6 +93,13 @@ const projects = [
 		img: require('@/assets/btc/nostr.png'),
 		link:'/btc/nostrFairmint',
 	},
+	{
+		id: 14,
+		title: ' BTC NFT',
+		category: ' 走进 BTC NFT ',
+		img: require('@/assets/btc/btcnft.png'),
+		link:'/btc/nft',
+	},
 ];
 
 export default projects;
