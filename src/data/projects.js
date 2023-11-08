@@ -67,10 +67,10 @@ const projects = [
 	},
 	{
 		id: 10,
-		title: 'ZK',
-		category: 'ZK',
+		title: 'zero knowledge proof',
+		category: '零知识证明',
 		img: require('@/assets/images/zk.png'),
-		link:'/projects/single-project',
+		link:'/zkp',
 	},
 
 ];

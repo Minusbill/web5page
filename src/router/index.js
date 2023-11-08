@@ -143,6 +143,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/zkp',
+		component: () =>
+			import( '../views/project/ZKP.vue'),
+		meta: {
+			title: 'Web5 ｜ 零知识证明 ',
+		}
+	},
+	{
 		path: '/insc/whatisinsc',
 		component: () =>
 			import( '../views/insc/WhatIsInsc.vue'),
