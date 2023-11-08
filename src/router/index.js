@@ -135,6 +135,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/mev',
+		component: () =>
+			import( '../views/project/Mev.vue'),
+		meta: {
+			title: 'Web5 ｜ Mev ',
+		}
+	},
+	{
 		path: '/insc/whatisinsc',
 		component: () =>
 			import( '../views/insc/WhatIsInsc.vue'),

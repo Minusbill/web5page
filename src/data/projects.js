@@ -63,7 +63,7 @@ const projects = [
 		title: 'MEV',
 		category: 'MEV',
 		img: require('@/assets/images/mev.png'),
-		link:'/projects/single-project',
+		link:'/mev',
 	},
 	{
 		id: 10,
