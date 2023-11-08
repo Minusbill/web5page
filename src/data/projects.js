@@ -35,7 +35,7 @@ const projects = [
 		title: 'Monad',
 		category: 'Monad',
 		img: require('@/assets/images/monad.png'),
-		link:'/projects/single-project',
+		link:'/monad',
 	},
 
 	{

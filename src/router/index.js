@@ -127,6 +127,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/monad',
+		component: () =>
+			import( '../views/project/Monad.vue'),
+		meta: {
+			title: 'Web5 ｜ Monad 生态',
+		}
+	},
+	{
 		path: '/insc/whatisinsc',
 		component: () =>
 			import( '../views/insc/WhatIsInsc.vue'),
