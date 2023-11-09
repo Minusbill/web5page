@@ -8,7 +8,7 @@ import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProj
 const singleProjectHeader = {
   singleProjectTitle: 'Monad 介绍',
   singleProjectDate: 'Nov 1, 2023',
-  singleProjectTag: ' BTC / BRC420',
+  singleProjectTag: ' ETH / Monad',
 };
 const projectImages = [
   {
