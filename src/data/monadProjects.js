@@ -7,7 +7,7 @@ const dwqProjects = [
 		title: 'Monad',
 		category: 'Monad 了解',
 		img: require('@/assets/monad/monad.png'),
-		link:'/projects/monad',
+		link:'/monad/monadIntro',
 	},
 ];
 

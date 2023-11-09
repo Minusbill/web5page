@@ -135,6 +135,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/monad/monadIntro',
+		component: () =>
+			import( '../views/lesson/Monad.vue'),
+		meta: {
+			title: 'Web5 ｜ Monad 介绍',
+		}
+	},
+	{
 		path: '/mev',
 		component: () =>
 			import( '../views/project/Mev.vue'),
