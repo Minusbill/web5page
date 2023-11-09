@@ -247,6 +247,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/btc/nft',
+		component: () =>
+			import( '../views/project/BTCNFT.vue'),
+		meta: {
+			title: 'Web5 ｜ BTC NFT',
+		}
+	},
+	{
 		path: '/btc/rgbSetup',
 		component: () =>
 			import( '../views/lesson/RGBSetup.vue'),
