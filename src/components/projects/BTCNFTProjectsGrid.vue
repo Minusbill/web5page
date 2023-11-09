@@ -7,7 +7,7 @@ import projectsData from '../../data/btcNftProjects';
 
 // Data
 const projects = ref(projectsData);
-const projectsHeading = ref('BTC NFT生态');
+const projectsHeading = ref('BTC NFT 项目');
 const selectedCategory = ref('');
 const searchProject = ref('');
 
