@@ -207,6 +207,38 @@ const routes = [
 		}
 	},
 	{
+		path: '/btc/utxo',
+		component: () =>
+			import( '../views/lesson/utxo.vue'),
+		meta: {
+			title: 'Web5 ｜ UTXO',
+		}
+	},
+	{
+		path: '/btc/brc20new',
+		component: () =>
+			import( '../views/lesson/Brc20New.vue'),
+		meta: {
+			title: 'Web5 ｜ BRC 20原理',
+		}
+	},
+	{
+		path: '/btc/brc420',
+		component: () =>
+			import( '../views/lesson/Brc420.vue'),
+		meta: {
+			title: 'Web5 ｜ BRC 420原理',
+		}
+	},
+	{
+		path: '/btc/brc100',
+		component: () =>
+			import( '../views/lesson/Brc100.vue'),
+		meta: {
+			title: 'Web5 ｜ BRC 100原理',
+		}
+	},
+	{
 		path: '/btc/rgb',
 		component: () =>
 			import( '../views/lesson/RGB.vue'),
