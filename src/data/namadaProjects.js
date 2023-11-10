@@ -46,9 +46,9 @@ const dwqProjects = [
 	},
 	{
 		id: 7,
-		title: '为什么我们需要财务隐私',
-		category: '为什么我们需要财务隐私',
-		img: require('@/assets/namada/neddFi.png'),
+		title: 'Namada 节点教程',
+		category: 'Namada 节点教程',
+		img: require('@/assets/namada/node.png'),
 		link:'/namada/monadIntro',
 	},
 	{
