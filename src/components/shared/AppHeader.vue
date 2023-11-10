@@ -139,6 +139,7 @@ export default {
 			<!-- Header links -->
 			<AppHeaderLinks :showModal="showModal" :isOpen="isOpen" />
 
+
 			<!-- Header right section buttons -->
 			<div
 				class="hidden sm:flex justify-between items-center flex-col md:flex-row"
@@ -160,15 +161,13 @@ export default {
 					class="ml-8 bg-primary-light dark:bg-ternary-dark px-3 py-2 shadow-sm rounded-xl cursor-pointer"
 				/>
 			</div>
+      <router-link
+          to="/bot"
+          class="  font-medium text-primary-dark dark:text-ternary-light hover:text-indigo-600 dark:hover:text-indigo-300  "
+          aria-label="Projects"
+      >WEB5科技宝箱
+      </router-link>
 		</div>
-
-		<!-- Hire me modal -->
-		<HireMeModal
-			:showModal="showModal"
-			:modal="modal"
-			:categories="categories"
-			aria-modal="Hire Me Modal"
-		/>
 	</nav>
 </template>
 
