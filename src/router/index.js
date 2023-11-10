@@ -151,6 +151,22 @@ const routes = [
 		}
 	},
 	{
+		path: '/hotPoint',
+		component: () =>
+			import( '../views/project/Hot.vue'),
+		meta: {
+			title: 'Web5 ｜ 热点 ',
+		}
+	},
+	{
+		path: '/hotPoint/facetCards',
+		component: () =>
+			import( '../views/hot/FaectCard.vue'),
+		meta: {
+			title: 'Web5 ｜ FaectCard ',
+		}
+	},
+	{
 		path: '/zkp',
 		component: () =>
 			import( '../views/project/ZKP.vue'),
