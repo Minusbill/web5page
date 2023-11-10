@@ -9,6 +9,13 @@ const hotProjects = [
 		img: require('@/assets/hot/faectcard.png'),
 		link:'/hotPoint/facetCards',
 	},
+	{
+		id: 2,
+		title: ' NostrAssets Fairmint',
+		category: '怎么玩/细节/注意',
+		img: require('@/assets/btc/nostr.png'),
+		link:'/btc/nostrFairmint',
+	},
 ];
 
 export default hotProjects;
