@@ -72,6 +72,13 @@ const projects = [
 		img: require('@/assets/images/zk.png'),
 		link:'/zkp',
 	},
+	{
+		id: 11,
+		title: 'namada',
+		category: 'namada',
+		img: require('@/assets/images/namada.png'),
+		link:'/namada',
+	},
 
 ];
 
