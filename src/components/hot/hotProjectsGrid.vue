@@ -6,7 +6,7 @@ import projectsData from '../../data/hotProjects';
 
 // Data
 const projects = ref(projectsData);
-const projectsHeading = ref('热点');
+const projectsHeading = ref('热点☄️');
 const selectedCategory = ref('');
 const searchProject = ref('');
 
