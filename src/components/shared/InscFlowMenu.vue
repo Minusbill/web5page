@@ -31,7 +31,7 @@ const isVisible = ref(false);
                 to="/insc/btc"
                 class="block w-full px-20 py-2 font-medium text-gray-700 whitespace-no-wrap hover:bg-gray-100 focus:outline-none hover:text-gray-900 focus:text-gray-900 focus:shadow-outline transition duration-300 ease-in-out"
                 aria-label="About us"
-            >比特币生态</router-link
+            >比特币</router-link
             >
           </div>
         </div>
