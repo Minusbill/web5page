@@ -75,7 +75,7 @@ export default {
 </script>
 
 <template>
-	<nav id="nav" class="sm:container sm:mx-auto">
+	<nav id="nav" class="grey-background sm:container sm:mx-auto">
 		<!-- Header start -->
 		<div
 			class="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center my-6"
@@ -144,16 +144,6 @@ export default {
 			<div
 				class="hidden sm:flex justify-between items-center flex-col md:flex-row"
 			>
-<!--				&lt;!&ndash; Hire me button &ndash;&gt;-->
-<!--				<div class="hidden md:block">-->
-<!--					<Button-->
-<!--						title="邀请我"-->
-<!--						class="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"-->
-<!--						@click="showModal()"-->
-<!--						aria-label="Hire Me Button"-->
-<!--					/>-->
-<!--				</div>-->
-
 				<!-- Theme switcher large screen -->
 				<theme-switcher
 					:theme="theme"
@@ -176,5 +166,8 @@ export default {
 	@apply text-indigo-700;
 	@apply dark:text-indigo-400;
 	@apply font-medium;
+}
+
+.grey-background {
 }
 </style>
