@@ -48,7 +48,7 @@ const projectInfo = {
     {
       id: 4,
       header: "开始了 - 下载脚本",
-      details: 'wget https://gist.githubusercontent.com/qzz0518/0aba5749ff3c96450f872cd52b006e71/raw/9aa1e4b9a9729fcd46ddb4cf2c7a2fed12fc4f02/penumbra.sh'
+      details: 'wget https://gist.githubusercontent.com/qzz0518/0aba5749ff3c96450f872cd52b006e71/raw/d88ff44aa79e928ea5f3e8c52035d5a4f579cf19/penumbra.sh'
     },
     {
       id: 5,
