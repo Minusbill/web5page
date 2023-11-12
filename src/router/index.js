@@ -159,6 +159,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/dev/products',
+		component: () =>
+			import( '../views/project/Product.vue'),
+		meta: {
+			title: 'Web5 ｜ Web3 周边产品 ',
+		}
+	},
+	{
 		path: '/namada',
 		component: () =>
 			import( '../views/project/Namada.vue'),
@@ -212,6 +220,14 @@ const routes = [
 			import( '../views/hot/FaectCard.vue'),
 		meta: {
 			title: 'Web5 ｜ FaectCard ',
+		}
+	},
+	{
+		path: '/dev/products/btcCat',
+		component: () =>
+			import( '../views/products/BtcCats.vue'),
+		meta: {
+			title: 'Web5 ｜ BTC 抽奖机 ',
 		}
 	},
 	{
