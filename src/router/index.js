@@ -175,6 +175,38 @@ const routes = [
 		}
 	},
 	{
+		path: '/namada/whatIsNamada',
+		component: () =>
+			import( '../views/namada/WahtIsNamada.vue'),
+		meta: {
+			title: 'Web5 ｜ Namada ',
+		}
+	},
+	{
+		path: '/namada/ethBridge',
+		component: () =>
+			import( '../views/namada/ETHBridge.vue'),
+		meta: {
+			title: 'Web5 ｜ Namada ',
+		}
+	},
+	{
+		path: '/namada/multiChainPrivacy',
+		component: () =>
+			import( '../views/namada/Multichain.vue'),
+		meta: {
+			title: 'Web5 ｜ Namada ',
+		}
+	},
+	{
+		path: '/namada/3proof',
+		component: () =>
+			import( '../views/namada/3Proof.vue'),
+		meta: {
+			title: 'Web5 ｜ Namada ',
+		}
+	},
+	{
 		path: '/hotPoint/facetCards',
 		component: () =>
 			import( '../views/hot/FaectCard.vue'),

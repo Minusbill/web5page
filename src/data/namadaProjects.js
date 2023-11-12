@@ -14,7 +14,7 @@ const dwqProjects = [
 		title: 'what is Namada ',
 		category: 'Namada 是什么',
 		img: require('@/assets/namada/whatisnama.png'),
-		link:'/namada/monadIntro',
+		link:'/namada/whatIsNamada',
 	},
 	{
 		id: 3,
@@ -28,21 +28,21 @@ const dwqProjects = [
 		title: 'Namada 以太坊桥 ',
 		category: 'Namada 以太坊桥',
 		img: require('@/assets/namada/ethbridge.png'),
-		link:'/namada/monadIntro',
+		link:'/namada/ethBridge',
 	},
 	{
 		id: 5,
 		title: '塑造多链隐私 ',
 		category: '塑造多链隐私',
 		img: require('@/assets/namada/mulPrivacy.png'),
-		link:'/namada/monadIntro',
+		link:'/namada/multiChainPrivacy',
 	},
 	{
 		id: 6,
 		title: 'Namada 三次权益证明 ',
 		category: 'Namada 三次权益证明',
 		img: require('@/assets/namada/3proof.png'),
-		link:'/namada/monadIntro',
+		link:'/namada/3proof',
 	},
 	{
 		id: 7,
