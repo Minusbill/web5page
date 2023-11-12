@@ -4,17 +4,17 @@
 const hotProjects = [
 	{
 		id: 1,
-		title: 'Facet Cards',
-		category: 'Facet Cards 怎么玩',
-		img: require('@/assets/hot/faectcard.png'),
-		link:'/hotPoint/facetCards',
-	},
-	{
-		id: 2,
 		title: ' NostrAssets Fairmint',
 		category: '怎么玩/细节/注意',
 		img: require('@/assets/btc/nostr.png'),
 		link:'/btc/nostrFairmint',
+	},
+	{
+		id: 2,
+		title: 'penumbra 仪式 极简版',
+		category: '快速启动 penumbra 仪式',
+		img: require('@/assets/hot/Penumbra.png'),
+		link:'/hot/penumbra',
 	},
 ];
 

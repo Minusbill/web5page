@@ -231,6 +231,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/hot/penumbra',
+		component: () =>
+			import( '../views/hot/Penumbrazone.vue'),
+		meta: {
+			title: 'Web5 ｜ penumbra 仪式 ',
+		}
+	},
+	{
 		path: '/zkp',
 		component: () =>
 			import( '../views/project/ZKP.vue'),
