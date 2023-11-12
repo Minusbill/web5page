@@ -167,6 +167,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/namada/namadaIntro',
+		component: () =>
+			import( '../views/namada/NamadaIntro.vue'),
+		meta: {
+			title: 'Web5 ｜ Namada ',
+		}
+	},
+	{
 		path: '/hotPoint/facetCards',
 		component: () =>
 			import( '../views/hot/FaectCard.vue'),

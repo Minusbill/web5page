@@ -7,7 +7,7 @@ const dwqProjects = [
 		title: 'Namada ',
 		category: 'Namada 介绍',
 		img: require('@/assets/namada/namada.png'),
-		link:'/namada/monadIntro',
+		link:'/namada/namadaIntro',
 	},
 	{
 		id: 2,
