@@ -167,6 +167,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/dev/platforms',
+		component: () =>
+			import( '../views/project/DevPlatform.vue'),
+		meta: {
+			title: 'Web5 ｜ DevPlatform ',
+		}
+	},
+	{
 		path: '/namada',
 		component: () =>
 			import( '../views/project/Namada.vue'),
