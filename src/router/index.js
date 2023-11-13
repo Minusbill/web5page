@@ -175,6 +175,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/weibo',
+		component: () =>
+			import( '../views/project/Weibo.vue'),
+		meta: {
+			title: 'Web5 ｜ Weibo ',
+		}
+	},
+	{
 		path: '/namada',
 		component: () =>
 			import( '../views/project/Namada.vue'),
@@ -284,6 +292,14 @@ const routes = [
 			import( '../views/hot/Penumbrazone.vue'),
 		meta: {
 			title: 'Web5 ｜ penumbra 仪式 ',
+		}
+	},
+	{
+		path: '/hot/dmint',
+		component: () =>
+			import( '../views/hot/Dmint.vue'),
+		meta: {
+			title: 'Web5 ｜ Dmint ',
 		}
 	},
 	{

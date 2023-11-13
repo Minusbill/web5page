@@ -16,6 +16,13 @@ const hotProjects = [
 		img: require('@/assets/hot/Penumbra.png'),
 		link:'/hot/penumbra',
 	},
+	{
+		id: 3,
+		title: '关于大家热议的 Dmint',
+		category: 'Atom NFT Dmint',
+		img: require('@/assets/hot/dmint.png'),
+		link:'/hot/dmint',
+	},
 ];
 
 export default hotProjects;
