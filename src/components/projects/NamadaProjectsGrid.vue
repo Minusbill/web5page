@@ -6,7 +6,7 @@ import projectsData from '../../data/namadaProjects';
 
 // Data
 const projects = ref(projectsData);
-const projectsHeading = ref('Namada 介绍');
+const projectsHeading = ref('Namada 生态介绍');
 const selectedCategory = ref('');
 const searchProject = ref('');
 

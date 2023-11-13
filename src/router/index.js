@@ -215,6 +215,46 @@ const routes = [
 		}
 	},
 	{
+		path: '/namada/gov',
+		component: () =>
+			import( '../views/namada/NamadaGov.vue'),
+		meta: {
+			title: 'Web5 ｜ Namada ',
+		}
+	},
+	{
+		path: '/namada/modules',
+		component: () =>
+			import( '../views/namada/Modules.vue'),
+		meta: {
+			title: 'Web5 ｜ Namada ',
+		}
+	},
+	{
+		path: '/namada/shieldedSwaps',
+		component: () =>
+			import( '../views/namada/ShieldedSwaps.vue'),
+		meta: {
+			title: 'Web5 ｜ Namada ',
+		}
+	},
+	{
+		path: '/namada/namadaIBC',
+		component: () =>
+			import( '../views/namada/NamadaIBC.vue'),
+		meta: {
+			title: 'Web5 ｜ Namada ',
+		}
+	},
+	{
+		path: '/namada/RPGF',
+		component: () =>
+			import( '../views/namada/RPGF.vue'),
+		meta: {
+			title: 'Web5 ｜ Namada ',
+		}
+	},
+	{
 		path: '/hotPoint/facetCards',
 		component: () =>
 			import( '../views/hot/FaectCard.vue'),
