@@ -53,7 +53,7 @@ const projectInfo = {
     {
       id: 5,
       header: "给于脚本执行的权限",
-      details: ' chmod +x http://penumbra.sh'
+      details: ' chmod +x penumbra.sh'
     },
     {
       id: 6,
