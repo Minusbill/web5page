@@ -7,7 +7,7 @@ const dwqProjects = [
 		title: '快乐达芬奇 ',
 		category: 'Web3 资深开发、合约',
 		img: require('@/assets/dev/dafenqi.png'),
-		link:'/namada/namadaIntro',
+		link:'/dev/dafenqi',
 	},
 ];
 
