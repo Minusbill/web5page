@@ -49,10 +49,16 @@ const projectInfo = {
     {
       id: 4,
       details: 'git clone git@github.com:atomicals/atomicals-js.git  // 克隆项目， 如果已有，使用git pull 拉最新版'
-    }, {
+    },
+    {
       id: 4,
       details: 'cd atomicals-js && npm install // 安装依赖'
-    }, {
+    },
+    {
+      id: 4,
+      details: 'npm run build // 构建'
+    },
+    {
       id: 4,
       details: 'npm install -g yarn // 安装 yarn'
     },
