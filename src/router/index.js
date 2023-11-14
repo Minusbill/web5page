@@ -327,6 +327,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/insc/atomNode',
+		component: () =>
+			import( '../views/insc/ATOMNode.vue'),
+		meta: {
+			title: 'Web5 ｜ ATOM 节点教程',
+		}
+	},
+	{
 		path: '/projects/ton/developTgBot',
 		component: () =>
 			import( '../views/lesson/DevelopTgBot.vue'),

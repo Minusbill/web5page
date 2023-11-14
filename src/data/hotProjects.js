@@ -30,6 +30,13 @@ const hotProjects = [
 		img: require('@/assets/btc/atom.png'),
 		link:'/insc/atomInstall',
 	},
+	{
+		id: 5,
+		title: 'ATOM 节点和安装',
+		category: '使用更好的节点和安装',
+		img: require('@/assets/insc/atom.png'),
+		link:'/insc/atomNode',
+	},
 ];
 
 export default hotProjects;
