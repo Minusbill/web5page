@@ -7,7 +7,7 @@ import projectsData from '../../data/projects';
 
 // Data
 const projects = ref(projectsData);
-const projectsHeading = ref('Web5s 热门课程');
+const projectsHeading = ref('Web5 热门课程');
 const selectedCategory = ref('');
 const searchProject = ref('');
 
