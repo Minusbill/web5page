@@ -128,6 +128,13 @@ const projects = [
 		img: require('@/assets/btc/btcnft.png'),
 		link:'/btc/nft',
 	},
+	{
+		id: 19,
+		title: 'ATOM CLI 安装',
+		category: '适用挖矿和 Dmint',
+		img: require('@/assets/btc/atom.png'),
+		link:'/insc/atomInstall',
+	},
 ];
 
 export default projects;

@@ -23,6 +23,13 @@ const hotProjects = [
 		img: require('@/assets/hot/dmint.png'),
 		link:'/hot/dmint',
 	},
+	{
+		id: 4,
+		title: 'ATOM CLI 安装',
+		category: '适用挖矿和 Dmint',
+		img: require('@/assets/btc/atom.png'),
+		link:'/insc/atomInstall',
+	},
 ];
 
 export default hotProjects;
