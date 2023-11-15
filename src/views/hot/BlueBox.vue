@@ -69,7 +69,7 @@ const projectInfo = {
     }, {
       id: 4,
       header: "怎么更好的理解bitmap",
-      details: '那就把他理解为 BTC 上的 Sandbox的土地吧。',
+      details: '那就把他理解为 BTC 上的 Sandbox的土地（项目）吧。但同时，Bitmap也是是个协议，这个协议诞生了Bitmap资产，而BRC-420协议为了这个资产在RCSV设计的Bitmap浏览器中创建了一种共创世界的体验方式。 但Bitmap非仅如此，比如人们在https://bitlords.land 连上钱包，可读取的是Bitmap资产的歷史数据以及平面、3D地貌呈现。',
       img: require('@/assets/hot/bitmap.png'),
     },
     {
