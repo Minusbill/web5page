@@ -6,7 +6,7 @@ import ProjectInfo from '../../components/web5Component/Web5ProjectInfoLeft.vue'
 import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProjects.vue';
 
 const singleProjectHeader = {
-  singleProjectTitle: ' 蓝盒子到底是什么',
+  singleProjectTitle: 'BRC-420 蓝盒子到底是什么',
   singleProjectDate: 'Nov 10,  2023',
   singleProjectTag: ' Box / BRC420 ',
 };
