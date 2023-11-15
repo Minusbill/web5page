@@ -183,6 +183,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/weibo/tonySay',
+		component: () =>
+			import( '../views/weibo/TonySay.vue'),
+		meta: {
+			title: 'Web5 ｜ Tony ',
+		}
+	},
+	{
 		path: '/namada',
 		component: () =>
 			import( '../views/project/Namada.vue'),

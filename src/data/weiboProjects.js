@@ -7,7 +7,7 @@ const dwqProjects = [
 		title: 'Tony 语录 ',
 		category: 'Tony 语录',
 		img: require('@/assets/weibo/kafei.png'),
-		link:'/namada/namadaIntro',
+		link:'/weibo/tonySay',
 	},
 	{
 		id: 2,
