@@ -14,7 +14,7 @@ const singleProjectHeader = {
 const projectInfo = {
   clientHeading: ' 迷你抽奖机',
   companyInfos: [
-    { id: 1, title: '联系推特', details: 'https://twitter.com/0xRiskPill' },
+    { id: 1, title: '联系推特', details: 'https://twitter.com/0xRiskPill',link:'https://twitter.com/0xRiskPill' },
     { id: 2, title: '微信', details: 'riskpill' },
     { id: 3, title: '特点', details: '挖矿 BTC 有几率爆 6.2 BTC' },
     { id: 4, title: '价格', details: '  200 元' },
