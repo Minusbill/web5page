@@ -279,6 +279,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/hotPoint/backpack',
+		component: () =>
+			import( '../views/hot/Backpack.vue'),
+		meta: {
+			title: 'Web5 ｜ Backpack ',
+		}
+	},
+	{
 		path: '/hotPoint/blueBox',
 		component: () =>
 			import( '../views/hot/BlueBox.vue'),

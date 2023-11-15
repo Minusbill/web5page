@@ -44,6 +44,13 @@ const hotProjects = [
 		img: require('@/assets/hot/box.png'),
 		link:'/hotPoint/blueBox',
 	},
+	{
+		id: 6,
+		title: ' Backpack Exchange',
+		category: ' 下一个 FTX? 以及打新攻略',
+		img: require('@/assets/hot/backpack.png'),
+		link:'/hotPoint/backpack',
+	},
 ];
 
 export default hotProjects;
