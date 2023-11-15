@@ -30,10 +30,10 @@ const projectInfo = {
   projectDetailsHeading: 'Challenge',
   projectDetails: [
     {
-      id: 1,
-      header: "BRC-420 是 基于 Bitmap 的资产协议, 什么是 Bitmap",
-      details: 'bitmap 是比特币生态首个元宇宙项目，基于 Oridnals 序数理论和 Bitmap 位图理论。与区块号对应。被定义为 BTC 的土地。',
-      img: require('@/assets/hot/bbm.png'),
+      id: 3,
+      header: "蓝盒子是什么",
+      details: '蓝盒子是 BRC-420 项目方 RCSV 发行的首个 BRC-420 资产。',
+      img: require('@/assets/hot/boxmind.png'),
     },
     {
       id: 2,
@@ -41,10 +41,10 @@ const projectInfo = {
       details: 'BRC-420 是BTC 上的一种资产管理协议，基于  ordinals 和 bitmap。',
     },
     {
-      id: 3,
-      header: "蓝盒子是什么",
-      details: '蓝盒子是 BRC-420 项目方 RCSV 发行的首个 BRC-420 资产。',
-      img: require('@/assets/hot/box.png'),
+      id: 1,
+      header: "BRC-420 是 基于 Bitmap 的资产协议, 什么是 Bitmap",
+      details: 'bitmap 是比特币生态首个元宇宙项目，基于 Oridnals 序数理论和 Bitmap 位图理论。与区块号对应。被定义为 BTC 的土地。',
+      img: require('@/assets/hot/bbm.png'),
     },
     {
       id: 4,
