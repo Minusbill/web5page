@@ -30,7 +30,7 @@ export default {
               :key="info"
               class="font-general-regular text-ternary-dark dark:text-ternary-light"
           >
-            <span>{{ info.title }}: </span>
+            <span><b>{{ info.title }}: </b></span>
             <a
                 href="#"
                 :class="
@@ -39,8 +39,12 @@ export default {
 									: ''
 							"
                 aria-label="Project Website and Phone"
-            >{{ info.details }}</a
             >
+              <a :href="info.link" target="_blank">
+                {{ info.details }}
+              </a>
+
+            </a>
           </li>
         </ul>
       </div>
@@ -113,7 +117,10 @@ export default {
               >
                 {{ projectDetail.header }}
               </p>
-              {{ projectDetail.details }}
+                {{ projectDetail.details }}
+              <br>
+              <br>
+
               <img :src="projectDetail.img">
             </p>
     </div>

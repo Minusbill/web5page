@@ -14,10 +14,10 @@ const singleProjectHeader = {
 const projectInfo = {
   clientHeading: '  BRC-420 和 bitmap 相关 ',
   companyInfos: [
-    {id: 1, title: 'BRC420 市场', details: 'https://brc420.io/'},
-    {id: 2, title: 'bitmap 购买', details: 'https://magiceden.io/ordinals/marketplace/bitmap'},
-    {id: 3, title: 'Bitmap Explorer 浏览器', details: 'https://bitmap.rcsv.io/'},
-    {id: 4, title: ' 什么是 420 协议', details: 'https://web5.ink/btc/brc420'},
+    {id: 1, title: 'BRC420 市场', details: 'https://brc420.io/',link:'https://brc420.io/'},
+    {id: 2, title: 'bitmap 购买', details: 'https://magiceden.io/ordinals/marketplace/bitmap',link:'https://magiceden.io/ordinals/marketplace/bitmap'},
+    {id: 3, title: 'Bitmap Explorer 浏览器', details: 'https://bitmap.rcsv.io/',link:'https://bitmap.rcsv.io/'},
+    {id: 4, title: ' 什么是 420 协议', details: 'https://web5.ink/btc/brc420',link:'https://web5.ink/btc/brc420'},
   ],
   objectivesHeading: '',
   objectivesDetails: '',
