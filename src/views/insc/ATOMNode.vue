@@ -14,8 +14,9 @@ const singleProjectHeader = {
 const projectInfo = {
   clientHeading: '  Dmint ',
   companyInfos: [
-    { id: 1, title: '推特@0xFatDog', details: 'https://twitter.com/0xFatDog/' },
-    { id: 2, title: 'Next Dao 节点教程', details: 'https://github.com/Next-DAO/atomicals-electrumx-docke' },
+    { id: 1, title: '推特@0xFatDog', details: 'https://twitter.com/0xFatDog/',link:'https://twitter.com/0xFatDog/' },
+    { id: 2, title: 'Next Dao 节点教程', details: 'https://github.com/Next-DAO/atomicals-electrumx-docke'
+    ,link:'https://github.com/Next-DAO/atomicals-electrumx-docke'},
 ],
   objectivesHeading: 'ATOM 节点的选择',
   objectivesDetails: ' 1 、默认官方 2 、切换第三方 3 、自建节点',
