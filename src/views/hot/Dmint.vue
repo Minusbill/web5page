@@ -14,8 +14,9 @@ const singleProjectHeader = {
 const projectInfo = {
   clientHeading: '  Dmint ',
   companyInfos: [
-    { id: 1, title: '原文出自', details: 'https://github.com/atomicals/atomicals-js/blob/master/container-dmint-guide.md#step-0-claim-container' },
-    { id: 2, title: 'ATOM Github', details: 'https://github.com/atomicals/atomicals-js' },
+    { id: 1, title: '原文出自', details: 'https://github.com/atomicals/atomicals-js/',
+    link:'https://github.com/atomicals/atomicals-js/blob/master/container-dmint-guide.md#step-0-claim-container'},
+    { id: 2, title: 'ATOM Github', details: 'https://github.com/atomicals/atomicals-js',link:'https://github.com/atomicals/atomicals-js'},
     { id: 3, title: ' 什么是dmint', details: 'atom 发行 NFT 的方式' },
 
 ],
