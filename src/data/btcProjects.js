@@ -135,6 +135,13 @@ const projects = [
 		img: require('@/assets/btc/atom.png'),
 		link:'/insc/atomInstall',
 	},
+	{
+		id: 20,
+		title: 'Bitmap 和 蓝盒子 科普',
+		category: ' Brc-420、 bitmap、 RCSV',
+		img: require('@/assets/hot/box.png'),
+		link:'/hotPoint/blueBox',
+	},
 ];
 
 export default projects;
