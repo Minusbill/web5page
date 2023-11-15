@@ -279,6 +279,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/hotPoint/blueBox',
+		component: () =>
+			import( '../views/hot/BlueBox.vue'),
+		meta: {
+			title: 'Web5 ｜ 蓝盒子 ',
+		}
+	},
+	{
 		path: '/dev/products/btcCat',
 		component: () =>
 			import( '../views/products/BtcCats.vue'),

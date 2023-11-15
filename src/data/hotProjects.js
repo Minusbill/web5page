@@ -37,6 +37,13 @@ const hotProjects = [
 		img: require('@/assets/insc/atom.png'),
 		link:'/insc/atomNode',
 	},
+	{
+		id: 6,
+		title: 'Bitmap 和 蓝盒子 科普',
+		category: ' Brc-420、 bitmap、 RCSV',
+		img: require('@/assets/hot/box.png'),
+		link:'/hotPoint/blueBox',
+	},
 ];
 
 export default hotProjects;
