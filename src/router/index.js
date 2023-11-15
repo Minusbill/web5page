@@ -375,6 +375,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/projects/starknet/eco',
+		component: () =>
+			import( '../views/lesson/StarknetECO.vue'),
+		meta: {
+			title: 'Web5 ｜ Starknet 生态',
+		}
+	},
+	{
 		path: '/projects/starknet/principle',
 		component: () =>
 			import( '../views/lesson/StarknetPrinciple.vue'),

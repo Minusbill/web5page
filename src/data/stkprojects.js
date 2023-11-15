@@ -42,7 +42,7 @@ const projects = [
 		title: ' Starknet 生态 ',
 		category: '生态介绍',
 		img: require('@/assets/images/stkeco.png'),
-		link:'/projects/single-project',
+		link: '/projects/starknet/eco',
 	},
 	{
 		id: 7,
