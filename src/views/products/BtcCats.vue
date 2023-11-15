@@ -45,7 +45,7 @@ const projectInfo = {
     {
       id: 3,
       header: "价格",
-      details: '仅售 200 元 （ 含定制界面，可送社区、朋友 , 二维码打赏 ）'
+      details: '仅售 30U （ 含定制界面，可送社区、朋友 , 二维码打赏 ）'
     },
     {
       id: 4,
