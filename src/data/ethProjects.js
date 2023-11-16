@@ -14,7 +14,14 @@ const projects = [
 		title: 'Solidiy',
 		category: 'Solidiy',
 		img: require('@/assets/images/sol.png'),
-		link:'/btc/lndAndTap',
+		link:'/projects/sol',
+	},
+	{
+		id: 3,
+		title: 'Plasma',
+		category: 'Plasma',
+		img: require('@/assets/eth/plasma.png'),
+		link:'/eth/plasma',
 	},
 ];
 
