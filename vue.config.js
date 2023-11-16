@@ -25,4 +25,17 @@ module.exports = {
             ],
         },
     },
+    chainWebpack: config => {
+        // 添加规则来处理 PDF 文件
+        config.module
+            .rule('pdf')
+            .test(/\.pdf$/)
+            .use('file-loader')
+            .loader('file-loader')
+            .options({
+                name: 'assets/pdfs/[name].[hash:8].[ext]'
+            });
+
+        // 其他可能的配置调整...
+    },
 };

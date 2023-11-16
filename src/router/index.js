@@ -201,6 +201,22 @@ const routes = [
         }
     },
     {
+        path: '/weibo/feiZhai',
+        component: () =>
+            import( '../views/weibo/Feizhai.vue'),
+        meta: {
+            title: 'Web5 ｜ Feizhai ',
+        }
+    },
+    {
+        path: '/weibo/kingbo',
+        component: () =>
+            import( '../views/weibo/Kingbo.vue'),
+        meta: {
+            title: 'Web5 ｜ kingbo ',
+        }
+    },
+    {
         path: '/weibo/bitKing',
         component: () =>
             import( '../views/weibo/BitKing.vue'),

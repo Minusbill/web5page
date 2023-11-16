@@ -6,7 +6,9 @@ module.exports = {
 		'./src/**/*.js',
 		'./src/**/*.jsx',
 		'./src/**/*.html',
-		'./src/**/*.md'
+		'./src/**/*.md',
+		'./src/**/*.pdf'
+
 	],
 
 	darkMode: 'class',
