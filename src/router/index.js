@@ -191,6 +191,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/weibo/bitKing',
+		component: () =>
+			import( '../views/weibo/BitKing.vue'),
+		meta: {
+			title: 'Web5 ｜ 比特皇 ',
+		}
+	},
+	{
 		path: '/namada',
 		component: () =>
 			import( '../views/project/Namada.vue'),
@@ -420,6 +428,14 @@ const routes = [
 			import( '../views/lesson/utxo.vue'),
 		meta: {
 			title: 'Web5 ｜ UTXO',
+		}
+	},
+	{
+		path: '/btc/BTByte',
+		component: () =>
+			import( '../views/btc/DaoHang.vue'),
+		meta: {
+			title: 'Web5 ｜ BTByte',
 		}
 	},
 	{

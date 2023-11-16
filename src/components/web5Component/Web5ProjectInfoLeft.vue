@@ -117,11 +117,17 @@ export default {
               >
                 {{ projectDetail.header }}
               </p>
-                {{ projectDetail.details }}
-              <br>
-              <br>
-
-              <img :src="projectDetail.img">
+              <p v-if="projectDetail.details">
+              {{ projectDetail.details }}
+                <br>
+              </p>
+              <p  v-if="projectDetail.link">
+                网址：
+                <a v-if="projectDetail.link" :href="projectDetail.link" target="_blank">
+                  <span style="text-decoration: underline;">{{ projectDetail.link }}</span>
+              </a>
+              </p>
+              <img v-if="projectDetail.img" :src="projectDetail.img">
             </p>
     </div>
   </div>

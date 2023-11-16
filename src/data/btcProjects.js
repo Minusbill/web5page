@@ -10,6 +10,13 @@ const projects = [
 		link:'/btc/eco',
 	},
 	{
+		id: 1,
+		title: 'BTC生态导航🧭',
+		category: 'BTByte',
+		img: require('@/assets/btc/btbyte.png'),
+		link:'/btc/BTByte',
+	},
+	{
 		id: 2,
 		title: '闪电网络和 Taproot',
 		category: 'Taproot Assets 了解',

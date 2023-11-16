@@ -6,9 +6,9 @@ import ProjectInfo from '../../components/web5Component/WeiboWeb5Normal.vue';
 import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProjects.vue';
 
 const singleProjectHeader = {
-  singleProjectTitle: 'Tony - 交易员的自我修养',
+  singleProjectTitle: '比特皇交易记录整理',
   singleProjectDate: 'Nov 1, 2023',
-  singleProjectTag: 'Tony / Tony',
+  singleProjectTag: '比特皇',
 };
 const projectImages = [
   {
@@ -19,13 +19,13 @@ const projectImages = [
 ];
 
 const projectInfo = {
-  clientHeading: 'Namada',
-  pptUrl:"/Users/billtc/mygit/web5starportfolio/src/weibo/Tony教学群内容.pdf",
+  clientHeading: '',
+  pptUrl:"https://docs.google.com/document/d/e/2PACX-1vSMwHQVsHVdgqug4OJA3J5AEd1W4zZqK9d26Y3Vp036Z6Yvxek5pkZ-nm0NmN47PRdJcxk7lFX3OZa_/pub?embedded=true",
   companyInfos: [
 
   ],
-  objectivesHeading: '什么是 Namada',
-  objectivesDetails: 'Namada 是用于链间资产无关隐私的权益证明 L1',
+  objectivesHeading: '',
+  objectivesDetails: '',
   technologies: [
     {
       title: '',

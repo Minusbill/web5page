@@ -14,7 +14,7 @@ const dwqProjects = [
 		title: '比特皇交易记录整理',
 		category: '比特皇交易记录整理',
 		img: require('@/assets/weibo/bitehuang.png'),
-		link:'/namada/whatIsNamada',
+		link:'/weibo/bitKing',
 	},
 	{
 		id: 3,
