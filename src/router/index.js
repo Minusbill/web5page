@@ -295,6 +295,14 @@ const routes = [
 		}
 	},
 	{
+		path: '/hotPoint/pols',
+		component: () =>
+			import( '../views/hot/Pols.vue'),
+		meta: {
+			title: 'Web5 ｜ Pols ',
+		}
+	},
+	{
 		path: '/hotPoint/backpack',
 		component: () =>
 			import( '../views/hot/Backpack.vue'),

@@ -51,6 +51,13 @@ const hotProjects = [
 		img: require('@/assets/hot/backpack.png'),
 		link:'/hotPoint/backpack',
 	},
+	{
+		id: 7,
+		title: 'Pols',
+		category: '马蹄铭文、批量神器',
+		img: require('@/assets/hot/pols.png'),
+		link:'/hotPoint/pols',
+	},
 ];
 
 export default hotProjects;

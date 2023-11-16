@@ -149,6 +149,7 @@ const projects = [
 		img: require('@/assets/hot/box.png'),
 		link:'/hotPoint/blueBox',
 	},
+
 ];
 
 export default projects;
