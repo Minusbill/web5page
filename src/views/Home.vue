@@ -3,6 +3,7 @@ import AppBanner from '@/components/shared/AppBanner';
 import ProjectsGrid from '../components/projects/ProjectsGrid.vue';
 import Button from '../components/reusable/Button.vue';
 import { inject } from '@vercel/analytics';
+import Homepage from "@/views/Homepage.vue";
 
 inject();
 </script>
@@ -12,10 +13,12 @@ inject();
 		<!-- Banner -->
 <!--		<AppBanner class="mb-5 sm:mb-8" />-->
 
+    <Homepage />
+
 		<!-- Projects -->
 		<ProjectsGrid />
 
-		<!-- Load more projects button -->
+    <!-- Load more projects button -->
 		<div class="mt-10 sm:mt-20 flex justify-center">
 			<router-link
 				to="/projects"
