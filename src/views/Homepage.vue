@@ -2,13 +2,14 @@
   <div class="bg-white">
     <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
       <div>
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">欢迎来到 Web5 平台</h2>
+        <h2 class="font-general-semibold text-2xl sm:text-5xl font-semibold mb-2 text-ternary-dark dark:text-ternary-light">欢迎来到 Web5 平台</h2>
         <p class="mt-4 text-gray-500">在这里，无论你是 Web3 新人、区块链项目开发者、项目方 或者是 铭文爱好者、比特币生态爱好者等等，都可以找到你想要的.</p>
 
         <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
           <div v-for="feature in features" :key="feature.name" class="border-t border-gray-200 pt-4">
-            <dt class="font-medium text-gray-900">{{ feature.name }}</dt>
-            <dd class="mt-2 text-sm text-gray-500">{{ feature.description }}</dd>
+            <dt class="font-general-semibold text-xl text-ternary-dark dark:text-ternary-light font-semibold mb-2">{{ feature.name }}</dt>
+            <dd 				class="font-general-medium text-lg text-ternary-dark dark:text-ternary-light"
+            >{{ feature.description }}</dd>
           </div>
         </dl>
       </div>
@@ -27,10 +28,10 @@
 
 <script setup>
 const features = [
-  { name: '热门课程', description: '了解最新的区块链前沿项目和最新技术' },
-  { name: '新人学院', description: '拥有新人入门的全套课程和流程培训' },
-  { name: '比特币生态和铭文', description: '学习了解当前最热门的比特币铭文概念' },
-  { name: '每天热点', description: '最详细的跟踪和解释每天的热点题材和项目' },
+  { name: '热门课程', description: '了解最新的区块链前沿项目和技术' },
+  { name: '新人学院', description: '拥有新入门的全套课程和流程培训' },
+  { name: '比特币生态和铭文', description: '了解当前最热门的比特币铭文概念' },
+  { name: '每天热点', description: '跟踪和解释每天热点题材和项目' },
   { name: '开发平台', description: '近距离接触的与开发者沟通和了解' },
   { name: '科技宝箱', description: ' Web5 专属的科技机器人工具' },
 ]
