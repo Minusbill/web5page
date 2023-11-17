@@ -17,6 +17,9 @@
         <img src="@/assets/insc/btc.png" alt="Top down view of walnut card tray with embedded magnets and card groove." class="rounded-lg bg-gray-100" />
         <img src="@/assets/images/starknet.jpg" alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100" />
         <img src="@/assets/products/btccat.png" alt="Walnut card tray filled with cards and card angled in dedicated groove." class="rounded-lg bg-gray-100" />
+        <img src="@/assets/ton/tgbot.png" alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100" />
+        <img src="@/assets/btcnft/megapunk.png" alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100" />
+
       </div>
     </div>
   </div>
