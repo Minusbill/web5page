@@ -32,7 +32,7 @@ const features = [
   { name: '新人学院', description: '拥有新入门的全套课程和流程培训' },
   { name: '比特币生态和铭文', description: '了解当前最热门的比特币铭文概念' },
   { name: '每天热点', description: '跟踪和解释每天热点题材和项目' },
-  { name: '开发平台', description: '近距离接触的与开发者沟通和了解' },
-  { name: '科技宝箱', description: ' Web5 专属的科技机器人工具' },
+  { name: '开发平台', description: '与行业开发者沟通和合作' },
+  { name: '科技宝箱', description: ' Web5研发/合作的科技工具' },
 ]
 </script>
