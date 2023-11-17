@@ -58,7 +58,6 @@ const projects = [
 		img: require('@/assets/btcnft/bitmap.png'),
 		link:'/btcnft/rgbSetup',
 	},
-
 ];
 
 export default projects;
