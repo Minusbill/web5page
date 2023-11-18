@@ -7,9 +7,14 @@
 
         <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
           <div v-for="feature in features" :key="feature.name" class="border-t border-gray-200 pt-4">
+            <router-link
+                :to="feature.link"
+                aria-label="Projects"
+            >
             <dt class="font-general-semibold text-xl text-ternary-dark dark:text-ternary-light font-semibold mb-2">{{ feature.name }}</dt>
             <dd 				class="font-general-medium text-lg text-ternary-dark dark:text-ternary-light"
             >{{ feature.description }}</dd>
+            </router-link>
           </div>
         </dl>
       </div>
@@ -28,11 +33,11 @@
 
 <script setup>
 const features = [
-  { name: '热门课程', description: '了解最新的区块链前沿项目和技术' },
-  { name: '新人学院', description: '拥有新入门的全套课程和流程培训' },
-  { name: '比特币生态和铭文', description: '了解当前最热门的比特币铭文概念' },
-  { name: '每天热点', description: '跟踪和解释每天热点题材和项目' },
-  { name: '开发平台', description: '与行业开发者沟通和合作' },
-  { name: '科技宝箱', description: ' Web5研发/合作的科技工具' },
+  { name: '热门课程', description: '了解最新的区块链前沿项目和技术',link:"/projects" },
+  { name: '新人学院', description: '拥有新入门的全套课程和流程培训',link:"/newComer"  },
+  { name: '比特币生态和铭文', description: '了解当前最热门的比特币铭文概念',link:"/insc"  },
+  { name: '每天热点', description: '跟踪和解释每天热点题材和项目',link:"/hotPoint"  },
+  { name: '开发平台', description: '与行业开发者沟通和合作',link:"/dev/products"  },
+  { name: '科技宝箱', description: ' Web5研发/合作的科技工具',link:""  },
 ]
 </script>
