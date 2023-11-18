@@ -6,8 +6,6 @@
 </template>
 <script setup>
 import {ref} from 'vue';
-import tonyPdf from '@/assets/feizhai.pdf';
-import ProjectHeader from "@/components/projects/WeiboHeader.vue";
 
 
 const singleProjectHeader = {
@@ -16,7 +14,7 @@ const singleProjectHeader = {
   singleProjectTag: 'ETH / Plasma',
 };
 // Define reactive data using ref
-const pdfUrl = ref(tonyPdf);
+const pdfUrl = ref();
 </script>
 
 <style>
