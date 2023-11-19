@@ -321,6 +321,22 @@ const routes = [
         }
     },
     {
+        path: '/hotPoint/macosElectrum',
+        component: () =>
+            import( '../views/hot/MacosElectrum.vue'),
+        meta: {
+            title: 'Web5 ｜ MacosElectrum ',
+        }
+    },
+    {
+        path: '/hotPoint/windowsElectrum',
+        component: () =>
+            import( '../views/hot/WindowsElectrum.vue'),
+        meta: {
+            title: 'Web5 ｜ WindowsElectrum ',
+        }
+    },
+    {
         path: '/hotPoint/pols',
         component: () =>
             import( '../views/hot/Pols.vue'),

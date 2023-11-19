@@ -10,13 +10,6 @@ const hotProjects = [
 		link:'/btc/nostrFairmint',
 	},
 	{
-		id: 2,
-		title: 'penumbra 仪式 极简版',
-		category: '快速启动 penumbra 仪式',
-		img: require('@/assets/hot/Penumbra.png'),
-		link:'/hot/penumbra',
-	},
-	{
 		id: 3,
 		title: '关于大家热议的 Dmint',
 		category: 'Atom NFT Dmint',
@@ -39,25 +32,19 @@ const hotProjects = [
 	},
 	{
 		id: 6,
-		title: 'Bitmap 和 蓝盒子 科普',
-		category: ' Brc-420、 bitmap、 RCSV',
-		img: require('@/assets/hot/box.png'),
-		link:'/hotPoint/blueBox',
-	},
-	{
-		id: 6,
-		title: ' Backpack Exchange',
-		category: ' 下一个 FTX? 以及打新攻略',
-		img: require('@/assets/hot/backpack.png'),
-		link:'/hotPoint/backpack',
+		title: 'MacOS electrum X',
+		category: '非docker、原生安装',
+		img: require('@/assets/insc/atom.png'),
+		link:'/hotPoint/macosElectrum',
 	},
 	{
 		id: 7,
-		title: 'Pols',
-		category: '马蹄铭文、批量神器',
-		img: require('@/assets/hot/pols.png'),
-		link:'/hotPoint/pols',
+		title: 'Windows electrum X',
+		category: '非docker、原生安装',
+		img: require('@/assets/insc/atom.png'),
+		link:'/hotPoint/windowsElectrum',
 	},
+
 ];
 
 export default hotProjects;
