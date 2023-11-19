@@ -149,6 +149,27 @@ const projects = [
 		img: require('@/assets/hot/box.png'),
 		link:'/hotPoint/blueBox',
 	},
+	{
+		id: 5,
+		title: 'ATOM 节点和安装',
+		category: '使用更好的节点和安装',
+		img: require('@/assets/insc/atom.png'),
+		link:'/insc/atomNode',
+	},
+	{
+		id: 6,
+		title: 'MacOS electrum X',
+		category: '非docker、原生安装',
+		img: require('@/assets/insc/atom.png'),
+		link:'/hotPoint/macosElectrum',
+	},
+	{
+		id: 7,
+		title: 'Windows electrum X',
+		category: '非docker、原生安装',
+		img: require('@/assets/insc/atom.png'),
+		link:'/hotPoint/windowsElectrum',
+	},
 
 ];
 
