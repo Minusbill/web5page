@@ -18,8 +18,8 @@ const projects = [
 	},
 	{
 		id: 2,
-		title: '闪电网络与Taproot',
-		category: 'Taproot Assets 了解',
+		title: '闪电网络',
+		category: 'Taproot Assets',
 		img: require('@/assets/btc/lighting.png'),
 		link:'/btc/lndAndTap',
 	},
@@ -116,7 +116,7 @@ const projects = [
 	},
 	{
 		id: 16,
-		title: ' 极速同步Bitcoin 全节点',
+		title: ' 极速同步全节点',
 		category: '极速 同步',
 		img: require('@/assets/btc/btcfast.png'),
 		link:'/btc/fastNode',
