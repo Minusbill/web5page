@@ -61,11 +61,6 @@ const projectInfo = {
       img: require('@/assets/hot/ethsinsc.png'),
     },
     {
-      id: 3,
-      header: "什么是 EVM ",
-      details: 'EVM：是Ethereum Virtual Machine 以太坊虚拟机的简称，EVM 之于以太坊，就像CPU 之于计算机。 EVM 允许在区块链上验证和执行代码，为代码在每台设备上以相同方式运行提供保障。',
-    },
-    {
       id: 4,
       header: "EVM 和铭文的关系 ",
       details: '铭文的物理逻辑是往交易的inputdata 上刻录数据。参考与比特币概念相关，即往可以刻录的地方记录数据。逐渐演变多种样式。',
@@ -74,7 +69,20 @@ const projectInfo = {
       id: 4,
       header: "铭文的衍生",
       details: '除铭文外，衍生了 NFT 、域名。不过多数是低价值，即意义不大（炒作）。'
-    }, {
+    },
+    {
+      id: 3,
+      header: "什么是 EVM ",
+      details: 'EVM：是Ethereum Virtual Machine 以太坊虚拟机的简称，EVM 之于以太坊，就像CPU 之于计算机。 EVM 允许在区块链上验证和执行代码，为代码在每台设备上以相同方式运行提供保障。',
+    },
+    {
+      id: 3,
+      header: "什么是 EVM 兼容链 ",
+      details: 'EVM 兼容链提供了一个类似 EVM 的代码执行环境，便于以太坊开发者将智能合约迁移至兼容链，而不必为其再从头开始编写智能合约的代码。\n' +
+          '\n' +
+          '主流的 EVM 兼容链有 BSC、Polygon、HECO 等。',
+    },
+    {
       id: 4,
       header: "有哪些EVM 和非 EVM 公链",
       details: '较为知名的 EVM 链有 Ethereum、Bsc、Arbitrum、Polygon、Avalanche 等，非 EVM 则有着 Solana、Mixin、DefiChain、Osmosis、EOS 等。同理还有相关的 L2.',
