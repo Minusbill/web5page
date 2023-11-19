@@ -86,6 +86,20 @@ const projects = [
 		img: require('@/assets/starknet/tools.png'),
 		link:'/projects/starknet/devTools',
 	},
+	{
+		id: 13,
+		title: ' Herodotus ',
+		category: 'Starknet 存储证明',
+		img: require('@/assets/starknet/Herodotus.png'),
+		link:'/projects/starknet/devTools',
+	},
+	{
+		id: 14,
+		title: ' Starknet:复杂链上游戏的发动机 ',
+		category: 'Realms、 Influence',
+		img: require('@/assets/starknet/realms.png'),
+		link:'/projects/starknet/devTools',
+	},
 ];
 
 export default projects;
