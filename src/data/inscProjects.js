@@ -57,7 +57,14 @@ const projects = [
 		category: '比特币生态学习',
 		img: require('@/assets/insc/btc.png'),
 		link:'/insc/btc',
-	}
+	},
+	{
+		id: 8,
+		title: 'EVM 铭文， 他到底是什么',
+		category: ' EVM 和 非 EVM 铭文',
+		img: require('@/assets/hot/EVM.png'),
+		link:'/hotPoint/whatIsEvmInsc',
+	},
 ];
 
 export default projects;
