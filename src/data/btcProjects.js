@@ -5,7 +5,7 @@ const projects = [
 	{
 		id: 1,
 		title: 'BTC 生态详解',
-		category: '闪电网络/Stacks/L2',
+		category: 'BTC 生态',
 		img: require('@/assets/insc/btceco.png'),
 		link:'/btc/eco',
 	},
@@ -18,7 +18,7 @@ const projects = [
 	},
 	{
 		id: 2,
-		title: '闪电网络和 Taproot',
+		title: '闪电网络与Taproot',
 		category: 'Taproot Assets 了解',
 		img: require('@/assets/btc/lighting.png'),
 		link:'/btc/lndAndTap',
@@ -46,7 +46,7 @@ const projects = [
 	},
 	{
 		id: 6,
-		title: ' OmniBOLT RGB  ',
+		title: ' RGB  ',
 		category: ' RGB的前世今生',
 		img: require('@/assets/btc/rbg.png'),
 		link:'/btc/rgb',
@@ -75,14 +75,14 @@ const projects = [
 	{
 		id: 10,
 		title: '  BRC-20 原理 ',
-		category: ' 详解 最新的 BRC20',
+		category: ' 详解 BRC20',
 		img: require('@/assets/btc/brc20new.png'),
 		link:'/btc/brc20new',
 	},
 	{
 		id: 11,
 		title: '  BRC-420 ',
-		category: '探索 BTC 的元宇宙资产',
+		category: ' BTC 的元宇宙资产',
 		img: require('@/assets/btc/brc420.png'),
 		link:'/btc/brc420',
 	},
@@ -152,21 +152,21 @@ const projects = [
 	{
 		id: 5,
 		title: 'ATOM 节点和安装',
-		category: '使用更好的节点和安装',
+		category: '更好的节点和安装',
 		img: require('@/assets/insc/atom.png'),
 		link:'/insc/atomNode',
 	},
 	{
 		id: 6,
 		title: 'MacOS electrum X',
-		category: '非docker、原生安装',
+		category: '非docker原生安装',
 		img: require('@/assets/insc/atom.png'),
 		link:'/hotPoint/macosElectrum',
 	},
 	{
 		id: 7,
 		title: 'Windows electrum X',
-		category: '非docker、原生安装',
+		category: '非docker原生安装',
 		img: require('@/assets/insc/atom.png'),
 		link:'/hotPoint/windowsElectrum',
 	},
