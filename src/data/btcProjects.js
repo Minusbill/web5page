@@ -39,7 +39,7 @@ const projects = [
 	},
 	{
 		id: 5,
-		title: ' Ordianl 与 Runes ',
+		title: ' Ordianls ',
 		category: '铭文 和 符文',
 		img: require('@/assets/btc/brc20.png'),
 		link:'/insc/brc20',
