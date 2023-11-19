@@ -12,7 +12,7 @@ const projects = [
 	{
 		id: 2,
 		title: 'Telegram/Ton',
-		category: 'tg bot/ton/func/tact',
+		category: 'tg bot/ton',
 		img: require('@/assets/images/ton.jpg'),
 		link:'/projects/ton',
 	},
@@ -67,7 +67,7 @@ const projects = [
 	},
 	{
 		id: 10,
-		title: 'zero knowledge proof',
+		title: 'zk-proof',
 		category: '零知识证明',
 		img: require('@/assets/images/zk.png'),
 		link:'/zkp',

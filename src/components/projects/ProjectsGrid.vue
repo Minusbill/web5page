@@ -125,7 +125,7 @@ onMounted(() => {
 
 		<!-- Projects grid -->
 		<div
-			class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-6 sm:gap-10"
+			class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 mt-6 sm:gap-10"
 		>
 			<ProjectSingle
 				v-for="project in filteredProjects"
