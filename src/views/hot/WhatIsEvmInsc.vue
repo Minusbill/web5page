@@ -61,6 +61,11 @@ const projectInfo = {
       img: require('@/assets/hot/ethsinsc.png'),
     },
     {
+      id: 3,
+      header: "什么是 EVM ",
+      details: 'EVM：是Ethereum Virtual Machine 以太坊虚拟机的简称，EVM 之于以太坊，就像CPU 之于计算机。 EVM 允许在区块链上验证和执行代码，为代码在每台设备上以相同方式运行提供保障。',
+    },
+    {
       id: 4,
       header: "EVM 和铭文的关系 ",
       details: '铭文的物理逻辑是往交易的inputdata 上刻录数据。参考与比特币概念相关，即往可以刻录的地方记录数据。逐渐演变多种样式。',
