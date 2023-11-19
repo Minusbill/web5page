@@ -14,7 +14,7 @@ const singleProjectHeader = {
 const projectInfo = {
   clientHeading: '   教程原文 ',
   companyInfos: [
-    {id: 1, title: '原贴', details: 'https://twitter.com/wusimpl/status/1726134325287281036',link:'https://twitter.com/wusimpl/status/1726134325287281036'},
+    {id: 1, title: '原贴', details: 'https://twitter.com/wusimpl/',link:'https://twitter.com/wusimpl/status/1726134325287281036'},
   ],
   objectivesHeading: '',
   objectivesDetails: '',

@@ -14,7 +14,7 @@ const singleProjectHeader = {
 const projectInfo = {
   clientHeading: '   教程原文 ',
   companyInfos: [
-    {id: 1, title: '原贴', details: 'https://twitter.com/zhangch30063843/status/1725851723930227095',link:'https://twitter.com/zhangch30063843/status/1725851723930227095'},
+    {id: 1, title: '原贴', details: 'https://twitter.com/zhangch30063843',link:'https://twitter.com/zhangch30063843/status/1725851723930227095'},
   ],
   objectivesHeading: '',
   objectivesDetails: '',
