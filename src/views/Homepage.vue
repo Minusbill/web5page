@@ -21,7 +21,12 @@
       <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
         <img src="@/assets/newComer/metamask.png" alt="Walnut card tray with white powder coated steel divider and 3 punchout holes." class="rounded-lg bg-gray-100" />
         <img src="@/assets/insc/btc.png" alt="Top down view of walnut card tray with embedded magnets and card groove." class="rounded-lg bg-gray-100" />
+        <router-link
+            to="/projects"
+            aria-label="CewComer"
+        >
         <img src="@/assets/images/starknet.jpg" alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100" />
+        </router-link>
         <img src="@/assets/products/btccat.png" alt="Walnut card tray filled with cards and card angled in dedicated groove." class="rounded-lg bg-gray-100" />
         <img src="@/assets/ton/tgbot.png" alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100" />
         <img src="@/assets/btcnft/megapunk.png" alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100" />
