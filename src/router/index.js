@@ -337,6 +337,14 @@ const routes = [
         }
     },
     {
+        path: '/hotPoint/whatIsEvmInsc',
+        component: () =>
+            import( '../views/hot/WhatIsEvmInsc.vue'),
+        meta: {
+            title: 'Web5 ｜ WhatIsEvmInsc ',
+        }
+    },
+    {
         path: '/hotPoint/pols',
         component: () =>
             import( '../views/hot/Pols.vue'),

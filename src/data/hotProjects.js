@@ -44,6 +44,13 @@ const hotProjects = [
 		img: require('@/assets/insc/atom.png'),
 		link:'/hotPoint/windowsElectrum',
 	},
+	{
+		id: 8,
+		title: 'EVM 铭文， 他到底是什么',
+		category: ' EVM 和 非 EVM 铭文',
+		img: require('@/assets/hot/EVM.png'),
+		link:'/hotPoint/whatIsEvmInsc',
+	},
 
 ];
 
