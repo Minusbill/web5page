@@ -22,7 +22,7 @@ const projectInfo = {
   clientHeading: 'Blast Layer2 优势',
   pptUrl:"https://docs.google.com/presentation/d/e/2PACX-1vSYXq-WiQwE4Tk2zoK-Xfxz-mX7FmF8Qe1ImqxkOfRbjVkuhmee3vBB7hhbRHCmylp1QnoIgc7JBtt3/embed?start=false&loop=false&delayms=3000",
   companyInfos: [
-    { id: 1, title: '1 ', details: '彻底改变 L2 产量' },
+    { id: 1, title: '1 ', details: '彻底改变 L2 利润产出' },
     { id: 2, title: '2', details: '自动复利和Blast奖励\n' },
     { id: 5, title: '5', details: '稳定币收益最大化\n' },
     { id: 5, title: '6', details: 'EVM 兼容性和用户体验\n' },
