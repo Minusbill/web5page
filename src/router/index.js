@@ -98,6 +98,16 @@ const routes = [
         }
     },
     {
+        path: '/eth/blast',
+        component: () =>
+            import(
+                '../views/eth/Blast.vue'
+                ),
+        meta: {
+            title: 'Web5 ｜ Blast',
+        }
+    },
+    {
         path: '/projects/starknet/cairo',
         component: () =>
             import(

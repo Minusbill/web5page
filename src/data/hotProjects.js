@@ -51,7 +51,13 @@ const hotProjects = [
 		img: require('@/assets/hot/EVM.png'),
 		link:'/hotPoint/whatIsEvmInsc',
 	},
-
+	{
+		id: 9,
+		title: 'Blast 详细介绍',
+		category: ' Blast:L2、空投、分数',
+		img: require('@/assets/eth/blast.png'),
+		link:'/eth/blast',
+	},
 ];
 
 export default hotProjects;
