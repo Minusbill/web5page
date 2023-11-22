@@ -108,6 +108,16 @@ const routes = [
         }
     },
     {
+        path: '/hk/yogapetz',
+        component: () =>
+            import(
+                '../views/hk/YogaPetz.vue'
+                ),
+        meta: {
+            title: 'Web5 ｜ YogaPetz',
+        }
+    },
+    {
         path: '/projects/starknet/cairo',
         component: () =>
             import(

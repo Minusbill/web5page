@@ -24,10 +24,10 @@ const dwqProjects = [
 	},
 	{
 		id: 4,
-		title: ' NFT ',
-		category: '白话 NFT',
-		img: require('@/assets/dawanqu/nft.png'),
-		link:'/NFT',
+		title: 'YogaPetz',
+		category: '探索NFT健康业务',
+		img: require('@/assets/dawanqu/yoga.png'),
+		link:'/hk/yogapetz',
 	},
 ];
 
