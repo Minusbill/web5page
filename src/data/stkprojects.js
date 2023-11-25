@@ -67,10 +67,10 @@ const projects = [
 	},
 	{
 		id: 10,
-		title: ' Giza ',
-		category: 'ZKML',
-		img: require('@/assets/starknet/giza.png'),
-		link:'/projects/starknet/Giza',
+		title: ' zkml ',
+		category: 'zk 机器学习',
+		img: require('@/assets/starknet/zkMML.png'),
+		link:'/projects/starknet/zkml',
 	},
 	{
 		id: 11,

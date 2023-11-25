@@ -573,6 +573,14 @@ const routes = [
         }
     },
     {
+        path: '/projects/starknet/zkml',
+        component: () =>
+            import( '../views/lesson/zkML.vue'),
+        meta: {
+            title: 'Web5 ｜ zkML',
+        }
+    },
+    {
         path: '/projects/starknet/fullChainOnGame',
         component: () =>
             import( '../views/lesson/StarknetFullChainOnGame.vue'),
