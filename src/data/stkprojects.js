@@ -91,7 +91,7 @@ const projects = [
 		title: ' Herodotus ',
 		category: 'Starknet 存储证明',
 		img: require('@/assets/starknet/Herodotus.png'),
-		link:'/projects/starknet/devTools',
+		link:'/projects/starknet/herotus',
 	},
 	{
 		id: 14,

@@ -605,6 +605,14 @@ const routes = [
         }
     },
     {
+        path: '/projects/starknet/herotus',
+        component: () =>
+            import( '../views/lesson/Herotus.vue'),
+        meta: {
+            title: 'Web5 ｜ Herotus 存储证明',
+        }
+    },
+    {
         path: '/projects/starknet/kakarot',
         component: () =>
             import( '../views/lesson/Kakarot.vue'),
