@@ -93,13 +93,7 @@ const projects = [
 		img: require('@/assets/starknet/Herodotus.png'),
 		link:'/projects/starknet/herotus',
 	},
-	{
-		id: 14,
-		title: ' Starknet:链上游戏发动机 ',
-		category: 'Realms、 Influence',
-		img: require('@/assets/starknet/realms.png'),
-		link:'/projects/starknet/devTools',
-	},
+
 ];
 
 export default projects;
