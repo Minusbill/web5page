@@ -33,7 +33,7 @@ const projects = [
 	{
 		id: 5,
 		title: ' Starknet 全链游戏',
-		category: ' Realms-world、 StarkLand',
+		category: 'fullChainOnGame',
 		img: require('@/assets/images/focg.png'),
 		link:'/projects/starknet/fullChainOnGame',
 	},
@@ -95,7 +95,7 @@ const projects = [
 	},
 	{
 		id: 14,
-		title: ' Starknet:复杂链上游戏的发动机 ',
+		title: ' Starknet:链上游戏发动机 ',
 		category: 'Realms、 Influence',
 		img: require('@/assets/starknet/realms.png'),
 		link:'/projects/starknet/devTools',
