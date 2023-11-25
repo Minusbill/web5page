@@ -93,6 +93,13 @@ const projects = [
 		img: require('@/assets/starknet/Herodotus.png'),
 		link:'/projects/starknet/herotus',
 	},
+	{
+		id: 14,
+		title: ' zig 语言 ',
+		category: '探讨CairoVM与zig',
+		img: require('@/assets/starknet/zig.png'),
+		link:'/projects/starknet/zig',
+	},
 
 ];
 

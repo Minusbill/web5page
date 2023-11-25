@@ -581,6 +581,14 @@ const routes = [
         }
     },
     {
+        path: '/projects/starknet/zig',
+        component: () =>
+            import( '../views/lesson/zig.vue'),
+        meta: {
+            title: 'Web5 ｜ zig',
+        }
+    },
+    {
         path: '/projects/starknet/fullChainOnGame',
         component: () =>
             import( '../views/lesson/StarknetFullChainOnGame.vue'),
