@@ -589,6 +589,14 @@ const routes = [
         }
     },
     {
+        path: '/projects/starknet/aa',
+        component: () =>
+            import( '../views/starknet/AA.vue'),
+        meta: {
+            title: 'Web5 ｜ Starknet 账户抽象',
+        }
+    },
+    {
         path: '/projects/starknet/fullChainOnGame',
         component: () =>
             import( '../views/lesson/StarknetFullChainOnGame.vue'),
