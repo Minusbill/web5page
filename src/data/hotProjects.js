@@ -32,27 +32,6 @@ const hotProjects = [
 	},
 	{
 		id: 6,
-		title: 'MacOS electrum X',
-		category: '非docker、原生安装',
-		img: require('@/assets/insc/atom.png'),
-		link:'/hotPoint/macosElectrum',
-	},
-	{
-		id: 7,
-		title: 'Windows electrum X',
-		category: '非docker、原生安装',
-		img: require('@/assets/insc/atom.png'),
-		link:'/hotPoint/windowsElectrum',
-	},
-	{
-		id: 8,
-		title: 'EVM 铭文， 他到底是什么',
-		category: ' EVM 和 非 EVM 铭文',
-		img: require('@/assets/hot/EVM.png'),
-		link:'/hotPoint/whatIsEvmInsc',
-	},
-	{
-		id: 9,
 		title: 'Blast 详细介绍',
 		category: ' Blast:L2、空投、分数',
 		img: require('@/assets/eth/blast.png'),
