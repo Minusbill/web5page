@@ -294,7 +294,7 @@ const navigation = {
           id: 'accessories',
           name: '比特币生态以及铭文',
           items: [
-            {name: '铭文', href: '#', link: 'insc'},
+            {name: '铭文', href: '#', link: '/insc'},
             {name: '比特币生态', href: '#', link: '/insc/btc'},
             {name: 'Atomicals', href: '#', link: 'insc/atomInstall'},
             {name: 'BRC420', href: '#', link: 'hotPoint/blueBox'},
