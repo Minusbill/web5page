@@ -133,6 +133,14 @@ const routes = [
         }
     },
     {
+        path: '/newComer/mining',
+        component: () =>
+            import( '../views/newComer/Mining.vue'),
+        meta: {
+            title: 'Web5 ｜ 什么是挖矿',
+        }
+    },
+    {
         path: '/dawanqu',
         component: () =>
             import( '../views/DaWanQu.vue'),

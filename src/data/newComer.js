@@ -60,6 +60,13 @@ const projects = [
 	},
 	{
 		id: 9,
+		title: '  什么是挖矿 ',
+		category: ' Pow Pos',
+		img: require('@/assets/newComer/mining.png'),
+		link:'/newComer/mining',
+	},
+	{
+		id: 10,
 		title: '  NFT 批量 Mint 教程 ',
 		category: '  NFT Mint',
 		img: require('@/assets/nft/mint.png'),
