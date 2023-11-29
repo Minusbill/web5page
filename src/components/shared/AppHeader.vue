@@ -268,7 +268,7 @@ const navigation = {
           imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
         },
         {
-          name: 'Basic Tees',
+          name: 'Blast',
           href: '#',
           imageSrc: 'https://blockcast.it/wp-content/uploads/2023/11/92f6bd4f39c4c86e2095c36dc4660430f449823a.png',
           imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
