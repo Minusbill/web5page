@@ -28,7 +28,7 @@ const projects = [
 		title: ' Altlayer  ',
 		category: 'ETH 扩容/定制',
 		img: require('@/assets/raas/altlayer.png'),
-		link:'/projects/ton/tact',
+		link:'/raas/altlayer',
 	},
 	{
 		id: 5,

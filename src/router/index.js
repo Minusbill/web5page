@@ -54,6 +54,16 @@ const routes = [
         }
     },
     {
+        path: '/raas/altlayer',
+        component: () =>
+            import(
+                '../views/raas/altlayer.vue'
+                ),
+        meta: {
+            title: 'Web5 ｜ altlayer',
+        }
+    },
+    {
         path: '/projects/starknet/stkIntroduce',
         component: () =>
             import(
