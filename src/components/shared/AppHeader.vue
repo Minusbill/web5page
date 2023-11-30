@@ -281,12 +281,12 @@ const navigation = {
           name: '热门课程',
           items: [
             {name: 'Starknet 研究与开发学习', href: '#', link: '/projects/starknet'},
+            {name: 'L2 研究', href: '#', link: '/l2'},
             {name: 'Raas Rollup即服务', href: '#', link: '/projects/raas'},
             {name: 'Sui生态与开发', href: '#', link: '/sui'},
             {name: 'Mev 深度探索', href: '#', link: '/mev'},
             {name: '零知识证明', href: '#', link: '/zkp'},
             {name: 'Namada 隐私公链研究', href: '#', link: '/namada'},
-            {name: 'Blast 研究与项目开发', href: '#', link: '/namada'},
             {name: '高性能公链 Monad', href: '#', link: '/monad'},
             {name: 'Ton公链与telegram', href: '#', link: '/projects/ton'},
           ],
@@ -371,7 +371,7 @@ const navigation = {
     },
   ],
   pages: [
-    {name: '开发平台', href: '#'},
+    {name: '科技平台', href: '#'},
     {name: '商城', href: '#'},
   ],
 }
