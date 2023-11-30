@@ -71,7 +71,8 @@
                     </div>
                     <div v-for="section in category.sections" :key="section.name">
                       <p :id="`${category.id}-${section.id}-heading-mobile`" class="font-medium text-gray-900">
-                        {{ section.name }}</p>
+                        {{ section.name }}
+                      </p>
                       <ul role="list" :aria-labelledby="`${category.id}-${section.id}-heading-mobile`"
                           class="mt-6 flex flex-col space-y-6">
                         <li v-for="item in section.items" :key="item.name" class="flow-root">
@@ -258,7 +259,7 @@ import {Bars3Icon, MagnifyingGlassIcon, ShoppingBagIcon, XMarkIcon} from '@heroi
 const navigation = {
   categories: [
     {
-      id: 'women',
+      id: 'hotLesson',
       name: '热门课程',
       featured: [
         {
@@ -279,35 +280,33 @@ const navigation = {
           id: 'clothing',
           name: '热门课程',
           items: [
-            {name: 'Starknet', href: '#', link: '/projects/starknet'},
-            {name: 'Raas', href: '#', link: '/projects/raas'},
-            {name: 'Sui', href: '#', link: '/sui'},
-            {name: 'Mev', href: '#', link: '/mev'},
-            {name: 'Zkp', href: '#', link: '/zkp'},
-            {name: 'Namada', href: '#', link: '/namada'},
-            {name: 'Blast', href: '#', link: '/namada'},
-            {name: 'Monad', href: '#', link: '/monad'},
-            {name: 'Ton', href: '#', link: '/projects/ton'},
+            {name: 'Starknet 研究与开发学习', href: '#', link: '/projects/starknet'},
+            {name: 'Raas Rollup即服务', href: '#', link: '/projects/raas'},
+            {name: 'Sui生态与开发', href: '#', link: '/sui'},
+            {name: 'Mev 深度探索', href: '#', link: '/mev'},
+            {name: '零知识证明', href: '#', link: '/zkp'},
+            {name: 'Namada 隐私公链研究', href: '#', link: '/namada'},
+            {name: 'Blast 研究与项目开发', href: '#', link: '/namada'},
+            {name: '高性能公链 Monad', href: '#', link: '/monad'},
+            {name: 'Ton公链与telegram', href: '#', link: '/projects/ton'},
           ],
         },
         {
           id: 'accessories',
           name: '比特币生态以及铭文',
           items: [
-            {name: '铭文', href: '#', link: '/insc'},
+            {name: '铭文学习', href: '#', link: '/insc'},
             {name: '比特币生态', href: '#', link: '/insc/btc'},
-            {name: 'Atomicals', href: '#', link: 'insc/atomInstall'},
-            {name: 'BRC420', href: '#', link: 'hotPoint/blueBox'},
-            {name: 'BTC NFT', href: '#', link: '/btc/nft'},
+            {name: '铭文热点', href: '#', link: '/hotpoint'},
           ],
         },
         {
           id: 'brands',
           name: '以太坊生态',
           items: [
-            {name: '以太坊白皮书', href: '#', link: '/projects/starknet'},
-            {name: 'Solidity', href: '#', link: '/projects/starknet'},
-            {name: 'EVM 以及 MEV', href: '#', link: '/projects/starknet'},
+            {name: '以太坊生态学习', href: '#', link: '/eth'},
+            {name: 'Solidity', href: '#', link: '/projects/sol'},
+            {name: 'EVM 以及 MEV', href: '#', link: '/mev'},
             {name: 'Defi', href: '#', link: '/projects/starknet'},
             {name: 'ETH DAPP开发', href: '#', link: '/projects/starknet'},
           ],
@@ -388,3 +387,4 @@ function openPopover() {
   showPopover.value = true;
 }
 </script>
+
