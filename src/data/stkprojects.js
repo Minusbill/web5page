@@ -54,7 +54,7 @@ const projects = [
 	{
 		id: 7,
 		title: ' Starknet 生态项目介绍 ',
-		category: '项目介绍',
+		category: '10+ Projects',
 		img: require('@/assets/images/stkeco.png'),
 		link:'/starknet/ecoProjects',
 	},
@@ -74,9 +74,9 @@ const projects = [
 	},
 	{
 		id: 10,
-		title: ' Starknet 排序器 ',
-		category: 'madara',
-		img: require('@/assets/images/madara.png'),
+		title: ' Madara ',
+		category: 'Starknet sequencer',
+		img: require('@/assets/starknet/madara.png'),
 		link:'/starknet/madara',
 	},
 	{
@@ -89,7 +89,7 @@ const projects = [
 	{
 		id: 12,
 		title: ' zkml ',
-		category: 'zk 机器学习',
+		category: 'zk machine learning',
 		img: require('@/assets/starknet/zkMML.png'),
 		link:'/starknet/zkml',
 	},
