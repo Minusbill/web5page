@@ -94,6 +94,13 @@ const projects = [
 		link:'/starknet/zkml',
 	},
 	{
+		id: 12,
+		title: ' Giza ',
+		category: 'Giza\Giza CLI',
+		img: require('@/assets/starknet/giza.png'),
+		link:'/starknet/giza',
+	},
+	{
 		id: 13,
 		title: ' Stone ',
 		category: 'Starknet 开源的证明器',

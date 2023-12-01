@@ -101,6 +101,16 @@ const routes = [
         }
     },
     {
+        path: '/starknet/giza',
+        component: () =>
+            import(
+                '../views/starknet/Giza.vue'
+                ),
+        meta: {
+            title: 'Web5 ｜ Giza',
+        }
+    },
+    {
         path: '/projects/ton/tonIntroduce',
         component: () =>
             import(
