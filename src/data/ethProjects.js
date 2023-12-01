@@ -24,11 +24,18 @@ const projects = [
 		link:'/eth/plasma',
 	},
 	{
-		id: 3,
+		id: 4,
 		title: 'Lido',
 		category: 'Lido',
 		img: require('@/assets/eth/lido.png'),
 		link:'/eth/lido',
+	},
+	{
+		id: 5,
+		title: 'Lido的重要性',
+		category: 'Lido guide',
+		img: require('@/assets/eth/lidoGuide.png'),
+		link:'/eth/lidoGuide',
 	},
 ];
 
