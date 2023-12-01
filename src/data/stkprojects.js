@@ -19,9 +19,16 @@ const projects = [
 	{
 		id: 3,
 		title: 'Cairo',
-		category: 'Cairo入门教程、视频',
+		category: 'Cairo入门教程',
 		img: require('@/assets/images/cairo.png'),
 		link:'/projects/starknet/cairo',
+	},
+	{
+		id: 3,
+		title: ' Cairo 实现ERC20 ',
+		category: 'ERC20实现例子',
+		img: require('@/assets/starknet/erc20.png'),
+		link:'/projects/starknet/erc20',
 	},
 	{
 		id: 4,
@@ -69,7 +76,7 @@ const projects = [
 		id: 10,
 		title: ' Kakarot ',
 		category: 'L3/EVM',
-		img: require('@/assets/starknet/kakarot.png'),
+		img: require('@/assets/starknet/kkr.png'),
 		link:'/projects/starknet/kakarot',
 	},
 	{
@@ -107,7 +114,6 @@ const projects = [
 		img: require('@/assets/starknet/zig.png'),
 		link:'/projects/starknet/zig',
 	},
-
 ];
 
 export default projects;

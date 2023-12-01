@@ -145,6 +145,13 @@ const routes = [
                 ),
     },
     {
+        path: '/projects/starknet/erc20',
+        component: () =>
+            import(
+                '../views/starknet/ERC20Example.vue'
+                ),
+    },
+    {
         path: '/newComer',
         component: () =>
             import( '../views/NewComer.vue'),
