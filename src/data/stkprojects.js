@@ -46,10 +46,10 @@ const projects = [
 	},
 	{
 		id: 7,
-		title: ' Starknet 生态 ',
-		category: '生态介绍',
+		title: ' Starknet 生态项目介绍 ',
+		category: '项目介绍',
 		img: require('@/assets/images/stkeco.png'),
-		link: '/starknet/eco',
+		link:'/starknet/ecoProjects',
 	},
 	{
 		id: 8,
@@ -116,10 +116,10 @@ const projects = [
 	},
 	{
 		id: 17,
-		title: ' Starknet 生态项目',
-		category: '项目介绍',
+		title: ' Starknet 生态概览',
+		category: '生态介绍',
 		img: require('@/assets/starknet/projects.png'),
-		link:'/starknet/ecoProjects',
+		link: '/starknet/eco',
 	},
 ];
 
