@@ -81,6 +81,16 @@ const routes = [
                 ),
     },
     {
+        path: '/starknet/stkIntroduce',
+        component: () =>
+            import(
+                '../views/starknet/StarknetDec.vue'
+                ),
+        meta: {
+            title: 'Web5 ｜ Starknet 去中心化',
+        }
+    },
+    {
         path: '/projects/ton/tonIntroduce',
         component: () =>
             import(

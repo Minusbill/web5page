@@ -121,6 +121,13 @@ const projects = [
 		img: require('@/assets/starknet/projects.png'),
 		link: '/starknet/eco',
 	},
+	{
+		id: 18,
+		title: ' Starknet 去中心化路线',
+		category: '去中心化路线',
+		img: require('@/assets/starknet/dec.png'),
+		link: '/starknet/StarknetDec',
+	},
 ];
 
 export default projects;
