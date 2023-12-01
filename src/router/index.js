@@ -64,6 +64,16 @@ const routes = [
         }
     },
     {
+        path: '/raas/avail',
+        component: () =>
+            import(
+                '../views/raas/Avail.vue'
+                ),
+        meta: {
+            title: 'Web5 ｜ Avail',
+        }
+    },
+    {
         path: '/projects/starknet/stkIntroduce',
         component: () =>
             import(

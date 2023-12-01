@@ -35,7 +35,7 @@ const projects = [
 		title: ' Avail  ',
 		category: 'DA',
 		img: require('@/assets/raas/avail.png'),
-		link:'/projects/ton/tact',
+		link:'/raas/avail',
 	},
 	{
 		id: 6,
