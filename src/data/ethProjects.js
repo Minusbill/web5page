@@ -23,6 +23,13 @@ const projects = [
 		img: require('@/assets/eth/plasma.png'),
 		link:'/eth/plasma',
 	},
+	{
+		id: 3,
+		title: 'Lido',
+		category: 'Lido',
+		img: require('@/assets/eth/lido.png'),
+		link:'/eth/lido',
+	},
 ];
 
 export default projects;

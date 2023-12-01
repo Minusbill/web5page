@@ -148,6 +148,16 @@ const routes = [
         }
     },
     {
+        path: '/eth/lido',
+        component: () =>
+            import(
+                '../views/eth/Lido.vue'
+                ),
+        meta: {
+            title: 'Web5 ｜ Lido',
+        }
+    },
+    {
         path: '/eth/blast',
         component: () =>
             import(
