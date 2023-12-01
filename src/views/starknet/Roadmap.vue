@@ -6,9 +6,9 @@ import ProjectInfo from '../../components/web5Component/Web5ProjectInfoNormal.vu
 import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProjects.vue';
 
 const singleProjectHeader = {
-  singleProjectTitle: 'Starknet 去中心化路线',
+  singleProjectTitle: 'Starknet 路线图已经代币模型',
   singleProjectDate: 'Nov 10, 2023',
-  singleProjectTag: 'Starknet / 去中心化',
+  singleProjectTag: 'Starknet / Roadmap',
 };
 const projectImages = [
   {
@@ -19,17 +19,18 @@ const projectImages = [
 ];
 
 const projectInfo = {
-  clientHeading: 'Starknet去中心化转移流程\n',
-  pptUrl:"https://docs.google.com/presentation/d/e/2PACX-1vRaOW6HNpYqx4x8tl9rgjF7iO3oKwl8lfL1U-1KL9pj8C7hsEOSknNuQc-4eiNn9vCtl-Mf2aaoXaZG/embed?start=false&loop=false&delayms=3000",
+  clientHeading: 'Starknet 路线图大更新确定五大主要事项',
+  pptUrl:"https://docs.google.com/presentation/d/e/2PACX-1vRtTS7bXdedVRqhvIpRKh0dBkc_YVi1g5WhoGxzjHbzQFfR2NSdj-ei3NLoVK_AU4gJCsQ9VlJDIbO7/embed?start=false&loop=false&delayms=3000",
   companyInfos: [
-    { id: 1, title: '1 ', details: '转向去中心化网络架构，但Sequencer运营仍保持中心化运营。' },
-    { id: 2, title: '2', details: '确保完整开源软件栈的可用性。' },
-    { id: 3, title: '3', details: '逐步开发扩大测试和集成网络。' },
-    { id: 3, title: '4', details: '在将Sequencer运营转向proof-of-stake参与之前，吸引Staker加入。' },
+    { id: 1, title: '1 ', details: '网络稳定性改进' },
+    { id: 2, title: '2', details: 'V3 交易' },
+    { id: 3, title: '3', details: '交易费用市场' },
+    { id: 4, title: '4', details: '使用 EIP-4844 降低 L1 费用\n' },
+    { id: 5, title: '5', details: '通过 Volition 模式降低交易成本' },
 
   ],
-  objectivesHeading: '',
-  objectivesDetails: '',
+  objectivesHeading: '有关 STRK 费用代币的 SNIP 10 提案',
+  objectivesDetails: 'STRK 的主要目的之一是作为 Starknet 上的费用支付代币。不过，原有交易版本将继续保持 ETH 作为费用代币。',
   technologies: [
     {
       title: '',

@@ -91,6 +91,16 @@ const routes = [
         }
     },
     {
+        path: '/starknet/roadmap',
+        component: () =>
+            import(
+                '../views/starknet/Roadmap.vue'
+                ),
+        meta: {
+            title: 'Web5 ｜ Starknet 路线图和代币模型',
+        }
+    },
+    {
         path: '/projects/ton/tonIntroduce',
         component: () =>
             import(

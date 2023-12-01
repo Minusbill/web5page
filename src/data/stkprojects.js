@@ -17,6 +17,13 @@ const projects = [
 		link:'/starknet/principle',
 	},
 	{
+		id: 2,
+		title: 'Starknet路线图、代币',
+		category: '路线与代币模型',
+		img: require('@/assets/starknet/roadmap.png'),
+		link:'/starknet/roadmap',
+	},
+	{
 		id: 3,
 		title: 'Cairo',
 		category: 'Cairo入门教程',
