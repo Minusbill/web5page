@@ -10,32 +10,18 @@ const hotProjects = [
 		link:'/btc/nostrFairmint',
 	},
 	{
-		id: 3,
-		title: '关于大家热议的 Dmint',
-		category: 'Atom NFT Dmint',
-		img: require('@/assets/hot/dmint.png'),
-		link:'/hot/dmint',
-	},
-	{
-		id: 4,
-		title: 'ATOM CLI 安装',
-		category: '适用挖矿和 Dmint',
-		img: require('@/assets/btc/atom.png'),
-		link:'/insc/atomInstall',
-	},
-	{
-		id: 5,
-		title: 'ATOM 节点和安装',
-		category: '使用更好的节点和安装',
-		img: require('@/assets/insc/atom.png'),
-		link:'/insc/atomNode',
-	},
-	{
-		id: 6,
+		id: 2,
 		title: 'Blast 详细介绍',
 		category: ' Blast:L2、空投、分数',
 		img: require('@/assets/eth/blast.png'),
 		link:'/eth/blast',
+	},
+	{
+		id: 3,
+		title: 'PortalCoin是什么',
+		category: '社交挖矿、空投',
+		img: require('@/assets/hot/portal.png'),
+		link:'/hotPoint/protalCoin',
 	},
 ];
 

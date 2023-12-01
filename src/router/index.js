@@ -369,6 +369,14 @@ const routes = [
         }
     },
     {
+        path: '/hotPoint/protalCoin',
+        component: () =>
+            import( '../views/hot/PortalCoin.vue'),
+        meta: {
+            title: 'Web5 ｜ protalCoin ',
+        }
+    },
+    {
         path: '/hotPoint/macosElectrum',
         component: () =>
             import( '../views/hot/MacosElectrum.vue'),
