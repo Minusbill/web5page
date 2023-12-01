@@ -74,7 +74,7 @@ const routes = [
         }
     },
     {
-        path: '/projects/starknet/stkIntroduce',
+        path: '/starknet/stkIntroduce',
         component: () =>
             import(
                 '../views/lesson/Starknet.vue'
@@ -138,17 +138,24 @@ const routes = [
         }
     },
     {
-        path: '/projects/starknet/cairo',
+        path: '/starknet/cairo',
         component: () =>
             import(
                 '../views/lesson/Cairo.vue'
                 ),
     },
     {
-        path: '/projects/starknet/erc20',
+        path: '/starknet/erc20',
         component: () =>
             import(
                 '../views/starknet/ERC20Example.vue'
+                ),
+    },
+    {
+        path: '/starknet/ecoProjects',
+        component: () =>
+            import(
+                '../views/starknet/EcoProjects.vue'
                 ),
     },
     {
@@ -504,7 +511,7 @@ const routes = [
         }
     },
     {
-        path: '/projects/starknet/dojo',
+        path: '/starknet/dojo',
         component: () =>
             import( '../views/lesson/DojoIntro.vue'),
         meta: {
@@ -512,7 +519,7 @@ const routes = [
         }
     },
     {
-        path: '/projects/starknet/eco',
+        path: '/starknet/eco',
         component: () =>
             import( '../views/lesson/StarknetECO.vue'),
         meta: {
@@ -520,7 +527,7 @@ const routes = [
         }
     },
     {
-        path: '/projects/starknet/principle',
+        path: '/starknet/principle',
         component: () =>
             import( '../views/lesson/StarknetPrinciple.vue'),
         meta: {
@@ -608,7 +615,7 @@ const routes = [
         }
     },
     {
-        path: '/projects/starknet/sharp',
+        path: '/starknet/sharp',
         component: () =>
             import( '../views/lesson/Sharp.vue'),
         meta: {
@@ -616,7 +623,7 @@ const routes = [
         }
     },
     {
-        path: '/projects/starknet/zkml',
+        path: '/starknet/zkml',
         component: () =>
             import( '../views/lesson/zkML.vue'),
         meta: {
@@ -624,7 +631,7 @@ const routes = [
         }
     },
     {
-        path: '/projects/starknet/zig',
+        path: '/starknet/zig',
         component: () =>
             import( '../views/lesson/zig.vue'),
         meta: {
@@ -632,7 +639,7 @@ const routes = [
         }
     },
     {
-        path: '/projects/starknet/aa',
+        path: '/starknet/aa',
         component: () =>
             import( '../views/starknet/AA.vue'),
         meta: {
@@ -648,7 +655,7 @@ const routes = [
         }
     },
     {
-        path: '/projects/starknet/madara',
+        path: '/starknet/madara',
         component: () =>
             import( '../views/lesson/Madara.vue'),
         meta: {
@@ -656,7 +663,7 @@ const routes = [
         }
     },
     {
-        path: '/projects/starknet/devTools',
+        path: '/starknet/devTools',
         component: () =>
             import( '../views/lesson/DevTools.vue'),
         meta: {
@@ -664,7 +671,7 @@ const routes = [
         }
     },
     {
-        path: '/projects/starknet/stone',
+        path: '/starknet/stone',
         component: () =>
             import( '../views/lesson/Stone.vue'),
         meta: {
@@ -672,7 +679,7 @@ const routes = [
         }
     },
     {
-        path: '/projects/starknet/herotus',
+        path: '/starknet/herotus',
         component: () =>
             import( '../views/lesson/Herotus.vue'),
         meta: {
@@ -680,7 +687,7 @@ const routes = [
         }
     },
     {
-        path: '/projects/starknet/kakarot',
+        path: '/starknet/kakarot',
         component: () =>
             import( '../views/lesson/Kakarot.vue'),
         meta: {
