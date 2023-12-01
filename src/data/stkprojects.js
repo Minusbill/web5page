@@ -126,7 +126,7 @@ const projects = [
 		title: ' Starknet 去中心化路线',
 		category: '去中心化路线',
 		img: require('@/assets/starknet/dec.png'),
-		link: '/starknet/StarknetDec',
+		link: '/starknet/dec',
 	},
 ];
 

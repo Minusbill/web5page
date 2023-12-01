@@ -81,7 +81,7 @@ const routes = [
                 ),
     },
     {
-        path: '/starknet/stkIntroduce',
+        path: '/starknet/dec',
         component: () =>
             import(
                 '../views/starknet/StarknetDec.vue'
