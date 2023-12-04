@@ -259,6 +259,14 @@ const routes = [
         }
     },
     {
+        path: '/sui/suiIntro',
+        component: () =>
+            import( '../views/sui/Sui.vue'),
+        meta: {
+            title: 'Web5 ｜ Sui 介绍',
+        }
+    },
+    {
         path: '/monad',
         component: () =>
             import( '../views/project/Monad.vue'),

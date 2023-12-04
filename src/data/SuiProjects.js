@@ -7,7 +7,7 @@ const dwqProjects = [
 		title: 'Sui',
 		category: '关于 Sui 生态',
 		img: require('@/assets/sui/sui.png'),
-		link:'/sui/eco',
+		link:'/sui/suiIntro',
 	},
 	{
 		id: 2,
