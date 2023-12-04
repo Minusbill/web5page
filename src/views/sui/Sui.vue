@@ -8,7 +8,7 @@ import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProj
 const singleProjectHeader = {
   singleProjectTitle: 'Sui 项目研究',
   singleProjectDate: 'Nov 10, 2023',
-  singleProjectTag: 'Starknet / JS',
+  singleProjectTag: 'Sui',
 };
 const projectImages = [
   {
