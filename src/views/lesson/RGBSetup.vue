@@ -19,7 +19,7 @@ const projectImages = [
 ];
 
 const projectInfo = {
-  clientHeading: ' RBG 安装的步骤',
+  clientHeading: ' RBG安装的步骤',
   pptUrl:"https://docs.google.com/presentation/d/e/2PACX-1vRImFBNotpK6qQOjvAMiFzxzQp8WyrBVHs2-l0_k-e0wKJNGRRJ_0XRlNReKhT0-ZJ6B8Nsd6fDlp-J/embed?start=false&loop=false&delayms=3000",
   companyInfos: [
     { id: 1, title: '1', details: '下载vscode' },
