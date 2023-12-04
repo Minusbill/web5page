@@ -81,6 +81,16 @@ const routes = [
                 ),
     },
     {
+        path: '/starknet/starknetJS',
+        component: () =>
+            import(
+                '../views/starknet/StraknetJS.vue'
+                ),
+        meta: {
+            title: 'Web5 ｜ Starknet JS 教程',
+        }
+    },
+    {
         path: '/starknet/dec',
         component: () =>
             import(

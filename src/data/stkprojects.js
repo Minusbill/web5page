@@ -142,6 +142,13 @@ const projects = [
 		img: require('@/assets/starknet/dec.png'),
 		link: '/starknet/dec',
 	},
+	{
+		id: 19,
+		title: ' Starknet.js 教程',
+		category: 'Starknet.js ',
+		img: require('@/assets/starknet/starknetjs.png'),
+		link: '/starknet/starknetjs',
+	},
 ];
 
 export default projects;
