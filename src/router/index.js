@@ -235,6 +235,14 @@ const routes = [
         }
     },
     {
+        path: '/newComer/depin',
+        component: () =>
+            import( '../views/newComer/DePin.vue'),
+        meta: {
+            title: 'Web5 ｜ DePin',
+        }
+    },
+    {
         path: '/dawanqu',
         component: () =>
             import( '../views/DaWanQu.vue'),

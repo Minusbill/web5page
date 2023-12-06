@@ -72,6 +72,13 @@ const projects = [
 		img: require('@/assets/nft/mint.png'),
 		link:'/nft/mint',
 	},
+	{
+		id: 11,
+		title: '  DePIN 介绍 ',
+		category: '去中心化基础设施',
+		img: require('@/assets/newComer/depin.png'),
+		link:'/newComer/depin',
+	},
 ];
 
 export default projects;
