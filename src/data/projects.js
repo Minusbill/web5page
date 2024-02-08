@@ -3,6 +3,13 @@
 
 const projects = [
 	{
+		id: 0,
+		title: 'Blast',
+		category: 'Blast',
+		img: require('@/assets/eth/blast.png'),
+		link:'/projects/blast',
+	},
+	{
 		id: 1,
 		title: 'Starknet',
 		category: 'Cairo/zk/Rust',
@@ -86,7 +93,6 @@ const projects = [
 		img: require('@/assets/images/solana.png'),
 		link:'/Solana',
 	},
-
 ];
 
 export default projects;

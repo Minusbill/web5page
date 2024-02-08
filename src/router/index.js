@@ -44,6 +44,16 @@ const routes = [
         }
     },
     {
+        path: '/projects/blast',
+        component: () =>
+            import(
+                '../views/project/BlastProjects.vue'
+                ),
+        meta: {
+            title: 'Web5 ｜ Blast 生态学习',
+        }
+    },
+    {
         path: '/projects/raas',
         component: () =>
             import(

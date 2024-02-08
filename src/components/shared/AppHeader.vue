@@ -131,7 +131,7 @@
               <a href="#">
                 <span class="sr-only">Your Company</span>
                 <router-link to="/">
-                <img class="h-8 w-auto" src="/web55.png" alt=""/>
+                <img class="h-8 w-auto" src="/Blast.png" alt=""/>
                 </router-link>
               </a>
             </div>
@@ -259,6 +259,56 @@ const navigation = {
   categories: [
     {
       id: 'hotLesson',
+      name: 'BlastBigBang🔥',
+      featured: [
+        {
+          name: 'Blast Big Bang',
+          href: '#',
+          imageSrc: 'https://blast.io/_next/image?url=%2Fimages%2Fbulletin-big-bang.png&w=640&q=75',
+          imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
+        },
+        {
+          name: 'Blast',
+          href: '#',
+          imageSrc: 'https://blockcast.it/wp-content/uploads/2023/11/92f6bd4f39c4c86e2095c36dc4660430f449823a.png',
+          imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
+        },
+      ],
+      sections: [
+        {
+          id: 'clothing',
+          name: 'About Blast',
+          items: [
+            {name: 'Blast 是什么', href: '#', link: '/projects/blast'},
+            {name: 'L2 与 Blast', href: '#', link: '/l2'},
+            {name: 'Blast 与 Blur', href: '#', link: '/projects/raas'},
+            {name: 'Blast Earn', href: '#', link: '/sui'},
+            {name: 'Lido Blur 和 Blast', href: '#', link: '/mev'},
+          ],
+        },
+        {
+          id: 'accessories',
+          name: 'Join Blast',
+          items: [
+            {name: 'Blast 的项目', href: '#', link: '/insc'},
+            {name: '参与 Blast 的机会', href: '#', link: '/insc/btc'},
+            {name: 'Blast 的项目盘点', href: '#', link: '/hotpoint'},
+          ],
+        },
+        {
+          id: 'brands',
+          name: 'Develop Blast',
+          items: [
+            {name: '关于开发 Blast 的技能', href: '#', link: '/eth'},
+            {name: '怎么开发 Blast 的 Token', href: '#', link: '/projects/sol'},
+            {name: 'Blast NFT', href: '#', link: '/mev'},
+            {name: '怎么开发 Blast 的 Dapp', href: '#', link: '/projects/starknet'},
+          ],
+        },
+      ],
+    },
+    {
+      id: 'hotLesson',
       name: '热门课程',
       featured: [
         {
@@ -371,7 +421,7 @@ const navigation = {
   ],
   pages: [
     {name: '科技平台', href: '#'},
-    {name: '商城', href: '#'},
+    {name: '-->抢救被盗钱包👨‍🚒', href: '#'},
   ],
 }
 
