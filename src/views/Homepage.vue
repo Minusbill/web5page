@@ -3,7 +3,7 @@
     <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
       <div>
         <h2 class="font-general-semibold text-2xl sm:text-5xl font-semibold mb-2 text-ternary-dark dark:text-ternary-light">欢迎来到 Web5 平台</h2>
-        <p class="mt-4 text-gray-500">现在是 Blast 学习/建设的季节，现在你可以在这里学习 如何建设 Blast，有机会获得未来的 Token 空投.</p>
+        <p class="mt-4 text-gray-500">现在是 Blast 学习/建设的季节，你可以在这里学习 如何建设 Blast. Web5 平台会给平台用户返还部分 Blast 代币空投（在获得代币的前提下）</p>
 
         <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
           <div v-for="feature in features" :key="feature.name" class="border-t border-gray-200 pt-4">
@@ -21,9 +21,9 @@
       <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
         <img src="@/assets/eth/blast.png" alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100" />
         <img src="@/assets/blast/bigbang.png" alt="Walnut card tray filled with cards and card angled in dedicated groove." class="rounded-lg bg-gray-100" />
-        <img src="@/assets/newComer/metamask.png" alt="Walnut card tray with white powder coated steel divider and 3 punchout holes." class="rounded-lg bg-gray-100" />
-        <img src="@/assets/insc/btc.png" alt="Top down view of walnut card tray with embedded magnets and card groove." class="rounded-lg bg-gray-100" />
-        <img src="@/assets/images/starknet.jpg" alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100" />
+        <img src="@/assets/blast/blastnftHome.png" alt="Walnut card tray with white powder coated steel divider and 3 punchout holes." class="rounded-lg bg-gray-100" />
+        <img src="@/assets/blast/blastblur.png" alt="Top down view of walnut card tray with embedded magnets and card groove." class="rounded-lg bg-gray-100" />
+        <img src="@/assets/blast/blastearn.png" alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100" />
         <img src="@/assets/ton/tgbot.png" alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100" />
       </div>
     </div>
