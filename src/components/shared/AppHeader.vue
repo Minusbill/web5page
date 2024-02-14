@@ -197,11 +197,16 @@
             </PopoverGroup>
 
             <div class="ml-auto flex items-center">
+              <router-link
+                  to="/mintBlastNFT"
+                  aria-label="More Projects"
+              >
               <div class="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
-                <a href="#" class="text-sm font-medium text-gray-700 hover:text-gray-800">Sign in</a>
+                <a href="#" class="text-sm font-medium text-red-700 hover:text-red-800" style="text-decoration: underline; font-weight: bold;">Mint WeB(Last)5 NFT</a>
                 <span class="h-6 w-px bg-gray-200" aria-hidden="true"/>
 <!--                <a href="#" class="text-sm font-medium text-gray-700 hover:text-gray-800">Create account</a>-->
               </div>
+              </router-link>
 
 <!--              <div class="hidden lg:ml-8 lg:flex">-->
 <!--                <a href="#" class="flex items-center text-gray-700 hover:text-gray-800">-->

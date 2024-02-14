@@ -58,12 +58,12 @@ inject();
       <span class="message">现在是 Blast 学习/建设的季节</span><br>
       <span class="message">现在你可以在这里学习 如何建设 Blast，有机会获得未来的 Token 空投.</span><br>
       <br>
-      <span class="message">如果你是普通用户 -- 你可以 。。。</span><br>
-      <span class="message">如果你是开发者 -- 你可以 。。。</span><br>
-      <span class="message">如果你是链上深度用户 -- 你可以 。。。</span><br>
+      <span class="message">如果你是普通用户 -- 你可以 在这里学习区块链的 知识和技巧</span><br>
+      <span class="message">如果你是开发者 -- 你可以 学习开发区块链和 Blast</span><br>
+      <span class="message">如果你是链上深度用户 -- 你可以 和我们一起探索 Blast 的 Earn</span><br>
 
       <br>
-      <span class="message">你可以 Mint 纪念版 NFT 以参加活动 --《《 </span><br>
+      <span class="message">你可以 Mint 纪念版 NFT 以参加活动 </span><br>
       <br>
       <div class="image-container">
       <img src="@/assets/eth/blast.png" alt="" class="rounded-lg bg-gray-100" style="width: 600px" />

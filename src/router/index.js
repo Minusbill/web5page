@@ -237,6 +237,14 @@ const routes = [
         }
     },
     {
+        path: '/mintBlastNFT',
+        component: () =>
+            import( '../views/MintBlastNFT.vue'),
+        meta: {
+            title: 'Web5 ｜ mint blast nft',
+        }
+    },
+    {
         path: '/newComer/mining',
         component: () =>
             import( '../views/newComer/Mining.vue'),
