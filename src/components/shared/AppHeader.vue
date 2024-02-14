@@ -196,7 +196,7 @@
                 <a
                     class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-800">科技平台</a>
 
-                <a class="flex items-center text-lg font-bold text-red-500 hover:text-gray-800 underline" href="#" onclick="alert('请联系微信：minus502 或 fenghaojiang97')">-->抢救被盗钱包👨‍🚒</a>
+                <a class="flex items-center text-lg font-bold text-red-500 hover:text-gray-800 underline" href="#" onclick="alert('请联系微信：minus502 或电报 epkennys')">-->抢救被盗钱包👨‍🚒</a>
 
               </div>
             </PopoverGroup>

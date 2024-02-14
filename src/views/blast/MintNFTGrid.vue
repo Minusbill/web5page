@@ -22,7 +22,7 @@
           <p class="text-3xl tracking-tight text-gray-900">{{ product.price }}</p>
 
           <!-- Reviews -->
-          <div class="mt-6">
+          <div class="mt-1">
             <h3 class="sr-only">Reviews</h3>
             <div class="flex items-center">
               <div class="flex items-center">
@@ -59,7 +59,7 @@
             </div>
 
             <!-- Sizes -->
-            <div class="mt-10">
+            <div class="mt-1">
               <div class="flex items-center justify-between">
                 <h3 class="text-sm font-medium text-gray-900">数量</h3>
                 <a href="#" class="text-sm font-medium text-indigo-600 hover:text-indigo-500">数量选择</a>
@@ -92,7 +92,7 @@
             </div>
           </div>
 
-          <div class="mt-10">
+          <div class="mt-1">
             <h3 class="text-sm font-medium text-gray-900">关于 NFT 的赋能</h3>
 
             <div class="mt-4">
