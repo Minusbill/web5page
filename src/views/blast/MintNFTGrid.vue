@@ -157,7 +157,7 @@ const product = {
     'Web5 平台的学习记录',
   ],
   details:
-      'The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming "Charcoal Gray" limited release.',
+      '在Web5 ，学习web3 web2 技巧，参加 blast，不仅可以获得退还gas 也可以有机会获得blast未来空投分成。',
 }
 const reviews = {href: '#', average: 4, totalCount: 117}
 
