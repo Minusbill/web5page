@@ -301,9 +301,9 @@ const navigation = {
           id: 'accessories',
           name: 'Join Blast',
           items: [
-            {name: 'Blast 的项目', href: '#', link: '/insc'},
+            {name: 'Blast 的生态项目', href: '#', link: '/insc'},
             {name: '参与 Blast 的机会', href: '#', link: '/insc/btc'},
-            {name: 'Blast 的项目盘点', href: '#', link: '/hotpoint'},
+            {name: '关于如何获得 Blast 的 Airdrop', href: '#', link: '/hotpoint'},
           ],
         },
         {
@@ -311,9 +311,9 @@ const navigation = {
           name: 'Develop Blast',
           items: [
             {name: '关于开发 Blast 的技能', href: '#', link: '/eth'},
+            {name: '在 Blast上 发布你的合约', href: '#', link: '/eth'},
             {name: '怎么开发 Blast 的 Token', href: '#', link: '/projects/sol'},
-            {name: 'Blast NFT', href: '#', link: '/mev'},
-            {name: '怎么开发 Blast 的 Dapp', href: '#', link: '/projects/starknet'},
+            {name: '怎么开发 Blast 的 NFT', href: '#', link: '/projects/starknet'},
           ],
         },
       ],

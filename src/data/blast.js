@@ -75,8 +75,8 @@ const projects = [
 	{
 		id: 12,
 		title: ' Blast 与其他 L2 ',
-		category: 'zk machine learning',
-		img: require('@/assets/starknet/zkMML.png'),
+		category: 'L2',
+		img: require('@/assets/blast/ethL2.png'),
 		link:'/starknet/zkml',
 	},
 	{
