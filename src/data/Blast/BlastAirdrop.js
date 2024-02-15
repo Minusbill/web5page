@@ -16,6 +16,13 @@ const projects = [
 		img: require('@/assets/blast/blastblur.png'),
 		link:'/starknet/giza',
 	},
+	{
+		id: 8,
+		title: ' Blast DEFI ',
+		category: 'Defi in Blast',
+		img: require('@/assets/blast/blastdefi.png'),
+		link: '/starknet/aa',
+	},
 
 ];
 

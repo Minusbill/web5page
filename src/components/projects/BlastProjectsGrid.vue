@@ -3,7 +3,7 @@ import { ref, computed, onMounted } from 'vue';
 import feather from 'feather-icons';
 import ProjectsFilter from './ProjectsFilter.vue';
 import ProjectSingle from './ProjectSingle.vue';
-import projectsData from '../../data/blast';
+import projectsData from '../../data/Blast/blastOther';
 import projectsAboutBlastData from '../../data/Blast/AbotBlast';
 import projectsBlastAirdropData from '../../data/Blast/BlastAirdrop';
 import projectsBlastDevData from '../../data/Blast/blastDevelop';

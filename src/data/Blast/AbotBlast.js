@@ -30,7 +30,13 @@ const projects = [
 		img: require('@/assets/blast/blasthow.png'),
 		link:'/starknet/cairo',
 	},
-
+	{
+		id: 12,
+		title: ' Blast 与其他 L2 ',
+		category: 'L2',
+		img: require('@/assets/blast/ethL2.png'),
+		link:'/starknet/zkml',
+	},
 ];
 
 export default projects;
