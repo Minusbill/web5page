@@ -126,7 +126,7 @@ const selectedNumber = ref(1);
 
 const product = {
   name: 'Web5 x Blast 龙年🐲年纪念版 NFT',
-  price: 'Free',
+  price: '价格：Free',
   href: '#',
   breadcrumbs: [
     {id: 1, name: 'Men', href: '#'},
